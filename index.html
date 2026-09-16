@@ -1,0 +1,2489 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Kelompok 7 Kemker Sidodadi</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.css"
+  >
+
+  <script src="https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.js"></script>
+
+  <style>
+    :root {
+      --paper: #faf7f0;
+      --paper-soft: #f3eee3;
+      --paper-card: rgba(255, 253, 248, 0.94);
+
+      --ink: #1e2a24;
+      --muted: #6c746e;
+      --line: #d8d0bc;
+
+      --accent: #8a4b2e;
+      --green: #42634f;
+
+      --blue: #2979ff;
+      --yellow: #ffd600;
+      --red: #b3261e;
+
+      --header-height: 78px;
+      --sidebar-width: 370px;
+
+      --shadow:
+        0 10px 35px rgba(30, 42, 36, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+
+      font-family:
+        Inter,
+        Arial,
+        Helvetica,
+        sans-serif;
+
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    /* =====================================================
+       HEADER
+    ===================================================== */
+
+    .header {
+      height: var(--header-height);
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 0 26px;
+
+      position: relative;
+      z-index: 50;
+
+      background:
+        rgba(250, 247, 240, 0.97);
+
+      border-bottom:
+        1px solid var(--line);
+
+      box-shadow:
+        0 2px 14px rgba(30, 42, 36, 0.05);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      min-width: 0;
+    }
+
+    .brand-mark {
+      width: 44px;
+      height: 44px;
+
+      flex: 0 0 44px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background: var(--ink);
+      color: var(--paper);
+
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+      font-size: 16px;
+
+      border-radius: 5px;
+    }
+
+    .brand-small {
+      margin-bottom: 4px;
+
+      color: var(--accent);
+
+      font-size: 9px;
+      font-weight: 700;
+
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+    }
+
+    .brand-title {
+      margin: 0;
+
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+      font-size: 23px;
+      font-weight: normal;
+
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+
+    .header-status {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+
+      color: #4b5a52;
+
+      font-size: 11px;
+      letter-spacing: 0.3px;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+
+      border-radius: 50%;
+
+      background: #4d8b62;
+
+      box-shadow:
+        0 0 0 4px rgba(77, 139, 98, 0.12);
+    }
+
+    /* =====================================================
+       MAIN LAYOUT
+    ===================================================== */
+
+    .app {
+      height:
+        calc(
+          100vh - var(--header-height)
+        );
+
+      display: grid;
+
+      grid-template-columns:
+        minmax(0, 1fr)
+        var(--sidebar-width);
+    }
+
+    .map-wrap {
+      position: relative;
+      min-width: 0;
+      overflow: hidden;
+    }
+
+    #map {
+      position: absolute;
+      inset: 0;
+    }
+
+    /* =====================================================
+       MAP TITLE
+    ===================================================== */
+
+    .map-title {
+      position: absolute;
+
+      top: 18px;
+      left: 18px;
+
+      z-index: 10;
+
+      padding: 13px 16px;
+
+      background:
+        rgba(250, 247, 240, 0.94);
+
+      border:
+        1px solid var(--line);
+
+      box-shadow:
+        0 8px 25px rgba(30, 42, 36, 0.10);
+
+      backdrop-filter:
+        blur(8px);
+
+      pointer-events: none;
+    }
+
+    .map-title-main {
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+      font-size: 17px;
+    }
+
+    .map-title-sub {
+      margin-top: 5px;
+
+      color: var(--muted);
+
+      font-size: 8px;
+      font-weight: 700;
+
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+
+    /* =====================================================
+       BASEMAP
+    ===================================================== */
+
+    .basemap-control {
+      position: absolute;
+
+      top: 18px;
+      right: 18px;
+
+      z-index: 20;
+
+      width: 220px;
+
+      padding: 8px;
+
+      background:
+        rgba(250, 247, 240, 0.95);
+
+      border:
+        1px solid var(--line);
+
+      box-shadow: var(--shadow);
+
+      backdrop-filter:
+        blur(8px);
+    }
+
+    .control-label {
+      padding:
+        2px 4px 7px;
+
+      color: var(--accent);
+
+      font-size: 8px;
+      font-weight: 700;
+
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .basemap-options {
+      display: grid;
+
+      grid-template-columns:
+        1fr 1fr;
+
+      gap: 5px;
+    }
+
+    .basemap-btn {
+      height: 37px;
+
+      border:
+        1px solid var(--line);
+
+      background:
+        var(--paper-soft);
+
+      color:
+        #4b5a52;
+
+      cursor: pointer;
+
+      transition:
+        background 0.18s ease,
+        color 0.18s ease,
+        border 0.18s ease;
+    }
+
+    .basemap-btn:hover {
+      background: #e8e1d3;
+      color: var(--ink);
+    }
+
+    .basemap-btn.active {
+      background: var(--ink);
+      border-color: var(--ink);
+      color: white;
+    }
+
+    /* =====================================================
+       LEGEND
+    ===================================================== */
+
+    .map-legend {
+      position: absolute;
+
+      bottom: 28px;
+      left: 18px;
+
+      z-index: 10;
+
+      min-width: 170px;
+
+      padding: 12px 14px;
+
+      background:
+        rgba(250, 247, 240, 0.95);
+
+      border:
+        1px solid var(--line);
+
+      box-shadow:
+        0 8px 25px rgba(30, 42, 36, 0.10);
+
+      backdrop-filter:
+        blur(8px);
+
+      font-size: 11px;
+    }
+
+    .legend-title {
+      margin-bottom: 8px;
+
+      color: var(--accent);
+
+      font-size: 8px;
+      font-weight: 700;
+
+      letter-spacing: 1.3px;
+      text-transform: uppercase;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      margin: 6px 0;
+    }
+
+    .legend-box {
+      width: 13px;
+      height: 13px;
+
+      flex: 0 0 13px;
+
+      border:
+        1px solid rgba(0, 0, 0, 0.16);
+    }
+
+    .legend-blue {
+      background: var(--blue);
+    }
+
+    .legend-yellow {
+      background: var(--yellow);
+    }
+
+    .legend-aoi {
+      background:
+        rgba(138, 75, 46, 0.12);
+
+      border:
+        2px solid var(--accent);
+    }
+
+    .legend-quake {
+      background: var(--red);
+      border-radius: 50%;
+    }
+
+    /* =====================================================
+       SIDEBAR
+    ===================================================== */
+
+    .sidebar {
+      overflow-y: auto;
+
+      padding:
+        24px 23px 40px;
+
+      background:
+        linear-gradient(
+          180deg,
+          #faf7f0 0%,
+          #f7f2e8 100%
+        );
+
+      border-left:
+        1px solid var(--line);
+    }
+
+    .section-label {
+      margin-bottom: 9px;
+
+      color: var(--accent);
+
+      font-size: 9px;
+      font-weight: 700;
+
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+    }
+
+    .section-title {
+      margin:
+        0 0 7px;
+
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+      font-size: 21px;
+      font-weight: normal;
+    }
+
+    .muted {
+      color: var(--muted);
+
+      font-size: 11px;
+      line-height: 1.65;
+    }
+
+    .divider {
+      margin: 21px 0;
+
+      border: 0;
+      border-top:
+        1px solid var(--line);
+    }
+
+    /* =====================================================
+       STATISTICS
+    ===================================================== */
+
+    .stats {
+      display: grid;
+
+      grid-template-columns:
+        1fr 1fr;
+
+      gap: 8px;
+
+      margin-top: 17px;
+    }
+
+    .stat-card {
+      min-height: 82px;
+
+      padding: 13px;
+
+      background:
+        rgba(255, 255, 255, 0.42);
+
+      border:
+        1px solid #ded7c7;
+
+      transition:
+        transform 0.18s ease,
+        box-shadow 0.18s ease;
+    }
+
+    .stat-card:hover {
+      transform:
+        translateY(-2px);
+
+      box-shadow:
+        0 7px 18px
+        rgba(30, 42, 36, 0.07);
+    }
+
+    .stat-value {
+      margin-bottom: 7px;
+
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+      font-size: 28px;
+      line-height: 1;
+    }
+
+    .stat-name {
+      color: var(--muted);
+
+      font-size: 8px;
+      font-weight: 700;
+
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    /* =====================================================
+       LAYERS
+    ===================================================== */
+
+    .layer-list {
+      border-top:
+        1px solid #e5dfd2;
+    }
+
+    .layer-row {
+      min-height: 43px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      border-bottom:
+        1px solid #e5dfd2;
+
+      font-size: 12px;
+    }
+
+    .layer-left {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .switch {
+      position: relative;
+
+      width: 34px;
+      height: 19px;
+
+      flex: 0 0 34px;
+    }
+
+    .switch input {
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+
+    .slider {
+      position: absolute;
+      inset: 0;
+
+      cursor: pointer;
+
+      background: #c8c3b8;
+
+      border-radius: 20px;
+
+      transition: 0.2s;
+    }
+
+    .slider::before {
+      content: "";
+
+      position: absolute;
+
+      width: 13px;
+      height: 13px;
+
+      left: 3px;
+      top: 3px;
+
+      background: white;
+
+      border-radius: 50%;
+
+      transition: 0.2s;
+    }
+
+    .switch input:checked + .slider {
+      background: var(--ink);
+    }
+
+    .switch input:checked + .slider::before {
+      transform:
+        translateX(15px);
+    }
+
+    /* =====================================================
+       DETAILS
+    ===================================================== */
+
+    .empty-detail {
+      padding: 15px;
+
+      color: var(--muted);
+
+      border:
+        1px dashed #c9c1af;
+
+      background:
+        rgba(255, 255, 255, 0.28);
+
+      font-size: 11px;
+      line-height: 1.65;
+    }
+
+    .building-id {
+      margin-bottom: 4px;
+
+      overflow-wrap: anywhere;
+
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+      font-size: 18px;
+    }
+
+    .building-function {
+      margin-bottom: 14px;
+
+      color: var(--muted);
+
+      font-size: 11px;
+    }
+
+    .detail-table {
+      width: 100%;
+
+      border-collapse:
+        collapse;
+
+      font-size: 11px;
+    }
+
+    .detail-table td {
+      padding: 8px 0;
+
+      border-bottom:
+        1px solid #e5dfd2;
+
+      vertical-align: top;
+    }
+
+    .detail-table td:first-child {
+      width: 48%;
+      color: var(--muted);
+    }
+
+    .detail-table td:last-child {
+      text-align: right;
+      font-weight: 600;
+    }
+
+    .badge {
+      display: inline-block;
+
+      margin-top: 12px;
+
+      padding: 5px 8px;
+
+      border:
+        1px solid var(--line);
+
+      font-size: 8px;
+      font-weight: 700;
+
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+    }
+
+    .badge-ok {
+      color: #315f3b;
+      background: #e5efe7;
+    }
+
+    .badge-check {
+      color: #8a342a;
+      background: #f5e5df;
+    }
+
+    /* =====================================================
+       ACTION BUTTON
+    ===================================================== */
+
+    .action-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7px;
+    }
+
+    .action-btn {
+      height: 36px;
+
+      border:
+        1px solid var(--line);
+
+      background:
+        rgba(255, 255, 255, 0.4);
+
+      color: var(--ink);
+
+      cursor: pointer;
+
+      font-size: 10px;
+
+      transition:
+        background 0.18s ease;
+    }
+
+    .action-btn:hover {
+      background:
+        var(--paper-soft);
+    }
+
+    /* =====================================================
+       POPUP
+    ===================================================== */
+
+    .maplibregl-popup-content {
+      min-width: 185px;
+
+      padding: 13px;
+
+      background: var(--paper);
+
+      color: var(--ink);
+
+      border:
+        1px solid var(--line);
+
+      border-radius: 2px;
+
+      box-shadow:
+        0 8px 25px
+        rgba(0, 0, 0, 0.16);
+
+      font-size: 11px;
+      line-height: 1.55;
+    }
+
+    .maplibregl-popup-close-button {
+      padding:
+        3px 7px;
+
+      color: var(--muted);
+
+      font-size: 17px;
+    }
+
+    /* =====================================================
+       MAPLIBRE CONTROLS
+    ===================================================== */
+
+    .maplibregl-ctrl-top-left {
+      top: 93px;
+      left: 8px;
+    }
+
+    .maplibregl-ctrl-group {
+      overflow: hidden;
+
+      border-radius:
+        2px !important;
+
+      box-shadow:
+        0 5px 15px
+        rgba(0, 0, 0, 0.14)
+        !important;
+    }
+
+    /* =====================================================
+       MOBILE
+    ===================================================== */
+
+    .mobile-sidebar-btn {
+      display: none;
+    }
+
+    @media (max-width: 900px) {
+
+      :root {
+        --header-height: 68px;
+      }
+
+      .header {
+        padding:
+          0 14px;
+      }
+
+      .brand-mark {
+        width: 38px;
+        height: 38px;
+        flex-basis: 38px;
+      }
+
+      .brand-title {
+        font-size: 17px;
+      }
+
+      .brand-small {
+        font-size: 7px;
+      }
+
+      .header-status {
+        display: none;
+      }
+
+      .app {
+        display: block;
+      }
+
+      .map-wrap {
+        width: 100%;
+        height: 100%;
+      }
+
+      .sidebar {
+        position: absolute;
+
+        top: var(--header-height);
+        right: 0;
+        bottom: 0;
+
+        z-index: 60;
+
+        width:
+          min(90vw, 370px);
+
+        transform:
+          translateX(100%);
+
+        transition:
+          transform 0.25s ease;
+
+        box-shadow:
+          -10px 0 30px
+          rgba(30, 42, 36, 0.15);
+      }
+
+      .sidebar.open {
+        transform:
+          translateX(0);
+      }
+
+      .mobile-sidebar-btn {
+        display: block;
+
+        position: absolute;
+
+        right: 16px;
+        bottom: 25px;
+
+        z-index: 40;
+
+        padding:
+          11px 14px;
+
+        border: 0;
+
+        background: var(--ink);
+        color: white;
+
+        box-shadow: var(--shadow);
+
+        cursor: pointer;
+      }
+
+      .basemap-control {
+        width: 190px;
+      }
+
+      .map-title {
+        max-width:
+          calc(100% - 230px);
+      }
+    }
+
+    @media (max-width: 560px) {
+
+      .map-title {
+        display: none;
+      }
+
+      .basemap-control {
+        top: 12px;
+        right: 12px;
+
+        width: 180px;
+      }
+
+      .map-legend {
+        left: 12px;
+        bottom: 18px;
+      }
+
+      .maplibregl-ctrl-top-left {
+        top: 10px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- ===================================================
+       HEADER
+  ==================================================== -->
+
+  <header class="header">
+
+    <div class="brand">
+
+      <div class="brand-mark">
+        K7
+      </div>
+
+      <div>
+
+        <div class="brand-small">
+          Kemker · Sistem Informasi Geospasial 3D
+        </div>
+
+        <h1 class="brand-title">
+          Kelompok 7 Kemker Sidodadi
+        </h1>
+
+      </div>
+
+    </div>
+
+
+    <div class="header-status">
+
+      <span class="status-dot"></span>
+
+      LOD1 Building Model · WebGIS
+
+    </div>
+
+  </header>
+
+
+  <!-- ===================================================
+       APP
+  ==================================================== -->
+
+  <div class="app">
+
+
+    <!-- =================================================
+         MAP
+    ================================================== -->
+
+    <main class="map-wrap">
+
+      <div id="map"></div>
+
+
+      <!-- MAP TITLE -->
+
+      <div class="map-title">
+
+        <div class="map-title-main">
+          Visualisasi Bangunan 3D
+        </div>
+
+        <div class="map-title-sub">
+          Sidodadi · LOD1 · Kelompok 7
+        </div>
+
+      </div>
+
+
+      <!-- BASEMAP -->
+
+      <div class="basemap-control">
+
+        <div class="control-label">
+          Basemap
+        </div>
+
+        <div class="basemap-options">
+
+          <button
+            class="basemap-btn active"
+            data-basemap="street"
+          >
+            Street
+          </button>
+
+          <button
+            class="basemap-btn"
+            data-basemap="satellite"
+          >
+            Satellite
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <!-- LEGEND -->
+
+      <div class="map-legend">
+
+        <div class="legend-title">
+          Legenda LOD1
+        </div>
+
+        <div class="legend-item">
+
+          <span
+            class="legend-box legend-blue"
+          ></span>
+
+          Lantai 1 · 0–4 m
+
+        </div>
+
+        <div class="legend-item">
+
+          <span
+            class="legend-box legend-yellow"
+          ></span>
+
+          Lantai 2 · 4–8 m
+
+        </div>
+
+      </div>
+
+
+      <button
+        class="mobile-sidebar-btn"
+        id="mobile-sidebar-btn"
+      >
+        Informasi
+      </button>
+
+    </main>
+
+
+    <!-- =================================================
+         SIDEBAR
+    ================================================== -->
+
+    <aside
+      class="sidebar"
+      id="sidebar"
+    >
+
+      <div class="section-label">
+        Dataset Overview
+      </div>
+
+      <h2 class="section-title">
+        Bangunan Sidodadi
+      </h2>
+
+      <div class="muted">
+        Visualisasi tiga dimensi footprint bangunan
+        berdasarkan integrasi data survei lapangan dan
+        geometri bangunan dalam model Level of Detail 1.
+      </div>
+
+
+      <!-- STATISTICS -->
+
+      <div class="stats">
+
+        <div class="stat-card">
+
+          <div
+            class="stat-value"
+            id="total-building"
+          >
+            —
+          </div>
+
+          <div class="stat-name">
+            Total Bangunan
+          </div>
+
+        </div>
+
+
+        <div class="stat-card">
+
+          <div
+            class="stat-value"
+            id="total-floor1"
+          >
+            —
+          </div>
+
+          <div class="stat-name">
+            1 Lantai
+          </div>
+
+        </div>
+
+
+        <div class="stat-card">
+
+          <div
+            class="stat-value"
+            id="total-floor2"
+          >
+            —
+          </div>
+
+          <div class="stat-name">
+            2 Lantai
+          </div>
+
+        </div>
+
+
+        <div class="stat-card">
+
+          <div
+            class="stat-value"
+            id="total-ok"
+          >
+            —
+          </div>
+
+          <div class="stat-name">
+            Match ≤ 15 m
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <hr class="divider">
+
+
+      <!-- MAP LAYERS -->
+
+      <div class="section-label">
+        Map Layers
+      </div>
+
+      <div class="layer-list">
+
+
+        <div class="layer-row">
+
+          <div class="layer-left">
+
+            <span
+              class="legend-box legend-blue"
+            ></span>
+
+            Lantai 1
+
+          </div>
+
+          <label class="switch">
+
+            <input
+              id="toggle-floor1"
+              type="checkbox"
+              checked
+            >
+
+            <span class="slider"></span>
+
+          </label>
+
+        </div>
+
+
+        <div class="layer-row">
+
+          <div class="layer-left">
+
+            <span
+              class="legend-box legend-yellow"
+            ></span>
+
+            Lantai 2
+
+          </div>
+
+          <label class="switch">
+
+            <input
+              id="toggle-floor2"
+              type="checkbox"
+              checked
+            >
+
+            <span class="slider"></span>
+
+          </label>
+
+        </div>
+
+
+        <div class="layer-row">
+
+          <div class="layer-left">
+
+            <span
+              class="legend-box legend-aoi"
+            ></span>
+
+            Batas AOI
+
+          </div>
+
+          <label class="switch">
+
+            <input
+              id="toggle-aoi"
+              type="checkbox"
+              checked
+            >
+
+            <span class="slider"></span>
+
+          </label>
+
+        </div>
+
+
+        <div class="layer-row">
+
+          <div class="layer-left">
+
+            <span
+              class="legend-box legend-quake"
+            ></span>
+
+            Parameter Gempa
+
+          </div>
+
+          <label class="switch">
+
+            <input
+              id="toggle-quake"
+              type="checkbox"
+              checked
+            >
+
+            <span class="slider"></span>
+
+          </label>
+
+        </div>
+
+      </div>
+
+
+      <hr class="divider">
+
+
+      <!-- MAP ACTION -->
+
+      <div class="section-label">
+        Map Navigation
+      </div>
+
+      <div class="action-grid">
+
+        <button
+          class="action-btn"
+          id="reset-view"
+        >
+          Reset View
+        </button>
+
+        <button
+          class="action-btn"
+          id="toggle-3d"
+        >
+          Tampilan 2D
+        </button>
+
+      </div>
+
+
+      <hr class="divider">
+
+
+      <!-- BUILDING INFORMATION -->
+
+      <div class="section-label">
+        Building Information
+      </div>
+
+      <div id="building-detail">
+
+        <div class="empty-detail">
+          Klik salah satu bangunan pada peta untuk melihat
+          ID bangunan, fungsi, jumlah lantai, tinggi model,
+          luas footprint, dan informasi hasil pencocokan
+          spasial.
+        </div>
+
+      </div>
+
+    </aside>
+
+  </div>
+
+
+  <script>
+
+    /* =====================================================
+       CONFIGURATION
+    ===================================================== */
+
+    const INITIAL_VIEW = {
+      center: [
+        105.23854,
+        -5.55228
+      ],
+
+      zoom: 15.2,
+
+      pitch: 58,
+
+      bearing: -18
+    };
+
+
+    /* =====================================================
+       MAP
+    ===================================================== */
+
+    const map =
+      new maplibregl.Map({
+
+        container: "map",
+
+        style: {
+
+          version: 8,
+
+          sources: {
+
+            /* -----------------------------------------
+               OPENSTREETMAP
+            ----------------------------------------- */
+
+            osm: {
+
+              type: "raster",
+
+              tiles: [
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+              ],
+
+              tileSize: 256,
+
+              attribution:
+                "© OpenStreetMap contributors"
+
+            },
+
+
+            /* -----------------------------------------
+               ESRI WORLD IMAGERY
+            ----------------------------------------- */
+
+            satellite: {
+
+              type: "raster",
+
+              tiles: [
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+              ],
+
+              tileSize: 256,
+
+              attribution:
+                "Tiles © Esri"
+
+            }
+
+          },
+
+
+          layers: [
+
+            {
+              id: "osm",
+
+              type: "raster",
+
+              source: "osm",
+
+              layout: {
+                visibility: "visible"
+              }
+            },
+
+
+            {
+              id: "satellite",
+
+              type: "raster",
+
+              source: "satellite",
+
+              layout: {
+                visibility: "none"
+              }
+            }
+
+          ]
+
+        },
+
+
+        center:
+          INITIAL_VIEW.center,
+
+        zoom:
+          INITIAL_VIEW.zoom,
+
+        pitch:
+          INITIAL_VIEW.pitch,
+
+        bearing:
+          INITIAL_VIEW.bearing,
+
+        antialias: true
+
+      });
+
+
+    /* =====================================================
+       MAP CONTROLS
+    ===================================================== */
+
+    map.addControl(
+
+      new maplibregl.NavigationControl({
+        visualizePitch: true
+      }),
+
+      "top-left"
+
+    );
+
+
+    map.addControl(
+
+      new maplibregl.ScaleControl({
+        maxWidth: 120,
+        unit: "metric"
+      }),
+
+      "bottom-right"
+
+    );
+
+
+    /* =====================================================
+       LOAD DATA
+    ===================================================== */
+
+    map.on(
+      "load",
+
+      async () => {
+
+
+        /* ===============================================
+           BUILDING SOURCE
+        =============================================== */
+
+        map.addSource(
+          "buildings",
+          {
+
+            type: "geojson",
+
+            data:
+              "./bangunan_lod1_optimal.geojson"
+
+          }
+        );
+
+
+        /* ===============================================
+           FLOOR 1
+
+           Semua bangunan:
+           base 0 m
+           height 4 m
+        =============================================== */
+
+        map.addLayer({
+
+          id:
+            "floor-1",
+
+          type:
+            "fill-extrusion",
+
+          source:
+            "buildings",
+
+          paint: {
+
+            "fill-extrusion-color":
+              "#2979FF",
+
+            "fill-extrusion-base":
+              0,
+
+            "fill-extrusion-height":
+              4,
+
+            "fill-extrusion-opacity":
+              0.86
+
+          }
+
+        });
+
+
+        /* ===============================================
+           FLOOR 2
+
+           Hanya bangunan >= 2 lantai:
+           base 4 m
+           height 8 m
+        =============================================== */
+
+        map.addLayer({
+
+          id:
+            "floor-2",
+
+          type:
+            "fill-extrusion",
+
+          source:
+            "buildings",
+
+          filter: [
+
+            ">=",
+
+            [
+              "to-number",
+              [
+                "get",
+                "jumlah_lantai"
+              ]
+            ],
+
+            2
+
+          ],
+
+          paint: {
+
+            "fill-extrusion-color":
+              "#FFD600",
+
+            "fill-extrusion-base":
+              4,
+
+            "fill-extrusion-height":
+              8,
+
+            "fill-extrusion-opacity":
+              0.94
+
+          }
+
+        });
+
+
+        /* ===============================================
+           AOI SOURCE
+        =============================================== */
+
+        map.addSource(
+          "aoi",
+          {
+
+            type:
+              "geojson",
+
+            data:
+              "./aoi_sidodadi.geojson"
+
+          }
+        );
+
+
+        map.addLayer({
+
+          id:
+            "aoi-fill",
+
+          type:
+            "fill",
+
+          source:
+            "aoi",
+
+          paint: {
+
+            "fill-color":
+              "#8A4B2E",
+
+            "fill-opacity":
+              0.035
+
+          }
+
+        });
+
+
+        map.addLayer({
+
+          id:
+            "aoi-line",
+
+          type:
+            "line",
+
+          source:
+            "aoi",
+
+          paint: {
+
+            "line-color":
+              "#8A4B2E",
+
+            "line-width":
+              2.2,
+
+            "line-opacity":
+              0.9
+
+          }
+
+        });
+
+
+        /* ===============================================
+           EARTHQUAKE PARAMETER
+        =============================================== */
+
+        map.addSource(
+          "quake",
+          {
+
+            type:
+              "geojson",
+
+            data:
+              "./gempa.geojson"
+
+          }
+        );
+
+
+        map.addLayer({
+
+          id:
+            "quake-halo",
+
+          type:
+            "circle",
+
+          source:
+            "quake",
+
+          paint: {
+
+            "circle-radius":
+              17,
+
+            "circle-color":
+              "#B3261E",
+
+            "circle-opacity":
+              0.14
+
+          }
+
+        });
+
+
+        map.addLayer({
+
+          id:
+            "quake-circle",
+
+          type:
+            "circle",
+
+          source:
+            "quake",
+
+          paint: {
+
+            "circle-radius":
+              7,
+
+            "circle-color":
+              "#B3261E",
+
+            "circle-stroke-color":
+              "#FAF7F0",
+
+            "circle-stroke-width":
+              2.5
+
+          }
+
+        });
+
+
+        /* ===============================================
+           LOAD STATISTICS
+        =============================================== */
+
+        try {
+
+          const response =
+            await fetch(
+              "./bangunan_lod1_optimal.geojson"
+            );
+
+
+          if (!response.ok) {
+
+            throw new Error(
+              "GeoJSON tidak dapat dimuat."
+            );
+
+          }
+
+
+          const data =
+            await response.json();
+
+
+          const features =
+            data.features || [];
+
+
+          const floor1 =
+            features.filter(
+              feature =>
+                Number(
+                  feature.properties
+                    .jumlah_lantai
+                ) === 1
+            ).length;
+
+
+          const floor2 =
+            features.filter(
+              feature =>
+                Number(
+                  feature.properties
+                    .jumlah_lantai
+                ) >= 2
+            ).length;
+
+
+          const goodMatch =
+            features.filter(
+              feature =>
+                Number(
+                  feature.properties
+                    .jarak_match_m
+                ) <= 15
+            ).length;
+
+
+          document
+            .getElementById(
+              "total-building"
+            )
+            .textContent =
+              features.length;
+
+
+          document
+            .getElementById(
+              "total-floor1"
+            )
+            .textContent =
+              floor1;
+
+
+          document
+            .getElementById(
+              "total-floor2"
+            )
+            .textContent =
+              floor2;
+
+
+          document
+            .getElementById(
+              "total-ok"
+            )
+            .textContent =
+              goodMatch;
+
+        }
+
+        catch (error) {
+
+          console.error(
+            "Gagal membaca statistik:",
+            error
+          );
+
+        }
+
+      }
+    );
+
+
+    /* =====================================================
+       BASEMAP SWITCHER
+    ===================================================== */
+
+    const basemapButtons =
+      document.querySelectorAll(
+        ".basemap-btn"
+      );
+
+
+    basemapButtons.forEach(
+      button => {
+
+        button.addEventListener(
+          "click",
+
+          () => {
+
+            const selected =
+              button.dataset.basemap;
+
+
+            basemapButtons.forEach(
+              item => {
+
+                item.classList.remove(
+                  "active"
+                );
+
+              }
+            );
+
+
+            button.classList.add(
+              "active"
+            );
+
+
+            if (
+              !map.getLayer("osm") ||
+              !map.getLayer("satellite")
+            ) {
+
+              return;
+
+            }
+
+
+            if (
+              selected === "street"
+            ) {
+
+              map.setLayoutProperty(
+                "osm",
+                "visibility",
+                "visible"
+              );
+
+
+              map.setLayoutProperty(
+                "satellite",
+                "visibility",
+                "none"
+              );
+
+            }
+
+
+            if (
+              selected === "satellite"
+            ) {
+
+              map.setLayoutProperty(
+                "osm",
+                "visibility",
+                "none"
+              );
+
+
+              map.setLayoutProperty(
+                "satellite",
+                "visibility",
+                "visible"
+              );
+
+            }
+
+          }
+        );
+
+      }
+    );
+
+
+    /* =====================================================
+       BUILDING CLICK
+    ===================================================== */
+
+    function buildingClick(event) {
+
+      if (
+        !event.features ||
+        !event.features.length
+      ) {
+
+        return;
+
+      }
+
+
+      const properties =
+        event.features[0].properties;
+
+
+      const distance =
+        Number(
+          properties.jarak_match_m || 0
+        );
+
+
+      const status =
+        distance <= 15
+          ? "Match Baik"
+          : "Perlu Pemeriksaan";
+
+
+      const badgeClass =
+        distance <= 15
+          ? "badge-ok"
+          : "badge-check";
+
+
+      const floors =
+        Number(
+          properties.jumlah_lantai || 1
+        );
+
+
+      document
+        .getElementById(
+          "building-detail"
+        )
+        .innerHTML = `
+
+          <div class="building-id">
+            ${properties.id_bangunan || "-"}
+          </div>
+
+          <div class="building-function">
+            ${properties.fungsi_bangunan || "-"}
+          </div>
+
+          <table class="detail-table">
+
+            <tr>
+              <td>Jumlah lantai</td>
+              <td>${floors}</td>
+            </tr>
+
+            <tr>
+              <td>Tinggi model</td>
+              <td>
+                ${properties.tinggi_total || floors * 4} m
+              </td>
+            </tr>
+
+            <tr>
+              <td>Luas footprint</td>
+              <td>
+                ${properties.luas_m2 || "-"} m²
+              </td>
+            </tr>
+
+            <tr>
+              <td>Footprint ID</td>
+              <td>
+                ${properties.footprint_id || "-"}
+              </td>
+            </tr>
+
+            <tr>
+              <td>Metode match</td>
+              <td>
+                ${properties.metode_match || "-"}
+              </td>
+            </tr>
+
+            <tr>
+              <td>Jarak match</td>
+              <td>
+                ${distance.toFixed(2)} m
+              </td>
+            </tr>
+
+          </table>
+
+          <span class="badge ${badgeClass}">
+            ${status}
+          </span>
+
+        `;
+
+
+      new maplibregl.Popup({
+        closeButton: true,
+        offset: 12
+      })
+
+        .setLngLat(
+          event.lngLat
+        )
+
+        .setHTML(`
+
+          <strong>
+            ${properties.id_bangunan || "Bangunan"}
+          </strong>
+
+          <br>
+
+          ${properties.fungsi_bangunan || "-"}
+
+          <br>
+
+          ${floors} lantai
+
+        `)
+
+        .addTo(map);
+
+    }
+
+
+    map.on(
+      "click",
+      "floor-1",
+      buildingClick
+    );
+
+
+    map.on(
+      "click",
+      "floor-2",
+      buildingClick
+    );
+
+
+    /* =====================================================
+       BUILDING CURSOR
+    ===================================================== */
+
+    [
+      "floor-1",
+      "floor-2"
+    ].forEach(
+      layer => {
+
+        map.on(
+          "mouseenter",
+          layer,
+
+          () => {
+
+            map
+              .getCanvas()
+              .style
+              .cursor =
+                "pointer";
+
+          }
+        );
+
+
+        map.on(
+          "mouseleave",
+          layer,
+
+          () => {
+
+            map
+              .getCanvas()
+              .style
+              .cursor =
+                "";
+
+          }
+        );
+
+      }
+    );
+
+
+    /* =====================================================
+       EARTHQUAKE CLICK
+    ===================================================== */
+
+    map.on(
+      "click",
+      "quake-circle",
+
+      event => {
+
+        if (
+          !event.features ||
+          !event.features.length
+        ) {
+
+          return;
+
+        }
+
+
+        const p =
+          event.features[0]
+            .properties;
+
+
+        new maplibregl.Popup({
+          offset: 10
+        })
+
+          .setLngLat(
+            event.lngLat
+          )
+
+          .setHTML(`
+
+            <strong>
+              Parameter Bahaya Gempa
+            </strong>
+
+            <br><br>
+
+            PGA:
+            <strong>
+              ${p.pga ?? "-"}
+            </strong>
+
+            <br>
+
+            Ss:
+            <strong>
+              ${p.ss ?? "-"}
+            </strong>
+
+            <br>
+
+            S1:
+            <strong>
+              ${p.s1 ?? "-"}
+            </strong>
+
+            <br>
+
+            TL:
+            <strong>
+              ${p.tl ?? "-"}
+            </strong>
+
+          `)
+
+          .addTo(map);
+
+      }
+    );
+
+
+    /* =====================================================
+       LAYER VISIBILITY
+    ===================================================== */
+
+    function bindLayerToggle(
+      checkboxId,
+      layerIds
+    ) {
+
+      const checkbox =
+        document.getElementById(
+          checkboxId
+        );
+
+
+      checkbox.addEventListener(
+        "change",
+
+        function () {
+
+          const visibility =
+            this.checked
+              ? "visible"
+              : "none";
+
+
+          layerIds.forEach(
+            layerId => {
+
+              if (
+                map.getLayer(
+                  layerId
+                )
+              ) {
+
+                map.setLayoutProperty(
+                  layerId,
+                  "visibility",
+                  visibility
+                );
+
+              }
+
+            }
+          );
+
+        }
+      );
+
+    }
+
+
+    bindLayerToggle(
+      "toggle-floor1",
+      [
+        "floor-1"
+      ]
+    );
+
+
+    bindLayerToggle(
+      "toggle-floor2",
+      [
+        "floor-2"
+      ]
+    );
+
+
+    bindLayerToggle(
+      "toggle-aoi",
+      [
+        "aoi-fill",
+        "aoi-line"
+      ]
+    );
+
+
+    bindLayerToggle(
+      "toggle-quake",
+      [
+        "quake-halo",
+        "quake-circle"
+      ]
+    );
+
+
+    /* =====================================================
+       RESET VIEW
+    ===================================================== */
+
+    document
+      .getElementById(
+        "reset-view"
+      )
+      .addEventListener(
+        "click",
+
+        () => {
+
+          map.flyTo({
+
+            center:
+              INITIAL_VIEW.center,
+
+            zoom:
+              INITIAL_VIEW.zoom,
+
+            pitch:
+              INITIAL_VIEW.pitch,
+
+            bearing:
+              INITIAL_VIEW.bearing,
+
+            duration:
+              1200
+
+          });
+
+        }
+      );
+
+
+    /* =====================================================
+       2D / 3D VIEW
+    ===================================================== */
+
+    let is3D = true;
+
+
+    const toggle3DButton =
+      document.getElementById(
+        "toggle-3d"
+      );
+
+
+    toggle3DButton.addEventListener(
+      "click",
+
+      () => {
+
+        is3D = !is3D;
+
+
+        if (is3D) {
+
+          map.easeTo({
+
+            pitch: 58,
+
+            bearing: -18,
+
+            duration: 800
+
+          });
+
+
+          toggle3DButton.textContent =
+            "Tampilan 2D";
+
+        }
+
+        else {
+
+          map.easeTo({
+
+            pitch: 0,
+
+            bearing: 0,
+
+            duration: 800
+
+          });
+
+
+          toggle3DButton.textContent =
+            "Tampilan 3D";
+
+        }
+
+      }
+    );
+
+
+    /* =====================================================
+       MOBILE SIDEBAR
+    ===================================================== */
+
+    const sidebar =
+      document.getElementById(
+        "sidebar"
+      );
+
+
+    const mobileSidebarButton =
+      document.getElementById(
+        "mobile-sidebar-btn"
+      );
+
+
+    mobileSidebarButton
+      .addEventListener(
+        "click",
+
+        () => {
+
+          sidebar.classList.toggle(
+            "open"
+          );
+
+
+          if (
+            sidebar.classList.contains(
+              "open"
+            )
+          ) {
+
+            mobileSidebarButton
+              .textContent =
+                "Tutup";
+
+          }
+
+          else {
+
+            mobileSidebarButton
+              .textContent =
+                "Informasi";
+
+          }
+
+        }
+      );
+
+
+    /* =====================================================
+       ERROR LOGGING
+    ===================================================== */
+
+    map.on(
+      "error",
+
+      event => {
+
+        console.error(
+          "MapLibre error:",
+          event.error
+        );
+
+      }
+    );
+
+  </script>
+
+</body>
+</html>

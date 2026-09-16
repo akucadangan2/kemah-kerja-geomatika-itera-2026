@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "jenis_data": "Parameter Bahaya Gempa",
+        "pga": 0.022,
+        "ss": 0.048,
+        "s1": 0.041,
+        "tl": 4,
+        "kelas_tanah": {
+          "SB": {
+            "T0": 0.13,
+            "Ts": 0.67,
+            "Sds": 0.03,
+            "Sd1": 0.02
+          },
+          "SC": {
+            "T0": 0.2,
+            "Ts": 1.0,
+            "Sds": 0.04,
+            "Sd1": 0.04
+          },
+          "SD": {
+            "T0": 0.28,
+            "Ts": 1.4,
+            "Sds": 0.05,
+            "Sd1": 0.07
+          },
+          "SE": {
+            "T0": 0.28,
+            "Ts": 1.38,
+            "Sds": 0.08,
+            "Sd1": 0.11
+          }
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24444444444444,
+          -5.549166666666666
+        ]
+      }
+    }
+  ]
+}

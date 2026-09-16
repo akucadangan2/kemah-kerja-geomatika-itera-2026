@@ -1,0 +1,309 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 3,
+        "id_bangunan": "SDI-C01-001",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235376,
+          -5.552167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 24,
+        "id_bangunan": "SDI-A12-012",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.226126,
+          -5.544894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 122,
+        "id_bangunan": "SDIB40-040",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229224,
+          -5.547404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 172,
+        "id_bangunan": "SDI-B94-094",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23145,
+          -5.551312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 213,
+        "id_bangunan": "Blok C (SDI-C84-084)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235854,
+          -5.553109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 214,
+        "id_bangunan": "Blok C (SDI-C85-085)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235757,
+          -5.552924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 289,
+        "id_bangunan": "Blok D (SDI-D45-045)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24217,
+          -5.552649531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 293,
+        "id_bangunan": "SDI-D01-056",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240337,
+          -5.554489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 331,
+        "id_bangunan": "Blok D (SDI-D100-100)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241449,
+          -5.556175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 398,
+        "id_bangunan": "Blok D (SDI-D141-141)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242181,
+          -5.559473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 405,
+        "id_bangunan": "Blok B (SDI-B99-099)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2314,
+          -5.551308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 494,
+        "id_bangunan": "Blok B (SDI-B175-175)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233895,
+          -5.551186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 505,
+        "id_bangunan": "SDI-C06-006",
+        "fungsi_bangunan": "Rumah Tinggal dan Warung",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234672,
+          -5.552477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 507,
+        "id_bangunan": "SDI-B42-042",
+        "fungsi_bangunan": "Rumah Tinggal dan Warung",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229265,
+          -5.547086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 520,
+        "id_bangunan": "SDI-D04-004",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242,
+          -5.55288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 559,
+        "id_bangunan": "Blok D (SDI-D87-087)",
+        "fungsi_bangunan": "Gedung Sekretariat / Bangunan Komunitas",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240851,
+          -5.555206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 560,
+        "id_bangunan": "SDI-D08-008",
+        "fungsi_bangunan": "Kantor",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2409,
+          -5.55533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 563,
+        "id_bangunan": "SDI-A10-010",
+        "fungsi_bangunan": "Gudang",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.226626,
+          -5.544944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 569,
+        "id_bangunan": "Blok D (SDI-D110-110)",
+        "fungsi_bangunan": "Gudang",
+        "jumlah_lantai": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242186,
+          -5.55755
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,590 @@
+﻿point_id,footprint_id,id_bangunan,fungsi_bangunan,jumlah_lantai,tinggi_lantai,tinggi_total,luas_m2,jarak_match_m,metode_match,status_match
+0,1056,SDI-A85-085,Pondok,1,4.0,4.0,51.46,0.27,optimal_nearest,OK
+1,1184,SDI-A01-001,Rumah Tinggal,1,4.0,4.0,94.95,0.0,within,OK
+2,723,SDI-C01-001,Rumah Tinggal,2,4.0,8.0,306.94,2.92,optimal_nearest,OK
+3,1182,SDI-A03-003,Rumah Tinggal,1,4.0,4.0,214.76,0.0,within,OK
+4,1228,SDI-A04-004,Rumah Tinggal,1,4.0,4.0,117.05,0.0,within,OK
+5,730,SDI-C02-002,Rumah Tinggal,1,4.0,4.0,159.38,3.24,optimal_nearest,OK
+6,729,SDI-C03-003,Rumah Tinggal,1,4.0,4.0,129.1,1.22,optimal_nearest,OK
+7,764,SDI-C04-004,Rumah Tinggal,1,4.0,4.0,120.01,1.82,optimal_nearest,OK
+8,758,SDI-C05-005,Rumah Tinggal,1,4.0,4.0,199.33,0.0,within,OK
+9,756,SDI-C06-006,Rumah Tinggal,1,4.0,4.0,82.9,8.3,optimal_nearest,OK
+10,1257,SDI-A05-005,Rumah Tinggal,1,4.0,4.0,270.88,0.0,within,OK
+11,750,SDI-C08-008,Rumah Tinggal,1,4.0,4.0,245.17,2.95,optimal_nearest,OK
+12,1227,SDI-A06-006,Rumah Tinggal,1,4.0,4.0,222.55,0.0,within,OK
+13,1022,SDI-C09-009,Rumah Tinggal,1,4.0,4.0,209.64,0.28,optimal_nearest,OK
+14,1017,SDI-C10-010,Rumah Tinggal,1,4.0,4.0,128.74,0.0,within,OK
+15,749,SDI-C11-011,Rumah Tinggal,1,4.0,4.0,138.68,2.84,optimal_nearest,OK
+16,1015,SDI-C12-012,Rumah Tinggal,1,4.0,4.0,275.34,3.71,optimal_nearest,OK
+17,755,SDI-C13-013,Rumah Tinggal,1,4.0,4.0,74.68,7.67,optimal_nearest,OK
+18,752,SDI-C14-014,Rumah Tinggal,1,4.0,4.0,148.66,0.0,within,OK
+19,1018,SDI-C15-015,Rumah Tinggal,1,4.0,4.0,147.11,0.41,optimal_nearest,OK
+20,1258,SDI-A08-008,Rumah Tinggal,1,4.0,4.0,174.47,0.0,within,OK
+21,1053,SDI-A09-009,Rumah Tinggal,1,4.0,4.0,86.49,89.42,optimal_nearest,PERLU_CEK
+22,1179,SDI-A11-011,Rumah Tinggal,1,4.0,4.0,104.75,0.0,within,OK
+23,1178,SDI-A12-012,Rumah Tinggal,2,4.0,8.0,100.14,0.0,within,OK
+24,1141,SDI-A13-013,Rumah Tinggal,1,4.0,4.0,51.4,0.0,within,OK
+25,1120,SDI-A14-014,Rumah Tinggal,1,4.0,4.0,175.18,0.0,within,OK
+26,1118,SDI-A15-015,Rumah Tinggal,1,4.0,4.0,151.69,0.0,within,OK
+27,1140,SDI-A16-016,Rumah Tinggal,1,4.0,4.0,222.52,0.0,within,OK
+28,1116,SDI-A18-018,Rumah Tinggal,1,4.0,4.0,99.16,0.0,within,OK
+29,1123,SDI-A19-019,Rumah Tinggal,1,4.0,4.0,76.4,0.0,within,OK
+30,1137,SDI-A20-020,Rumah Tinggal,1,4.0,4.0,155.76,0.0,within,OK
+31,1127,SDI-A21-021,Rumah Tinggal,1,4.0,4.0,63.68,0.0,within,OK
+32,1144,SDI-A23-023,Rumah Tinggal,1,4.0,4.0,213.06,2.1,optimal_nearest,OK
+33,1105,SDI-A24-024,Rumah Tinggal,1,4.0,4.0,95.83,0.0,within,OK
+34,1114,SDI-A25-025,Rumah Tinggal,1,4.0,4.0,67.05,0.0,within,OK
+35,731,SDI-C16-016,Rumah Tinggal,1,4.0,4.0,240.17,0.0,within,OK
+36,732,SDI-C17-017,Rumah Tinggal,1,4.0,4.0,137.2,14.91,optimal_nearest,OK
+37,718,SDI-C18-018,Rumah Tinggal,1,4.0,4.0,272.69,0.0,within,OK
+38,722,SDI-C19-019,Rumah Tinggal,1,4.0,4.0,214.39,3.86,optimal_nearest,OK
+39,721,SDI-C20-020,Rumah Tinggal,1,4.0,4.0,154.01,0.0,within,OK
+40,1112,SDI-A26-026,Rumah Tinggal,1,4.0,4.0,91.74,0.0,within,OK
+41,720,SDI-C21-021,Rumah Tinggal,1,4.0,4.0,154.45,4.21,optimal_nearest,OK
+42,734,SDI-C22-022,Rumah Tinggal,1,4.0,4.0,89.63,7.71,optimal_nearest,OK
+43,1111,SDI-A27-027,Rumah Tinggal,1,4.0,4.0,159.15,0.0,within,OK
+44,717,SDI-C23-023,Rumah Tinggal,1,4.0,4.0,183.18,1.7,optimal_nearest,OK
+45,716,SDI-C24-024,Rumah Tinggal,1,4.0,4.0,244.39,1.69,optimal_nearest,OK
+46,1109,SDI-A28-028,Rumah Tinggal,1,4.0,4.0,36.15,3.43,optimal_nearest,OK
+47,1108,SDI-A29-029,Rumah Tinggal,1,4.0,4.0,137.64,0.0,within,OK
+48,1104,SDI-A30-030,Rumah Tinggal,1,4.0,4.0,25.58,5.8,optimal_nearest,OK
+49,735,SDI-C26-026,Rumah Tinggal,1,4.0,4.0,158.99,0.5,optimal_nearest,OK
+50,712,SDI-C27-027,Rumah Tinggal,1,4.0,4.0,140.52,3.59,optimal_nearest,OK
+51,1132,SDI-A31-031,Rumah Tinggal,1,4.0,4.0,92.99,0.0,within,OK
+52,709,SDI-C29-029,Rumah Tinggal,1,4.0,4.0,90.89,6.33,optimal_nearest,OK
+53,1128,SDI-A32-032,Rumah Tinggal,1,4.0,4.0,200.93,0.0,within,OK
+54,1129,SDI-A33-033,Rumah Tinggal,1,4.0,4.0,201.37,0.0,within,OK
+55,572,SDI-B05-005,Rumah Tinggal,1,4.0,4.0,420.26,0.0,within,OK
+56,1097,SDI-A01-035,Rumah Tinggal,1,4.0,4.0,106.07,0.0,within,OK
+57,1100,SDI-A37-037,Rumah Tinggal,1,4.0,4.0,184.93,3.02,optimal_nearest,OK
+58,1096,SDI-A39-039,Rumah Tinggal,1,4.0,4.0,282.79,2.27,optimal_nearest,OK
+59,1167,SDI-A41-041,Rumah Tinggal,1,4.0,4.0,114.34,0.0,within,OK
+60,740,SDI-C30-030,Rumah Tinggal,1,4.0,4.0,62.68,11.0,optimal_nearest,OK
+61,1090,SDI-A42-042,Rumah Tinggal,1,4.0,4.0,19.34,0.15,optimal_nearest,OK
+62,736,SDI-C32-032,Rumah Tinggal,1,4.0,4.0,157.1,4.61,optimal_nearest,OK
+63,1164,SDI-A43-043,Rumah Tinggal,1,4.0,4.0,306.65,0.0,within,OK
+64,1091,Blok A (SDI-A01-044),Rumah Tinggal,1,4.0,4.0,72.32,18.99,optimal_nearest,PERLU_CEK
+65,1147,Blok A (SDI-A01-045),Rumah Tinggal,1,4.0,4.0,108.95,0.0,within,OK
+66,1148,Blok A (SDI-A01-046),Rumah Tinggal,1,4.0,4.0,59.51,3.74,optimal_nearest,OK
+67,1165,Blok A (SDI-A01-047),Rumah Tinggal,1,4.0,4.0,116.77,0.5,optimal_nearest,OK
+68,1149,Blok A (SDI-A01-048),Rumah Tinggal,1,4.0,4.0,159.97,0.0,within,OK
+69,1158,Blok A (SDI-A01-049),Rumah Tinggal,1,4.0,4.0,71.35,1.74,optimal_nearest,OK
+70,1157,Blok A (SDI-A01-050),Rumah Tinggal,1,4.0,4.0,126.12,2.49,optimal_nearest,OK
+71,1152,Blok A (SDI-A01-051),Rumah Tinggal,1,4.0,4.0,213.51,0.0,within,OK
+72,1156,Blok A (SDI-A01-052),Rumah Tinggal,1,4.0,4.0,115.16,2.2,optimal_nearest,OK
+73,1150,Blok A (SDI-A01-053),Rumah Tinggal,1,4.0,4.0,59.98,0.0,within,OK
+74,1155,Blok A (SDI-A01-054),Rumah Tinggal,1,4.0,4.0,171.98,0.0,within,OK
+75,1154,Blok A (SDI-A01-055),Rumah Tinggal,1,4.0,4.0,90.19,0.08,optimal_nearest,OK
+76,1159,Blok A (SDI-A01-056),Rumah Tinggal,1,4.0,4.0,76.0,0.0,within,OK
+77,1160,Blok A (SDI-A01-057),Rumah Tinggal,1,4.0,4.0,95.79,0.0,within,OK
+78,1161,Blok A (SDI-A01-058),Rumah Tinggal,1,4.0,4.0,132.13,0.0,within,OK
+79,1162,Blok A (SDI-A01-059),Rumah Tinggal,1,4.0,4.0,48.24,0.0,within,OK
+80,1151,Blok A (SDI-A01-060),Rumah Tinggal,1,4.0,4.0,126.99,2.0,optimal_nearest,OK
+81,1153,Blok A (SDI-A01-061),Rumah Tinggal,1,4.0,4.0,178.07,4.6,optimal_nearest,OK
+82,1166,Blok A (SDI-A01-062),Rumah Tinggal,1,4.0,4.0,13.96,22.82,optimal_nearest,PERLU_CEK
+83,990,SDI-B01-001,Rumah Tinggal,1,4.0,4.0,127.27,0.0,within,OK
+84,662,SDI-B02-002,Rumah Tinggal,1,4.0,4.0,106.16,0.0,within,OK
+85,989,SDI-B03–003,Rumah Tinggal,1,4.0,4.0,230.31,0.0,within,OK
+86,987,SDI-B04-004,Rumah Tinggal,1,4.0,4.0,545.54,0.0,within,OK
+87,1171,Blok A (SDI-A01-065),Rumah Tinggal,1,4.0,4.0,88.37,0.59,optimal_nearest,OK
+88,1043,SDI-B06-006,Rumah Tinggal,1,4.0,4.0,91.81,0.0,within,OK
+89,884,SDI-B07-007,Rumah Tinggal,1,4.0,4.0,151.65,1.67,optimal_nearest,OK
+90,1172,Blok A (SDI-A01-066),Rumah Tinggal,1,4.0,4.0,88.21,0.0,within,OK
+91,1042,SDI-B08-008,Rumah Tinggal,1,4.0,4.0,53.22,0.0,within,OK
+92,1040,SDI-B09-009,Rumah Tinggal,1,4.0,4.0,88.84,3.66,optimal_nearest,OK
+93,885,SDI-B10-010,Rumah Tinggal,1,4.0,4.0,116.31,7.94,optimal_nearest,OK
+94,883,SDI-B11-011,Rumah Tinggal,1,4.0,4.0,172.64,0.0,within,OK
+95,886,SDI-B12-012,Rumah Tinggal,1,4.0,4.0,233.16,0.0,within,OK
+96,882,SDI-B13-013,Rumah Tinggal,1,4.0,4.0,181.36,3.95,optimal_nearest,OK
+97,881,SDI-B14-014,Rumah Tinggal,1,4.0,4.0,65.42,5.67,optimal_nearest,OK
+98,887,SDI-B15-015,Rumah Tinggal,1,4.0,4.0,195.97,4.05,optimal_nearest,OK
+99,888,SDI-B16-016,Rumah Tinggal,1,4.0,4.0,308.64,4.07,optimal_nearest,OK
+100,105,SDI-17-017,Rumah Tinggal,1,4.0,4.0,47.54,4338.26,optimal_nearest,PERLU_CEK
+101,624,SDI-B17-017,Rumah Tinggal,1,4.0,4.0,198.41,0.0,within,OK
+102,626,SDI-B18-018,Rumah Tinggal,1,4.0,4.0,93.65,0.0,within,OK
+103,627,SDI-B19-019,Rumah Tinggal,1,4.0,4.0,96.6,0.0,within,OK
+104,630,SDI-B20-020,Rumah Tinggal,1,4.0,4.0,102.92,0.0,within,OK
+105,631,SDI-B21-021,Rumah Tinggal,1,4.0,4.0,204.76,0.0,within,OK
+106,584,SDI-B22-022,Rumah Tinggal,1,4.0,4.0,209.18,0.0,within,OK
+107,583,SDI-B24-024,Rumah Tinggal,1,4.0,4.0,213.98,13.66,optimal_nearest,OK
+108,532,SDI-B25-025,Rumah Tinggal,1,4.0,4.0,162.58,0.0,within,OK
+109,539,SDI-B26-026,Rumah Tinggal,1,4.0,4.0,58.63,0.31,optimal_nearest,OK
+110,582,SDI-B27-027,Rumah Tinggal,1,4.0,4.0,212.87,0.0,within,OK
+111,581,SDI-B28-028,Rumah Tinggal,1,4.0,4.0,287.44,15.5,optimal_nearest,PERLU_CEK
+112,580,SDI-B29-029,Rumah Tinggal,1,4.0,4.0,369.84,0.0,within,OK
+113,579,SDI-B30-030,Rumah Tinggal,1,4.0,4.0,122.38,0.0,within,OK
+114,578,SDI-B31-031,Rumah Tinggal,1,4.0,4.0,135.4,0.0,within,OK
+115,561,SDI-B32-032,Rumah Tinggal,1,4.0,4.0,164.25,0.0,within,OK
+116,577,SDI-B33-033,Rumah Tinggal,1,4.0,4.0,47.2,1.77,optimal_nearest,OK
+117,564,SDI-B34-034,Rumah Tinggal,1,4.0,4.0,115.76,0.0,within,OK
+118,563,SDI-B38-038,Rumah Tinggal,1,4.0,4.0,348.15,0.35,optimal_nearest,OK
+119,560,SDI-B36-036,Rumah Tinggal,1,4.0,4.0,120.96,0.0,within,OK
+120,552,SDI-B39-039,Rumah Tinggal,1,4.0,4.0,124.49,0.0,within,OK
+121,549,SDIB40-040,Rumah Tinggal,2,4.0,8.0,86.35,0.0,within,OK
+122,551,SDI-B41-041,Rumah Tinggal,1,4.0,4.0,173.41,0.0,within,OK
+123,542,SDI-B43-043,Rumah Tinggal,1,4.0,4.0,114.17,1.03,optimal_nearest,OK
+124,501,SDI-B46-046,Rumah Tinggal,1,4.0,4.0,97.03,11.38,optimal_nearest,OK
+125,550,SDI-B47-047,Rumah Tinggal,1,4.0,4.0,124.43,0.0,within,OK
+126,556,SDI-B48-048,Rumah Tinggal,1,4.0,4.0,186.49,0.0,within,OK
+127,504,SDI-B49-049,Rumah Tinggal,1,4.0,4.0,246.37,0.0,within,OK
+128,557,SDI-B50-050,Rumah Tinggal,1,4.0,4.0,69.84,0.97,optimal_nearest,OK
+129,506,SDI-B51-051,Rumah Tinggal,1,4.0,4.0,233.0,2.37,optimal_nearest,OK
+130,508,SDI-B52-052,Rumah Tinggal,1,4.0,4.0,192.41,0.0,within,OK
+131,509,SDI-B53-053,Rumah Tinggal,1,4.0,4.0,129.37,0.0,within,OK
+132,510,SDI-B54-054,Rumah Tinggal,1,4.0,4.0,217.58,0.0,within,OK
+133,522,SDI-B55-055,Rumah Tinggal,1,4.0,4.0,117.16,0.89,optimal_nearest,OK
+134,512,SDI-B56-056,Rumah Tinggal,1,4.0,4.0,100.14,0.0,within,OK
+135,524,SDI-B57-057,Rumah Tinggal,1,4.0,4.0,93.71,3.55,optimal_nearest,OK
+136,514,SDI-B58-058,Rumah Tinggal,1,4.0,4.0,205.47,0.0,within,OK
+137,519,SDI-B59-059,Rumah Tinggal,1,4.0,4.0,164.79,2.79,optimal_nearest,OK
+138,530,SDI-B60-060,Rumah Tinggal,1,4.0,4.0,79.98,3.37,optimal_nearest,OK
+139,515,SDI-B61-061,Rumah Tinggal,1,4.0,4.0,90.04,3.18,optimal_nearest,OK
+140,529,SDI-B62-062,Rumah Tinggal,1,4.0,4.0,99.68,0.0,within,OK
+141,516,SDI-B63-063,Rumah Tinggal,1,4.0,4.0,114.37,0.0,within,OK
+142,566,SDI-B64-064,Rumah Tinggal,1,4.0,4.0,236.78,0.0,within,OK
+143,569,SDI-B65-065,Rumah Tinggal,1,4.0,4.0,57.53,0.0,within,OK
+144,567,SDI-B66-066,Rumah Tinggal,1,4.0,4.0,183.9,0.0,within,OK
+145,521,SDI-B67-067,Rumah Tinggal,1,4.0,4.0,63.14,33.54,optimal_nearest,PERLU_CEK
+146,568,SDI-B68-068,Rumah Tinggal,1,4.0,4.0,166.33,0.0,within,OK
+147,571,SDI-B69-069,Rumah Tinggal,1,4.0,4.0,91.93,9.97,optimal_nearest,OK
+148,637,SDI-B70-070,Rumah Tinggal,1,4.0,4.0,127.89,4.15,optimal_nearest,OK
+149,638,SDI-B71-071,Rumah Tinggal,1,4.0,4.0,156.56,0.0,within,OK
+150,596,SDI-B72-072,Rumah Tinggal,1,4.0,4.0,148.45,0.0,within,OK
+151,593,SDI-B73-073,Rumah Tinggal,1,4.0,4.0,167.24,0.86,optimal_nearest,OK
+152,644,SDI-B74-074,Rumah Tinggal,1,4.0,4.0,162.3,0.0,within,OK
+153,604,SDI-B75-075,Rumah Tinggal,1,4.0,4.0,32.89,0.0,within,OK
+154,645,SDI-B76-076,Rumah Tinggal,1,4.0,4.0,183.29,0.0,within,OK
+155,666,SDI-B77-077,Rumah Tinggal,1,4.0,4.0,162.41,0.0,within,OK
+156,609,SDI-B78-078,Rumah Tinggal,1,4.0,4.0,197.47,0.0,within,OK
+157,610,SDI-B79-079,Rumah Tinggal,1,4.0,4.0,255.11,0.0,within,OK
+158,647,SDI-B80-080,Rumah Tinggal,1,4.0,4.0,88.42,0.0,within,OK
+159,654,SDI-B81-081,Rumah Tinggal,1,4.0,4.0,43.48,0.0,within,OK
+160,659,SDI-B82-082,Rumah Tinggal,1,4.0,4.0,30.41,3.48,optimal_nearest,OK
+161,612,SDI-B83-083,Rumah Tinggal,1,4.0,4.0,171.66,0.0,within,OK
+162,959,SDI-B84-084,Rumah Tinggal,1,4.0,4.0,189.55,0.0,within,OK
+163,620,SDI-B85-085,Rumah Tinggal,1,4.0,4.0,247.77,0.0,within,OK
+164,614,SDI-B86-086,Rumah Tinggal,1,4.0,4.0,87.09,0.0,within,OK
+165,950,SDI-B87-087,Rumah Tinggal,1,4.0,4.0,227.61,0.0,within,OK
+166,680,SDI-B89-089,Rumah Tinggal,1,4.0,4.0,196.79,0.0,within,OK
+167,963,SDI-B90-090,Rumah Tinggal,1,4.0,4.0,120.78,0.55,optimal_nearest,OK
+168,961,SDI-B91-091,Rumah Tinggal,1,4.0,4.0,177.95,0.0,within,OK
+169,966,SDI-B92-092,Rumah Tinggal,1,4.0,4.0,308.95,0.0,within,OK
+170,954,SDI-B93-093,Rumah Tinggal,1,4.0,4.0,694.88,2.01,optimal_nearest,OK
+171,939,SDI-B94-094,Rumah Tinggal,2,4.0,8.0,213.59,0.0,within,OK
+172,856,SDI-C34-034,Rumah Tinggal,1,4.0,4.0,168.16,0.74,optimal_nearest,OK
+173,850,SDI-C35-035,Rumah Tinggal,1,4.0,4.0,143.93,0.79,optimal_nearest,OK
+174,857,SDI-C36-036,Rumah Tinggal,1,4.0,4.0,128.55,0.76,optimal_nearest,OK
+175,849,SDI-C37-037,Rumah Tinggal,1,4.0,4.0,180.93,0.0,within,OK
+176,848,SDI-C39-039,Rumah Tinggal,1,4.0,4.0,133.09,0.0,within,OK
+177,843,SDI-C40-040,Rumah Tinggal,1,4.0,4.0,109.68,0.0,within,OK
+178,847,SDI-C41-041,Rumah Tinggal,1,4.0,4.0,220.95,0.0,within,OK
+179,836,SDI-C42-042,Rumah Tinggal,1,4.0,4.0,319.53,0.48,optimal_nearest,OK
+180,842,SDI-C44-044,Rumah Tinggal,1,4.0,4.0,208.89,0.0,within,OK
+181,838,SDI-C45-045,Rumah Tinggal,1,4.0,4.0,128.07,0.57,optimal_nearest,OK
+182,840,SDI-C46-046,Rumah Tinggal,1,4.0,4.0,24.25,17.15,optimal_nearest,PERLU_CEK
+183,831,SDI-C47-047,Rumah Tinggal,1,4.0,4.0,132.73,0.0,within,OK
+184,832,SDI-C48-048,Rumah Tinggal,1,4.0,4.0,164.52,0.0,within,OK
+185,830,SDI-C49-049,Rumah Tinggal,1,4.0,4.0,142.7,0.0,within,OK
+186,826,SDI-C50-050,Rumah Tinggal,1,4.0,4.0,170.08,0.0,within,OK
+187,827,SDI-C52-052,Rumah Tinggal,1,4.0,4.0,243.33,0.0,within,OK
+188,824,SDI-C53-053,Rumah Tinggal,1,4.0,4.0,106.63,0.0,within,OK
+189,821,SDI-C56-056,Rumah Tinggal,1,4.0,4.0,8.23,7.17,optimal_nearest,OK
+190,800,SDI-C57-057,Rumah Tinggal,1,4.0,4.0,84.06,0.0,within,OK
+191,799,SDI-C58-058,Rumah Tinggal,1,4.0,4.0,159.71,11.37,optimal_nearest,OK
+192,819,SDI-C59-059,Rumah Tinggal,1,4.0,4.0,31.55,15.18,optimal_nearest,PERLU_CEK
+193,708,Blok C (SDI-C63-063),Rumah Tinggal,1,4.0,4.0,112.14,3.21,optimal_nearest,OK
+194,737,Blok C (SDI-C64-064),Rumah Tinggal,1,4.0,4.0,114.0,0.0,within,OK
+195,739,Blok C (SDI-C65-065),Rumah Tinggal,1,4.0,4.0,199.42,1.51,optimal_nearest,OK
+196,742,Blok C (SDI-C66-066),Rumah Tinggal,1,4.0,4.0,78.12,1.58,optimal_nearest,OK
+197,1011,Blok C (SDI-C67-067),Rumah Tinggal,1,4.0,4.0,63.7,0.0,within,OK
+198,702,Blok C (SDI-C68-068),Rumah Tinggal,1,4.0,4.0,103.98,8.4,optimal_nearest,OK
+199,748,Blok C (SDI-C69-069),Rumah Tinggal,1,4.0,4.0,157.4,7.76,optimal_nearest,OK
+200,1012,Blok C (SDI-C70-070),Rumah Tinggal,1,4.0,4.0,273.78,0.0,within,OK
+201,745,Blok C (SDI-C71-071),Rumah Tinggal,1,4.0,4.0,145.26,4.91,optimal_nearest,OK
+202,1014,Blok C (SDI-C72-072),Rumah Tinggal,1,4.0,4.0,93.11,0.0,within,OK
+203,1013,Blok C (SDI-C73-073),Rumah Tinggal,1,4.0,4.0,145.88,0.0,within,OK
+204,1006,Blok C (SDI-C74-074),Rumah Tinggal,1,4.0,4.0,202.25,6.06,optimal_nearest,OK
+205,707,Blok C (SDI-C75-075),Rumah Tinggal,1,4.0,4.0,191.6,0.0,within,OK
+206,816,Blok C (SDI-C76-076),Rumah Tinggal,1,4.0,4.0,47.9,7.19,optimal_nearest,OK
+207,785,Blok C (SDI-C78-078),Rumah Tinggal,1,4.0,4.0,275.92,0.17,optimal_nearest,OK
+208,784,Blok C (SDI-C79-079),Rumah Tinggal,1,4.0,4.0,212.48,1.33,optimal_nearest,OK
+209,783,Blok C (SDI-C80-080),Rumah Tinggal,1,4.0,4.0,97.3,2.84,optimal_nearest,OK
+210,810,Blok C (SDI-C81-081),Rumah Tinggal,1,4.0,4.0,162.75,3.74,optimal_nearest,OK
+211,786,Blok C (SDI-C83-083),Rumah Tinggal,1,4.0,4.0,384.42,9.96,optimal_nearest,OK
+212,782,Blok C (SDI-C84-084),Rumah Tinggal,2,4.0,8.0,264.23,0.0,within,OK
+213,781,Blok C (SDI-C85-085),Rumah Tinggal,2,4.0,8.0,215.96,1.95,optimal_nearest,OK
+214,780,Blok C (SDI-C86-086),Rumah Tinggal,1,4.0,4.0,137.96,0.0,within,OK
+215,813,Blok C (SDI-C89-089),Rumah Tinggal,1,4.0,4.0,113.6,5.06,optimal_nearest,OK
+216,815,Blok C (SDI-C90-090),Rumah Tinggal,1,4.0,4.0,138.49,3.76,optimal_nearest,OK
+217,855,Blok C (SDI-C91-091),Rumah Tinggal,1,4.0,4.0,124.05,1.65,optimal_nearest,OK
+218,854,Blok C (SDI-C92-092),Rumah Tinggal,1,4.0,4.0,184.01,10.27,optimal_nearest,OK
+219,490,Blok C (SDI-C93-093),Rumah Tinggal,1,4.0,4.0,471.73,2302.31,optimal_nearest,PERLU_CEK
+220,851,Blok C (SDI-C94-094),Rumah Tinggal,1,4.0,4.0,115.84,8.13,optimal_nearest,OK
+221,814,Blok C (SDI-C95-095),Rumah Tinggal,1,4.0,4.0,120.34,30.71,optimal_nearest,PERLU_CEK
+222,811,Blok C (SDI-C96-096),Rumah Tinggal,1,4.0,4.0,204.3,7.3,optimal_nearest,OK
+223,491,Blok C (SDI-C97-097),Rumah Tinggal,1,4.0,4.0,174.11,35355.96,optimal_nearest,PERLU_CEK
+224,834,Blok C (SDI-C98-098),Rumah Tinggal,1,4.0,4.0,119.78,2.07,optimal_nearest,OK
+225,808,Blok C (SDI-C99-099),Rumah Tinggal,1,4.0,4.0,137.71,8.19,optimal_nearest,OK
+226,833,Blok C (SDI-C100-100),Rumah Tinggal,1,4.0,4.0,239.54,7.48,optimal_nearest,OK
+227,803,Blok C (SDI-C101-101),Rumah Tinggal,1,4.0,4.0,99.15,28.41,optimal_nearest,PERLU_CEK
+228,727,SDI-C104-104,Rumah Tinggal,1,4.0,4.0,155.6,0.0,within,OK
+229,725,SDI-C105-105,Rumah Tinggal,1,4.0,4.0,100.9,0.0,within,OK
+230,726,SDI-C106-106,Rumah Tinggal,1,4.0,4.0,269.49,0.0,within,OK
+231,724,SDI-C107-107,Rumah Tinggal,1,4.0,4.0,142.24,0.0,within,OK
+232,759,SDI-C108-108,Rumah Tinggal,1,4.0,4.0,138.29,1.17,optimal_nearest,OK
+233,761,SDI-C109-109,Rumah Tinggal,1,4.0,4.0,232.88,0.0,within,OK
+234,773,SDI-C110-110,Rumah Tinggal,1,4.0,4.0,194.21,0.0,within,OK
+235,772,SDI-C111-111,Rumah Tinggal,1,4.0,4.0,241.56,0.0,within,OK
+236,771,SDI-C112-112,Rumah Tinggal,1,4.0,4.0,192.73,0.0,within,OK
+237,762,SDI-C113-113,Rumah Tinggal,1,4.0,4.0,159.66,0.0,within,OK
+238,769,SDI-C114-114,Rumah Tinggal,1,4.0,4.0,34.15,0.23,optimal_nearest,OK
+239,794,SDI-C116-116,Rumah Tinggal,1,4.0,4.0,95.79,0.0,within,OK
+240,763,SDI-C117-117,Rumah Tinggal,1,4.0,4.0,98.44,0.12,optimal_nearest,OK
+241,395,Blok D (SDI-D01-001),Rumah Tinggal,1,4.0,4.0,175.21,0.0,within,OK
+242,393,Blok D (SDI-D02-002),Rumah Tinggal,1,4.0,4.0,245.38,0.0,within,OK
+243,392,Blok D (SDI-D03-003),Rumah Tinggal,1,4.0,4.0,110.57,0.0,within,OK
+244,388,Blok D (SDI-D04-004),Rumah Tinggal,1,4.0,4.0,68.97,0.89,optimal_nearest,OK
+245,372,Blok D (SDI-D05-005),Rumah Tinggal,1,4.0,4.0,141.85,3.14,optimal_nearest,OK
+246,373,Blok D (SDI-D06-006),Rumah Tinggal,1,4.0,4.0,152.56,1.95,optimal_nearest,OK
+247,379,Blok D (SDI-D07-007),Rumah Tinggal,1,4.0,4.0,105.52,0.0,within,OK
+248,378,Blok D (SDI-D08-008),Rumah Tinggal,1,4.0,4.0,120.72,0.0,within,OK
+249,370,Blok D (SDI-D09-009),Rumah Tinggal,1,4.0,4.0,109.48,0.0,within,OK
+250,369,Blok D (SDI-D10-010),Rumah Tinggal,1,4.0,4.0,113.1,0.12,optimal_nearest,OK
+251,233,Blok D (SDI-D11-011),Rumah Tinggal,1,4.0,4.0,101.82,1.13,optimal_nearest,OK
+252,232,Blok D (SDI-D12-012),Rumah Tinggal,1,4.0,4.0,275.07,0.0,within,OK
+253,230,Blok D (SDI-D13-013),Rumah Tinggal,1,4.0,4.0,205.6,18.81,optimal_nearest,PERLU_CEK
+254,228,Blok D (SDI-D14-014),Rumah Tinggal,1,4.0,4.0,92.72,7.46,optimal_nearest,OK
+255,226,Blok D (SDI-D15-015),Rumah Tinggal,1,4.0,4.0,247.47,0.0,within,OK
+256,229,Blok D (SDI-D16-016),Rumah Tinggal,1,4.0,4.0,98.99,1.82,optimal_nearest,OK
+257,227,Blok D (SDI-D17-017),Rumah Tinggal,1,4.0,4.0,128.93,4.11,optimal_nearest,OK
+258,224,Blok D (SDI-D18-018),Rumah Tinggal,1,4.0,4.0,156.18,0.83,optimal_nearest,OK
+259,223,Blok D (SDI-D19-019),Rumah Tinggal,1,4.0,4.0,31.84,3.25,optimal_nearest,OK
+260,225,Blok D (SDI-D20-020),Rumah Tinggal,1,4.0,4.0,342.65,0.72,optimal_nearest,OK
+261,221,Blok D (SDI-D22-022),Rumah Tinggal,1,4.0,4.0,198.95,0.0,within,OK
+262,220,Blok D (SDI-D23-023),Rumah Tinggal,1,4.0,4.0,106.96,2.9,optimal_nearest,OK
+263,219,Blok D (SDI-D24-024),Rumah Tinggal,1,4.0,4.0,89.7,0.0,within,OK
+264,217,Blok D (SDI-D25-025),Rumah Tinggal,1,4.0,4.0,131.15,9.63,optimal_nearest,OK
+265,218,Blok D (SDI-D26-026),Rumah Tinggal,1,4.0,4.0,117.91,0.0,within,OK
+266,215,Blok D (SDI-D27-027),Rumah Tinggal,1,4.0,4.0,171.08,0.0,within,OK
+267,214,Blok D (SDI-D28-028),Rumah Tinggal,1,4.0,4.0,178.22,17.0,optimal_nearest,PERLU_CEK
+268,213,Blok D (SDI-D29-029),Rumah Tinggal,1,4.0,4.0,168.79,4.61,optimal_nearest,OK
+269,216,Blok D (SDI-D30-030),Rumah Tinggal,1,4.0,4.0,114.31,0.0,within,OK
+270,211,Blok D (SDI-D31-031),Rumah Tinggal,1,4.0,4.0,96.7,0.0,within,OK
+271,212,Blok D (SDI-D32-032),Rumah Tinggal,1,4.0,4.0,105.09,0.0,within,OK
+272,210,Blok D (SDI-D33-033),Rumah Tinggal,1,4.0,4.0,95.94,2.03,optimal_nearest,OK
+273,204,Blok D (SDI-D35-035),Rumah Tinggal,1,4.0,4.0,146.68,0.0,within,OK
+274,205,Blok D (SDI-D36-036),Rumah Tinggal,1,4.0,4.0,252.55,0.0,within,OK
+275,352,SDI-D50-050,Rumah Tinggal,1,4.0,4.0,201.99,9.83,optimal_nearest,OK
+276,354,SDI-D52-052,Rumah Tinggal,1,4.0,4.0,121.82,9.22,optimal_nearest,OK
+277,368,SDI-D53-053,Rumah Tinggal,1,4.0,4.0,198.36,2.68,optimal_nearest,OK
+278,203,Blok D (SDI-D37-037),Rumah Tinggal,1,4.0,4.0,146.4,0.0,within,OK
+279,346,SDI-D54-054,Rumah Tinggal,1,4.0,4.0,126.59,4.5,optimal_nearest,OK
+280,202,Blok D (SDI-D38-038),Rumah Tinggal,1,4.0,4.0,179.54,0.0,within,OK
+281,200,Blok D (SDI-D39-039),Rumah Tinggal,1,4.0,4.0,106.61,0.0,within,OK
+282,429,SDI-D55-055,Rumah Tinggal,1,4.0,4.0,105.14,3.56,optimal_nearest,OK
+283,194,Blok D (SDI-D40-040),Rumah Tinggal,1,4.0,4.0,154.93,12.19,optimal_nearest,OK
+284,195,Blok D (SDI-D41-041),Rumah Tinggal,1,4.0,4.0,133.37,0.0,within,OK
+285,198,Blok D (SDI-D42-042),Rumah Tinggal,1,4.0,4.0,68.28,0.0,within,OK
+286,206,Blok D (SDI-D43-043),Rumah Tinggal,1,4.0,4.0,103.66,11.61,optimal_nearest,OK
+287,381,Blok D (SDI-D44-044),Rumah Tinggal,1,4.0,4.0,196.16,0.74,optimal_nearest,OK
+288,391,Blok D (SDI-D45-045),Rumah Tinggal,2,4.0,8.0,53.75,0.0,within,OK
+289,398,Blok D (SDI-D46-046),Rumah Tinggal,1,4.0,4.0,164.19,3.23,optimal_nearest,OK
+290,409,Blok D (SDI-D47-047),Rumah Tinggal,1,4.0,4.0,226.44,0.0,within,OK
+291,399,Blok D (SDI-D48-048),Rumah Tinggal,1,4.0,4.0,206.71,0.0,within,OK
+292,273,SDI-D01-056,Rumah Tinggal,2,4.0,8.0,38.95,6.9,optimal_nearest,OK
+293,267,SDI-D57-057,Rumah Tinggal,1,4.0,4.0,127.77,2.59,optimal_nearest,OK
+294,341,SDI-D59-059,Rumah Tinggal,1,4.0,4.0,180.52,1.66,optimal_nearest,OK
+295,364,SDI-D60-060,Rumah Tinggal,1,4.0,4.0,199.33,6.06,optimal_nearest,OK
+296,347,SDI-D61-061,Rumah Tinggal,1,4.0,4.0,35.45,13.56,optimal_nearest,OK
+297,361,SDI-D62-062,Rumah Tinggal,1,4.0,4.0,71.42,5.36,optimal_nearest,OK
+298,348,SDI-D63-063,Rumah Tinggal,1,4.0,4.0,215.38,7.15,optimal_nearest,OK
+299,362,SDI-D64-064,Rumah Tinggal,1,4.0,4.0,156.8,0.0,within,OK
+300,351,SDI-D65-065,Rumah Tinggal,1,4.0,4.0,161.64,0.0,within,OK
+301,363,SDI-D66-066,Rumah Tinggal,1,4.0,4.0,102.09,7.94,optimal_nearest,OK
+302,270,BLOK D (SDI-D67-067),Rumah Tinggal,1,4.0,4.0,86.45,1.16,optimal_nearest,OK
+303,265,BLOK D (SDI-D69-069),Rumah Tinggal,1,4.0,4.0,165.86,4.08,optimal_nearest,OK
+304,288,BLOK D (SDI-D70-070),Rumah Tinggal,1,4.0,4.0,88.51,8.3,optimal_nearest,OK
+305,289,BLOK D (SDI-D71-071),Rumah Tinggal,1,4.0,4.0,137.68,5.58,optimal_nearest,OK
+306,262,BLOK D (SDI-D72-072),Rumah Tinggal,1,4.0,4.0,38.97,1.46,optimal_nearest,OK
+307,261,BLOK D (SDI-D73-073),Rumah Tinggal,1,4.0,4.0,180.75,7.17,optimal_nearest,OK
+308,338,BLOK D (SDI-D74-074),Rumah Tinggal,1,4.0,4.0,108.88,4.9,optimal_nearest,OK
+309,337,BLOK D (SDI-D75-075),Rumah Tinggal,1,4.0,4.0,183.35,8.47,optimal_nearest,OK
+310,295,Blok D (SDI-D78-078),Rumah Tinggal,1,4.0,4.0,40.11,2.01,optimal_nearest,OK
+311,296,Blok D (SDI-D79-079),Rumah Tinggal,1,4.0,4.0,127.49,3.47,optimal_nearest,OK
+312,349,Blok D (SDI-D80-080),Rumah Tinggal,1,4.0,4.0,96.12,2.19,optimal_nearest,OK
+313,297,Blok D (SDI-D81-081),Rumah Tinggal,1,4.0,4.0,145.98,13.81,optimal_nearest,OK
+314,287,Blok D (SDI-D82-082),Rumah Tinggal,1,4.0,4.0,122.28,2.06,optimal_nearest,OK
+315,258,Blok D (SDI-D83-083),Rumah Tinggal,1,4.0,4.0,18.87,3.88,optimal_nearest,OK
+316,260,Blok D (SDI-D84-084),Rumah Tinggal,1,4.0,4.0,141.98,12.76,optimal_nearest,OK
+317,286,Blok D (SDI-D86-086),Rumah Tinggal,1,4.0,4.0,111.4,7.1,optimal_nearest,OK
+318,256,Blok D (SDI-D88-088),Rumah Tinggal,1,4.0,4.0,173.38,10.03,optimal_nearest,OK
+319,285,Blok D (SDI-D89-089),Rumah Tinggal,1,4.0,4.0,132.78,4.07,optimal_nearest,OK
+320,255,Blok D (SDI-D90-090),Rumah Tinggal,1,4.0,4.0,71.75,3.56,optimal_nearest,OK
+321,253,Blok D (SDI-D91-091),Rumah Tinggal,1,4.0,4.0,154.17,13.16,optimal_nearest,OK
+322,252,Blok D (SDI-D92-092),Rumah Tinggal,1,4.0,4.0,59.62,11.49,optimal_nearest,OK
+323,251,Blok D (SDI-D93-093),Rumah Tinggal,1,4.0,4.0,103.61,6.09,optimal_nearest,OK
+324,247,Blok D (SDI-D94-094),Rumah Tinggal,1,4.0,4.0,149.32,7.63,optimal_nearest,OK
+325,278,Blok D (SDI-D95-095),Rumah Tinggal,1,4.0,4.0,104.75,5.93,optimal_nearest,OK
+326,280,Blok D (SDI-D96-096),Rumah Tinggal,1,4.0,4.0,76.0,3.29,optimal_nearest,OK
+327,276,Blok D (SDI-D97-097),Rumah Tinggal,1,4.0,4.0,139.96,6.88,optimal_nearest,OK
+328,245,Blok D (SDI-D98-098),Rumah Tinggal,1,4.0,4.0,113.41,10.25,optimal_nearest,OK
+329,277,Blok D (SDI-D99-099),Rumah Tinggal,1,4.0,4.0,164.52,6.7,optimal_nearest,OK
+330,190,Blok D (SDI-D100-100),Rumah Tinggal,2,4.0,8.0,130.49,13.21,optimal_nearest,OK
+331,242,Blok D (SDI-D101-101),Rumah Tinggal,1,4.0,4.0,36.8,0.0,within,OK
+332,241,Blok D (SDI-D102-102),Rumah Tinggal,1,4.0,4.0,218.79,10.27,optimal_nearest,OK
+333,188,Blok D (SDI-D103-103),Rumah Tinggal,1,4.0,4.0,128.45,3.24,optimal_nearest,OK
+334,189,Blok D (SDI-D105-105),Rumah Tinggal,1,4.0,4.0,411.96,3.97,optimal_nearest,OK
+335,1185,SDI-A68-068,Rumah Tinggal,1,4.0,4.0,133.74,0.0,within,OK
+336,1226,SDI-A69-069,Rumah Tinggal,1,4.0,4.0,189.27,0.0,within,OK
+337,1187,SDI-A70-070,Rumah Tinggal,1,4.0,4.0,90.26,0.0,within,OK
+338,1236,SDI-A71-071,Rumah Tinggal,1,4.0,4.0,77.01,0.0,within,OK
+339,1235,SDI-A72-072,Rumah Tinggal,1,4.0,4.0,136.15,0.0,within,OK
+340,1239,SDI-A75-075,Rumah Tinggal,1,4.0,4.0,94.36,0.8,optimal_nearest,OK
+341,1061,SDI-A76-076,Rumah Tinggal,1,4.0,4.0,210.02,0.0,within,OK
+342,1234,SDI-A77-077,Rumah Tinggal,1,4.0,4.0,130.72,0.0,within,OK
+343,1232,SDI-A78-078,Rumah Tinggal,1,4.0,4.0,66.61,0.0,within,OK
+344,1067,SDI-A79-079,Rumah Tinggal,1,4.0,4.0,59.25,0.53,optimal_nearest,OK
+345,1068,SDI-A81-081,Rumah Tinggal,1,4.0,4.0,27.53,6.36,optimal_nearest,OK
+346,1177,SDI-A86-086,Rumah Tinggal,1,4.0,4.0,16.81,2.52,optimal_nearest,OK
+347,1176,SDI-A87-087,Rumah Tinggal,1,4.0,4.0,132.89,12.95,optimal_nearest,OK
+348,1135,SDI-A88-088,Rumah Tinggal,1,4.0,4.0,226.05,0.0,within,OK
+349,1110,SDI-A90-090,Rumah Tinggal,1,4.0,4.0,98.83,3.77,optimal_nearest,OK
+350,1107,SDI-A91-091,Rumah Tinggal,1,4.0,4.0,112.47,0.0,within,OK
+351,1101,SDI-A92-092,Rumah Tinggal,1,4.0,4.0,59.48,0.0,within,OK
+352,1092,SDI-A93-093,Rumah Tinggal,1,4.0,4.0,17.68,0.0,within,OK
+353,1106,SDI-A94-094,Rumah Tinggal,1,4.0,4.0,76.32,0.47,optimal_nearest,OK
+354,1229,SDI-A96-096,Rumah Tinggal,1,4.0,4.0,127.66,0.0,within,OK
+355,184,BLOK D (SDI-D106-106),Rumah Tinggal,1,4.0,4.0,170.14,12.21,optimal_nearest,OK
+356,185,Blok D (SDI-D107-107),Rumah Tinggal,1,4.0,4.0,139.12,1.47,optimal_nearest,OK
+357,186,Blok D (SDI-D108-108),Rumah Tinggal,1,4.0,4.0,190.14,5.69,optimal_nearest,OK
+358,176,Blok D (SDI-D109-109),Rumah Tinggal,1,4.0,4.0,98.15,2.72,optimal_nearest,OK
+359,182,Blok D (SDI-D111-111),Rumah Tinggal,1,4.0,4.0,125.93,12.7,optimal_nearest,OK
+360,183,Blok D (SDI-D112-112),Rumah Tinggal,1,4.0,4.0,153.27,12.92,optimal_nearest,OK
+361,174,Blok D (SDI-D113-113),Rumah Tinggal,1,4.0,4.0,260.05,7.7,optimal_nearest,OK
+362,173,Blok D (SDI-D114-114),Rumah Tinggal,1,4.0,4.0,263.69,4.22,optimal_nearest,OK
+363,175,Blok D (SDI-D115-115),Rumah Tinggal,1,4.0,4.0,44.92,44.9,optimal_nearest,PERLU_CEK
+364,162,Blok D (SDI-D117-117),Rumah Tinggal,1,4.0,4.0,105.85,45.62,optimal_nearest,PERLU_CEK
+365,170,Blok D (SDI-D118-118),Rumah Tinggal,1,4.0,4.0,124.46,0.42,optimal_nearest,OK
+366,169,Blok D (SDI-D119-119),Rumah Tinggal,1,4.0,4.0,180.02,0.0,within,OK
+367,168,Blok D (SDI-D120-120),Rumah Tinggal,1,4.0,4.0,116.46,16.11,optimal_nearest,PERLU_CEK
+368,178,Blok D (SDI-D121-121),Rumah Tinggal,1,4.0,4.0,162.7,13.87,optimal_nearest,OK
+369,181,Blok D (SDI-D122-122),Rumah Tinggal,1,4.0,4.0,57.5,5.13,optimal_nearest,OK
+370,179,Blok D (SDI-D123-123),Rumah Tinggal,1,4.0,4.0,47.82,2.61,optimal_nearest,OK
+371,164,Blok D (SDI-D124-124),Rumah Tinggal,1,4.0,4.0,180.84,13.33,optimal_nearest,OK
+372,165,Blok D (SDI-D125-125),Rumah Tinggal,1,4.0,4.0,69.21,15.57,optimal_nearest,PERLU_CEK
+373,158,Blok D (SDI-D126-126),Rumah Tinggal,1,4.0,4.0,156.94,10.22,optimal_nearest,OK
+374,997,Blok C (SDI-C118-118),Rumah Tinggal,1,4.0,4.0,118.68,0.0,within,OK
+375,159,Blok D (SDI-D127-127),Rumah Tinggal,1,4.0,4.0,237.07,23.21,optimal_nearest,PERLU_CEK
+376,870,Blok C (SDI-C119-119),Rumah Tinggal,1,4.0,4.0,347.39,0.0,within,OK
+377,167,Blok D (SDI-D128-128),Rumah Tinggal,1,4.0,4.0,134.76,2.62,optimal_nearest,OK
+378,180,Blok D (SDI-D129-129),Rumah Tinggal,1,4.0,4.0,45.17,0.0,within,OK
+379,979,Blok C (SDI-C120-120),Rumah Tinggal,1,4.0,4.0,139.16,0.0,within,OK
+380,161,Blok D (SDI-D130-130),Rumah Tinggal,1,4.0,4.0,114.13,15.57,optimal_nearest,PERLU_CEK
+381,980,Blok C (SDI-C121-121),Rumah Tinggal,1,4.0,4.0,61.28,5.71,optimal_nearest,OK
+382,156,Blok D (SDI-D131-131),Rumah Tinggal,1,4.0,4.0,90.39,3.24,optimal_nearest,OK
+383,981,Blok C (SDI-C122-122),Rumah Tinggal,1,4.0,4.0,427.28,0.0,within,OK
+384,163,Blok D (SDI-D132-132),Rumah Tinggal,1,4.0,4.0,307.06,7.18,optimal_nearest,OK
+385,982,Blok C (SDI-C123-123),Rumah Tinggal,1,4.0,4.0,217.59,0.0,within,OK
+386,1038,Blok C (SDI-C124-124),Rumah Tinggal,1,4.0,4.0,48.33,3.8,optimal_nearest,OK
+387,154,Blok D (SDI-D134-134),Rumah Tinggal,1,4.0,4.0,213.16,0.0,within,OK
+388,992,Blok C (SDI-C125-125),Rumah Tinggal,1,4.0,4.0,552.21,0.0,within,OK
+389,157,Blok D (SDI-D135-135),Rumah Tinggal,1,4.0,4.0,86.09,9.47,optimal_nearest,OK
+390,160,Blok D (SDI-D136-136),Rumah Tinggal,1,4.0,4.0,124.77,7.05,optimal_nearest,OK
+391,983,Blok C (SDI-C126-126),Rumah Tinggal,1,4.0,4.0,119.47,2.39,optimal_nearest,OK
+392,155,Blok D (SDI-D137-137),Rumah Tinggal,1,4.0,4.0,166.09,3.73,optimal_nearest,OK
+393,300,Blok D (SDI-D139-139),Rumah Tinggal,1,4.0,4.0,30.77,13.8,optimal_nearest,OK
+394,1026,Blok C (SDI-C128-128),Rumah Tinggal,1,4.0,4.0,263.97,0.0,within,OK
+395,371,Blok D (SDI-D140-140),Rumah Tinggal,1,4.0,4.0,116.22,49.8,optimal_nearest,PERLU_CEK
+396,1027,Blok C (SDI-C129-129),Rumah Tinggal,1,4.0,4.0,183.36,0.0,within,OK
+397,153,Blok D (SDI-D141-141),Rumah Tinggal,2,4.0,8.0,256.89,0.78,optimal_nearest,OK
+398,1030,Blok C (SDI-C130-130),Rumah Tinggal,1,4.0,4.0,244.73,0.0,within,OK
+399,1031,Blok C (SDI-C131-131),Rumah Tinggal,1,4.0,4.0,93.75,1.36,optimal_nearest,OK
+400,1023,Blok C (SDI-C133-133),Rumah Tinggal,1,4.0,4.0,87.42,1.59,optimal_nearest,OK
+401,1039,Blok B (SDI-B96-096),Rumah Tinggal,1,4.0,4.0,160.44,0.53,optimal_nearest,OK
+402,681,Blok B (SDI-B97-097),Rumah Tinggal,1,4.0,4.0,220.41,0.0,within,OK
+403,955,Blok B (SDI-B98-098),Rumah Tinggal,1,4.0,4.0,180.62,0.0,within,OK
+404,957,Blok B (SDI-B99-099),Rumah Tinggal,2,4.0,8.0,228.02,0.0,within,OK
+405,958,Blok B (SDI-B100-100),Rumah Tinggal,1,4.0,4.0,153.93,0.0,within,OK
+406,937,Blok B (SDI-B101-101),Rumah Tinggal,1,4.0,4.0,250.58,0.0,within,OK
+407,969,Blok B (SDI-B102-102),Rumah Tinggal,1,4.0,4.0,158.71,0.0,within,OK
+408,936,Blok B (SDI-C103-103),Rumah Tinggal,1,4.0,4.0,157.2,0.0,within,OK
+409,968,Blok B (SDI-B104-104),Rumah Tinggal,1,4.0,4.0,145.84,0.0,within,OK
+410,985,Blok B (SDI-B105-105),Rumah Tinggal,1,4.0,4.0,320.45,0.0,within,OK
+411,971,Blok B (SDI-B106-106),Rumah Tinggal,1,4.0,4.0,170.02,4.56,optimal_nearest,OK
+412,931,Blok B (SDI-B107-107),Rumah Tinggal,1,4.0,4.0,104.72,1.72,optimal_nearest,OK
+413,965,Blok B (SDI-B109-109),Rumah Tinggal,1,4.0,4.0,154.56,4.61,optimal_nearest,OK
+414,930,Blok B (SDI-B110-110),Rumah Tinggal,1,4.0,4.0,173.35,0.0,within,OK
+415,932,Blok B (SDI-B111-111),Rumah Tinggal,1,4.0,4.0,169.13,0.0,within,OK
+416,967,Blok B (SDI-B112-112),Rumah Tinggal,1,4.0,4.0,121.23,3.56,optimal_nearest,OK
+417,964,Blok B (SDI-B113-113),Rumah Tinggal,1,4.0,4.0,73.77,0.0,within,OK
+418,962,Blok B (SDI-B114-114),Rumah Tinggal,1,4.0,4.0,345.3,0.0,within,OK
+419,677,Blok B (SDI-B115-115),Rumah Tinggal,1,4.0,4.0,185.94,6.22,optimal_nearest,OK
+420,498,Blok B (SDI-B116-116),Rumah Tinggal,1,4.0,4.0,77.81,0.0,within,OK
+421,18,Blok B (SDI-B117-117),Rumah Tinggal,1,4.0,4.0,58.03,0.0,within,OK
+422,1203,Blok B (SDI-B118-118),Rumah Tinggal,1,4.0,4.0,59.64,5.4,optimal_nearest,OK
+423,1211,Blok B (SDI-B119-119),Rumah Tinggal,1,4.0,4.0,133.58,0.0,within,OK
+424,1210,Blok B (SDI-B120-120),Rumah Tinggal,1,4.0,4.0,120.78,0.4,optimal_nearest,OK
+425,1047,Blok B (SDI-B121-121),Rumah Tinggal,1,4.0,4.0,187.07,0.0,within,OK
+426,1217,Blok B (SDI-B123-123),Rumah Tinggal,1,4.0,4.0,17.33,12.83,optimal_nearest,OK
+427,1213,Blok B (SDI-B124-124),Rumah Tinggal,1,4.0,4.0,195.63,0.0,within,OK
+428,1214,Blok B (SDI-B125-125),Rumah Tinggal,1,4.0,4.0,91.57,0.0,within,OK
+429,1216,Blok B (SDI-B126-126),Rumah Tinggal,1,4.0,4.0,95.59,0.45,optimal_nearest,OK
+430,1,Blok B (SDI-B127-127),Rumah Tinggal,1,4.0,4.0,110.57,0.0,within,OK
+431,8,Blok B (SDI-B128-128),Rumah Tinggal,1,4.0,4.0,195.22,0.53,optimal_nearest,OK
+432,3,Blok B (SDI-B129-129),Rumah Tinggal,1,4.0,4.0,142.81,0.0,within,OK
+433,1206,Blok B (SDI-B130-130),Rumah Tinggal,1,4.0,4.0,304.38,0.0,within,OK
+434,1201,Blok B (SDI-B131-131),Rumah Tinggal,1,4.0,4.0,114.94,0.0,within,OK
+435,1200,Blok B (SDI-B132-132),Rumah Tinggal,1,4.0,4.0,192.54,0.96,optimal_nearest,OK
+436,1197,Blok B (SDI-B133-133),Rumah Tinggal,1,4.0,4.0,268.32,0.0,within,OK
+437,1195,Blok B (SDI-B133-133),Rumah Tinggal,1,4.0,4.0,153.72,0.0,within,OK
+438,1193,Blok B (SDI-B134-134),Rumah Tinggal,1,4.0,4.0,201.16,0.0,within,OK
+439,1189,Blok B (SDI-B135-135),Rumah Tinggal,1,4.0,4.0,185.89,0.0,within,OK
+440,1194,Blok B (SDI-B136-136),Rumah Tinggal,1,4.0,4.0,16.2,0.64,optimal_nearest,OK
+441,1191,Blok B (SDI-B137-137),Rumah Tinggal,1,4.0,4.0,308.57,0.0,within,OK
+442,1046,Blok B (SDI-B138-138),Rumah Tinggal,1,4.0,4.0,2327.41,0.0,within,OK
+443,1057,Blok B (SDI-B139-139),Rumah Tinggal,1,4.0,4.0,137.32,5.41,optimal_nearest,OK
+444,1190,Blok B (SDI-B139-139),Rumah Tinggal,1,4.0,4.0,191.41,0.0,within,OK
+445,1199,Blok B (SDI-B140-140),Rumah Tinggal,1,4.0,4.0,115.68,1.57,optimal_nearest,OK
+446,1058,Blok B (SDI-B141-141),Rumah Tinggal,1,4.0,4.0,116.32,0.0,within,OK
+447,643,Blok B (SDI-B142-142),Rumah Tinggal,1,4.0,4.0,121.19,0.0,within,OK
+448,920,Blok B (SDI-B143-143),Rumah Tinggal,1,4.0,4.0,139.12,0.0,within,OK
+449,926,Blok B (SDI-B144-144),Rumah Tinggal,1,4.0,4.0,119.83,0.0,within,OK
+450,921,Blok B (SDI-B145-145),Rumah Tinggal,1,4.0,4.0,173.87,0.0,within,OK
+451,918,Blok B (SDI-B146-146),Rumah Tinggal,1,4.0,4.0,150.48,0.0,within,OK
+452,916,Blok B (SDI-147-147),Rumah Tinggal,1,4.0,4.0,112.16,0.0,within,OK
+453,917,Blok B(SDI-B148-148),Rumah Tinggal,1,4.0,4.0,89.04,0.0,within,OK
+454,915,Blok B (SDI-B149-149),Rumah Tinggal,1,4.0,4.0,143.77,0.0,within,OK
+455,904,Blok B (SDI-B150-150),Rumah Tinggal,1,4.0,4.0,160.58,0.0,within,OK
+456,903,Blok B (SDI-B151-151),Rumah Tinggal,1,4.0,4.0,111.76,0.0,within,OK
+457,902,Blok B (SDI-B152-152),Rumah Tinggal,1,4.0,4.0,203.66,0.0,within,OK
+458,890,Blok B (SDI-B153-153),Rumah Tinggal,1,4.0,4.0,153.0,0.0,within,OK
+459,910,Blok B (SDI-B155-155),Rumah Tinggal,1,4.0,4.0,133.18,3.26,optimal_nearest,OK
+460,905,Blok B (SDI-B156-156),Rumah Tinggal,1,4.0,4.0,125.51,0.0,within,OK
+461,900,Blok B (SDI-B157-157),Rumah Tinggal,1,4.0,4.0,137.4,0.0,within,OK
+462,899,Blok B (SDI-B158-158),Rumah Tinggal,1,4.0,4.0,111.8,0.0,within,OK
+463,912,Blok B (SDI-B159-159),Rumah Tinggal,1,4.0,4.0,143.06,0.76,optimal_nearest,OK
+464,914,Blok B (SDI-B160-160),Rumah Tinggal,1,4.0,4.0,409.6,0.0,within,OK
+465,891,Blok B (SDI-B161-161),Rumah Tinggal,1,4.0,4.0,211.13,0.0,within,OK
+466,892,Blok B (SDI-B162-162),Rumah Tinggal,1,4.0,4.0,165.32,8.09,optimal_nearest,OK
+467,894,Blok B (SDI-B163-163),Rumah Tinggal,1,4.0,4.0,167.93,0.0,within,OK
+468,895,Blok B (SDI-B164-164),Rumah Tinggal,1,4.0,4.0,111.32,0.04,optimal_nearest,OK
+469,898,Blok B (SDI-B165-165),Rumah Tinggal,1,4.0,4.0,146.79,4.18,optimal_nearest,OK
+470,897,Blok B (SDI-B166-166),Rumah Tinggal,1,4.0,4.0,132.41,0.0,within,OK
+471,913,Blok B (SDI-B167-167),Rumah Tinggal,1,4.0,4.0,202.65,0.0,within,OK
+472,909,Blok B (SDI-B168-168),Rumah Tinggal,1,4.0,4.0,152.4,0.0,within,OK
+473,908,Blok B (SDI-B169-169),Rumah Tinggal,1,4.0,4.0,111.9,0.0,within,OK
+474,1079,Blok B (SDI-B170-170),Rumah Tinggal,1,4.0,4.0,141.4,0.0,within,OK
+475,1077,Blok B (SDI-B171-171),Rumah Tinggal,1,4.0,4.0,89.89,4.12,optimal_nearest,OK
+476,1045,Blok B (SDI-B172-172),Rumah Tinggal,1,4.0,4.0,113.82,0.0,within,OK
+477,853,Blok C (SDI-C134-134),Rumah Tinggal,1,4.0,4.0,213.54,3.25,optimal_nearest,OK
+478,852,Blok C (SDI-C135-135),Rumah Tinggal,1,4.0,4.0,30.36,25.94,optimal_nearest,PERLU_CEK
+479,807,Blok C(SDI-C136-136),Rumah Tinggal,1,4.0,4.0,210.5,3.56,optimal_nearest,OK
+480,812,Blok C (SDI-B137-137),Rumah Tinggal,1,4.0,4.0,128.86,27.48,optimal_nearest,PERLU_CEK
+481,835,Blok C (SDI-C138-138),Rumah Tinggal,1,4.0,4.0,205.67,4.89,optimal_nearest,OK
+482,837,Blok C (SDI-C139-139),Rumah Tinggal,1,4.0,4.0,129.17,23.93,optimal_nearest,PERLU_CEK
+483,809,Blok C (SDI-C140-140),Rumah Tinggal,1,4.0,4.0,126.33,30.83,optimal_nearest,PERLU_CEK
+484,806,Blok C (SDI-C141-141),Rumah Tinggal,1,4.0,4.0,257.56,13.57,optimal_nearest,OK
+485,805,Blok C (SDI-C142-142),Rumah Tinggal,1,4.0,4.0,232.39,0.48,optimal_nearest,OK
+486,804,Blok C (SDI-C143-143),Rumah Tinggal,1,4.0,4.0,42.11,26.77,optimal_nearest,PERLU_CEK
+487,801,Blok C (SDI-C144-144),Rumah Tinggal,1,4.0,4.0,139.4,10.07,optimal_nearest,OK
+488,828,Blok C (SDI-C145-145),Rumah Tinggal,1,4.0,4.0,91.95,2.96,optimal_nearest,OK
+489,802,Blok C(SDI-C146-146),Rumah Tinggal,1,4.0,4.0,159.9,4.71,optimal_nearest,OK
+490,728,Blok C (SDI-C147-147),Rumah Tinggal,1,4.0,4.0,128.04,5.97,optimal_nearest,OK
+491,705,Blok C (SDI-C148-148),Rumah Tinggal,1,4.0,4.0,196.39,6.81,optimal_nearest,OK
+492,1004,Blok B(SDI-B174-174),Rumah Tinggal,1,4.0,4.0,119.29,3.16,optimal_nearest,OK
+493,1003,Blok B (SDI-B175-175),Rumah Tinggal,2,4.0,8.0,150.46,1.56,optimal_nearest,OK
+494,1002,Blok B (SDI-B176-176),Rumah Tinggal,1,4.0,4.0,52.56,3.28,optimal_nearest,OK
+495,796,Blol B (SDI-B177-177),Rumah Tinggal,1,4.0,4.0,15.46,4.74,optimal_nearest,OK
+496,698,Blok B (SDI-B178-178),Rumah Tinggal,1,4.0,4.0,122.6,4.07,optimal_nearest,OK
+497,874,Blok B (SDI-B179-179),Rumah Tinggal,1,4.0,4.0,121.81,2.82,optimal_nearest,OK
+498,995,Blok B (SDI-B180-180),Rumah Tinggal,1,4.0,4.0,108.32,0.76,optimal_nearest,OK
+499,999,Blok B (SDI-B181-181),Rumah Tinggal,1,4.0,4.0,13.32,9.32,optimal_nearest,OK
+500,996,Blok B (SDI-B182-182),Rumah Tinggal,1,4.0,4.0,232.88,3.91,optimal_nearest,OK
+501,994,Blok B (SDI-B183-183),Rumah Tinggal,1,4.0,4.0,165.25,9.34,optimal_nearest,OK
+502,878,Blok B-(SDI-B184-184),Rumah Tinggal,1,4.0,4.0,19.93,3.27,optimal_nearest,OK
+503,877,Blok B (SDI-B186-186),Rumah Tinggal,1,4.0,4.0,62.0,0.0,within,OK
+504,757,SDI-C06-006,Rumah Tinggal dan Warung,2,4.0,8.0,120.09,2.6,optimal_nearest,OK
+505,793,SDI-C33-033,Rumah Tinggal dan Warung,1,4.0,4.0,157.83,0.0,within,OK
+506,1220,SDI-B42-042,Rumah Tinggal dan Warung,2,4.0,8.0,127.59,0.0,within,OK
+507,791,SDI-C102-102,Rumah Tinggal dan Warung,1,4.0,4.0,76.24,17.34,optimal_nearest,PERLU_CEK
+508,777,SDI-C103-103,Rumah Tinggal dan Warung,1,4.0,4.0,120.12,23.92,optimal_nearest,PERLU_CEK
+509,766,SDI-C115-115,Rumah Tinggal dan Warung,1,4.0,4.0,203.57,0.0,within,OK
+510,1094,SDI-A40-040,Rumah tinggal dan Warung,1,4.0,4.0,221.14,0.0,within,OK
+511,257,Blok D (SDI-D85-085),rumah tinggal dan warung,1,4.0,4.0,121.02,10.52,optimal_nearest,OK
+512,269,SDI-D10-010,Komersial,1,4.0,4.0,77.07,3.89,optimal_nearest,OK
+513,191,Blok D (SDI-D104-104),Komersial,1,4.0,4.0,82.21,12.01,optimal_nearest,OK
+514,562,SDI-B38-038,Penginapan,1,4.0,4.0,144.87,0.27,optimal_nearest,OK
+515,1252,SDI-A07-007,Toko/Warung,1,4.0,4.0,19.8,3.53,optimal_nearest,OK
+516,715,SDI-C25-025,Toko/Warung,1,4.0,4.0,71.06,6.63,optimal_nearest,OK
+517,1223,SDI-B01-001,Toko/Warung,1,4.0,4.0,167.39,0.0,within,OK
+518,545,SD1-B03-003,Toko/Warung,1,4.0,4.0,51.05,4.44,optimal_nearest,OK
+519,384,SDI-D04-004,Toko/Warung,2,4.0,8.0,198.66,14.63,optimal_nearest,OK
+520,374,SDI-D05-005,Toko/Warung,1,4.0,4.0,260.63,0.42,optimal_nearest,OK
+521,523,SDI-B04–004,Toko/Warung,1,4.0,4.0,31.34,5.28,optimal_nearest,OK
+522,404,SDI-D06-006,Toko/Warung,1,4.0,4.0,71.06,38.69,optimal_nearest,PERLU_CEK
+523,689,SDI-B07-007,Toko/Warung,1,4.0,4.0,204.32,0.0,within,OK
+524,309,SDI-D11-011,Toko/Warung,1,4.0,4.0,180.99,0.0,within,OK
+525,345,SDI-D12-012,Toko/Warung,1,4.0,4.0,2.91,1.98,optimal_nearest,OK
+526,554,SDI-B37-037,Toko/Warung,1,4.0,4.0,50.16,0.33,optimal_nearest,OK
+527,2,SDI-B44-044,Toko/Warung,1,4.0,4.0,117.04,0.0,within,OK
+528,846,SDI-C38-038,Toko/Warung,1,4.0,4.0,56.1,0.19,optimal_nearest,OK
+529,820,SDI-C54-054,Toko/Warung,1,4.0,4.0,45.22,0.0,within,OK
+530,818,SDI-C55-055,Toko/Warung,1,4.0,4.0,23.43,0.0,within,OK
+531,787,Blok C (SDI-C82-082),Toko/Warung,1,4.0,4.0,113.94,41.3,optimal_nearest,PERLU_CEK
+532,790,Blok C (SDI-C88-088),Toko/Warung,1,4.0,4.0,188.89,27.18,optimal_nearest,PERLU_CEK
+533,303,SDI-D49-049,Toko/Warung,1,4.0,4.0,47.2,0.0,within,OK
+534,209,Blok D (SDI-D34-034),Toko/Warung,1,4.0,4.0,155.27,30.01,optimal_nearest,PERLU_CEK
+535,353,SDI-D51-051,Toko/Warung,1,4.0,4.0,97.62,2.44,optimal_nearest,OK
+536,294,Blok D (SDI-D76-076),Toko/Warung,1,4.0,4.0,124.31,4.85,optimal_nearest,OK
+537,340,SDI-D77-077,Toko/Warung,1,4.0,4.0,199.63,5.04,optimal_nearest,OK
+538,166,Blok D (SDI-D133-133),Toko/Warung,1,4.0,4.0,54.21,0.0,within,OK
+539,301,Blok D (SDI-D138-138),Toko/Warung,1,4.0,4.0,145.04,2.04,optimal_nearest,OK
+540,266,SDI-D58-058,TPQ,1,4.0,4.0,87.33,7.05,optimal_nearest,OK
+541,1138,SDI-A17-017,Tempat Ibadah,1,4.0,4.0,70.65,7.43,optimal_nearest,OK
+542,41,SDI-D01-001,Tempat Ibadah,1,4.0,4.0,67.41,14.46,optimal_nearest,OK
+543,171,SDI-D02-002,Tempat Ibadah,1,4.0,4.0,121.76,3.1,optimal_nearest,OK
+544,222,SDI-D03-003,Tempat Ibadah,1,4.0,4.0,103.84,4.66,optimal_nearest,OK
+545,641,SDI-B06-006,Tempat Ibadah,1,4.0,4.0,34.11,20.63,optimal_nearest,PERLU_CEK
+546,1098,SDI-A36-036,Tempat Ibadah,1,4.0,4.0,86.04,14.39,optimal_nearest,OK
+547,798,SDI-C61-061,Tempat Ibadah,1,4.0,4.0,168.78,10.14,optimal_nearest,OK
+548,231,Blok D (SDI-D21-021),Tempat Ibadah,1,4.0,4.0,127.08,39.24,optimal_nearest,PERLU_CEK
+549,172,Blok D (SDI-D116-116),Tempat Ibadah,1,4.0,4.0,94.48,7.52,optimal_nearest,OK
+550,1212,Blok B (SDI-B122-122),Tempat Ibadah,1,4.0,4.0,213.04,0.0,within,OK
+551,922,Blok B (SDI-B154-154),Tempat Ibadah,1,4.0,4.0,62.46,22.56,optimal_nearest,PERLU_CEK
+552,406,SDI-D07-007,Sekolah,1,4.0,4.0,215.7,9.37,optimal_nearest,OK
+553,268,SDI-D09-009,Sekolah,1,4.0,4.0,63.73,10.69,optimal_nearest,OK
+554,817,SDI-C60-060,Sekolah,1,4.0,4.0,123.24,36.42,optimal_nearest,PERLU_CEK
+555,272,BLOK D (SDI-D68-068),Sekolah,1,4.0,4.0,103.98,0.88,optimal_nearest,OK
+556,1221,SD1-B02-002,Fasilitas Kesehatan,1,4.0,4.0,61.48,3.81,optimal_nearest,OK
+557,502,SDI-B45-045,Fasilitas Kesehatan,1,4.0,4.0,273.8,2.48,optimal_nearest,OK
+558,259,Blok D (SDI-D87-087),Gedung Sekretariat / Bangunan Komunitas,2,4.0,8.0,92.67,15.69,optimal_nearest,PERLU_CEK
+559,254,SDI-D08-008,Kantor,2,4.0,8.0,141.88,7.67,optimal_nearest,OK
+560,788,Blok C (SDI-C87-087),Pelayanan Umum,1,4.0,4.0,401.99,4.09,optimal_nearest,OK
+561,1244,SDI-A02-002,Gudang,1,4.0,4.0,92.48,0.0,within,OK
+562,1181,SDI-A10-010,Gudang,2,4.0,8.0,31.16,0.0,within,OK
+563,1256,SDI-A22-022,Gudang,1,4.0,4.0,44.91,0.0,within,OK
+564,1130,SDI-A34-034,Gudang,1,4.0,4.0,35.02,6.08,optimal_nearest,OK
+565,741,SDI-C31-031,Gudang,1,4.0,4.0,216.24,0.0,within,OK
+566,1044,SDI-B05-005,Gudang,1,4.0,4.0,27.91,21.9,optimal_nearest,PERLU_CEK
+567,841,SDI-C43-043,Gudang,1,4.0,4.0,24.48,15.48,optimal_nearest,PERLU_CEK
+568,177,Blok D (SDI-D110-110),Gudang,2,4.0,8.0,357.13,24.01,optimal_nearest,PERLU_CEK
+569,977,Blok B (SDI-B95-095),Gudang,1,4.0,4.0,169.65,0.0,within,OK
+570,1095,SDI-A95-095,Kandang Ayam,1,4.0,4.0,68.7,5.7,optimal_nearest,OK
+571,1253,Blok A (SDI-A01-064),Kandang Kambing,1,4.0,4.0,29.24,1.7,optimal_nearest,OK
+572,1062,SDI-A73-073,Kandang Kambing,1,4.0,4.0,140.54,1.75,optimal_nearest,OK
+573,1231,SDI-A74-074,Kandang Kambing,1,4.0,4.0,30.79,0.0,within,OK
+574,1238,SDI-A80-080,Kandang Kambing,1,4.0,4.0,24.03,9.53,optimal_nearest,OK
+575,1103,SDI-A89-089,Kandang Kambing,1,4.0,4.0,220.96,0.0,within,OK
+576,1025,Blok C (SDI-C127-127),Kandang Kambing,1,4.0,4.0,321.7,32.02,optimal_nearest,PERLU_CEK
+577,1024,Blok C (SDI-C132-132),Kandang Kambing,1,4.0,4.0,246.39,4.57,optimal_nearest,OK
+578,711,SDI-C28-028,Kandang Ternak,1,4.0,4.0,26.2,2.01,optimal_nearest,OK
+579,1169,SDI-A38-038,Kandang ternak,1,4.0,4.0,27.02,0.0,within,OK
+580,789,Blok C (SDI-C77-077),Peternakan,1,4.0,4.0,88.22,18.56,optimal_nearest,PERLU_CEK
+581,975,Blok B (SDI-B108-108),Pabrik,1,4.0,4.0,457.06,0.0,within,OK
+582,1163,Blok A (SDI-A01-063),Tandon air beton,1,4.0,4.0,10.54,0.99,optimal_nearest,OK
+583,1080,Blok A (SDI-A01-067),Gazebo,1,4.0,4.0,69.34,14.81,optimal_nearest,OK
+584,1054,SDI-A83-083,Gazebo,1,4.0,4.0,16.24,17.73,optimal_nearest,PERLU_CEK
+585,1055,SDI-A84-084,Gazebo,1,4.0,4.0,28.8,0.0,within,OK
+586,822,SDI-C62-062,Parkiran motor,1,4.0,4.0,15.46,35.7,optimal_nearest,PERLU_CEK
+587,829,SDI-C51-051,Rumah Kosong Hancur,1,4.0,4.0,110.25,1.39,optimal_nearest,OK
+588,1069,SDI-A82-082,Gubuk,1,4.0,4.0,159.13,68.1,optimal_nearest,PERLU_CEK

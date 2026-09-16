@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<style type="text/css">
+    body {
+        font-family: sans-serif;
+    }
+
+    table {
+        margin: 20px auto;
+        border-collapse: collapse;
+    }
+
+    table th,
+    table td {
+        border: 1px solid #3c3c3c;
+        padding: 3px 8px;
+
+    }
+
+    a {
+        background: blue;
+        color: #fff;
+        padding: 8px 10px;
+        text-decoration: none;
+        border-radius: 2px;
+    }
+</style>
+
+
+<center>
+
+</center>
+
+<table border="1">
+    
+    <tr>
+        <th>Kelas</th>
+        <th>T0</th>
+        <th>Ts</th>
+        <th>Sds</th>
+        <th>Sd1</th>
+    </tr>
+    <tr>
+        <td>SB</td>
+        <td>0,13</td>
+        <td>0,67</td>
+        <td>0,03</td>
+        <td>0,02</td>
+    </tr>
+    <tr>
+        <td>SC</td>
+        <td>0,20</td>
+        <td>1,00</td>
+        <td>0,04</td>
+        <td>0,04</td>
+    </tr>
+    <tr>
+        <td>SD</td>
+        <td>0,28</td>
+        <td>1,40</td>
+        <td>0,05</td>
+        <td>0,07</td>
+    </tr>
+    <tr>
+        <td>SE</td>
+        <td>0,28</td>
+        <td>1,38</td>
+        <td>0,08</td>
+        <td>0,11</td>
+    </tr>
+
+    <tr>
+        <td colspan="3">Bujur</td>
+        <td colspan="2">105°14′40″ </td>
+    </tr>
+
+    <tr>
+        <td colspan="3">Lintang</td>
+        <td colspan="2">5°32′57″</td>
+    </tr>
+
+    <tr>
+        <td colspan="3">pga</td>
+        <td colspan="2">0,0220</td>
+    </tr>
+
+    <tr>
+        <td colspan="3">ss</td>
+        <td colspan="2">0,0480</td>
+    </tr>
+
+    <tr>
+        <td colspan="3">s1</td>
+        <td colspan="2">0,0410</td>
+    </tr>
+
+    <tr>
+        <td colspan="3">tl</td>
+        <td colspan="2">4</td>
+    </tr>
+
+</table>
+
+</body>
+</html>

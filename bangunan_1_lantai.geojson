@@ -1,0 +1,9125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 1,
+        "id_bangunan": "SDI-A85-085",
+        "fungsi_bangunan": "Pondok",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.223883,
+          -5.548431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 2,
+        "id_bangunan": "SDI-A01-001",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227502,
+          -5.545384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 4,
+        "id_bangunan": "SDI-A03-003",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227328,
+          -5.545261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 5,
+        "id_bangunan": "SDI-A04-004",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227668,
+          -5.544866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 6,
+        "id_bangunan": "SDI-C02-002",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235241,
+          -5.552325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 7,
+        "id_bangunan": "SDI-C03-003",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235181,
+          -5.55244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 8,
+        "id_bangunan": "SDI-C04-004",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235085,
+          -5.552495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 9,
+        "id_bangunan": "SDI-C05-005",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234778,
+          -5.552505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 10,
+        "id_bangunan": "SDI-C06-006",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234644,
+          -5.552422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 11,
+        "id_bangunan": "SDI-A05-005",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22742,
+          -5.544962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 12,
+        "id_bangunan": "SDI-C08-008",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233965,
+          -5.552464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 13,
+        "id_bangunan": "SDI-A06-006",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227342,
+          -5.544949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 14,
+        "id_bangunan": "SDI-C09-009",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233915,
+          -5.552436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 15,
+        "id_bangunan": "SDI-C10-010",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234007,
+          -5.552316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 16,
+        "id_bangunan": "SDI-C11-011",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233947,
+          -5.552238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 17,
+        "id_bangunan": "SDI-C12-012",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234039,
+          -5.552142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 18,
+        "id_bangunan": "SDI-C13-013",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234126,
+          -5.552146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 19,
+        "id_bangunan": "SDI-C14-014",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233805,
+          -5.55216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 20,
+        "id_bangunan": "SDI-C15-015",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23364,
+          -5.552289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 21,
+        "id_bangunan": "SDI-A08-008",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227278,
+          -5.544893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 22,
+        "id_bangunan": "SDI-A09-009",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224369,
+          -5.548256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 23,
+        "id_bangunan": "SDI-A11-011",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22652,
+          -5.544981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 25,
+        "id_bangunan": "SDI-A13-013",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225947,
+          -5.54471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 26,
+        "id_bangunan": "SDI-A14-014",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.226066,
+          -5.544438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 27,
+        "id_bangunan": "SDI-A15-015",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.226034,
+          -5.544323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 28,
+        "id_bangunan": "SDI-A16-016",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225832,
+          -5.544678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 29,
+        "id_bangunan": "SDI-A18-018",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225924,
+          -5.544328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 30,
+        "id_bangunan": "SDI-A19-019",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225777,
+          -5.54437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 31,
+        "id_bangunan": "SDI-A20-020",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225538,
+          -5.5446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 32,
+        "id_bangunan": "SDI-A21-021",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22541,
+          -5.544549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 33,
+        "id_bangunan": "SDI-A23-023",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225561,
+          -5.544227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 34,
+        "id_bangunan": "SDI-A24-024",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225469,
+          -5.544218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 35,
+        "id_bangunan": "SDI-A25-025",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225832,
+          -5.54414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 36,
+        "id_bangunan": "SDI-C16-016",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235186,
+          -5.552183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 37,
+        "id_bangunan": "SDI-C17-017",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235113,
+          -5.552094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 38,
+        "id_bangunan": "SDI-C18-018",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235302,
+          -5.551936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 39,
+        "id_bangunan": "SDI-C19-019",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235496,
+          -5.551662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 40,
+        "id_bangunan": "SDI-C20-020",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235473,
+          -5.551723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 41,
+        "id_bangunan": "SDI-A26-026",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225772,
+          -5.544094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 42,
+        "id_bangunan": "SDI-C21-021",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235506,
+          -5.551859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 43,
+        "id_bangunan": "SDI-C22-022",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235052,
+          -5.551943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 44,
+        "id_bangunan": "SDI-A27-027",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22569,
+          -5.544015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 45,
+        "id_bangunan": "SDI-C23-023",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235101,
+          -5.551794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 46,
+        "id_bangunan": "SDI-C24-024",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235092,
+          -5.551743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 47,
+        "id_bangunan": "SDI-A28-028",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225635,
+          -5.543914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 48,
+        "id_bangunan": "SDI-A29-029",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225506,
+          -5.543873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 49,
+        "id_bangunan": "SDI-A30-030",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225424,
+          -5.544213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 50,
+        "id_bangunan": "SDI-C26-026",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234873,
+          -5.551848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 51,
+        "id_bangunan": "SDI-C27-027",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234928,
+          -5.551633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 52,
+        "id_bangunan": "SDI-A31-031",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225318,
+          -5.544692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 53,
+        "id_bangunan": "SDI-C29-029",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235205,
+          -5.551237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 54,
+        "id_bangunan": "SDI-A32-032",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225263,
+          -5.544475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 55,
+        "id_bangunan": "SDI-A33-033",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225199,
+          -5.544411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 56,
+        "id_bangunan": "SDI-B05-005",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229682,
+          -5.549010571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 57,
+        "id_bangunan": "SDI-A01-035",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225323,
+          -5.544176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 58,
+        "id_bangunan": "SDI-A37-037",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225263,
+          -5.544043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 59,
+        "id_bangunan": "SDI-A39-039",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225139,
+          -5.544144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 60,
+        "id_bangunan": "SDI-A41-041",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224827,
+          -5.544172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 61,
+        "id_bangunan": "SDI-C30-030",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234648,
+          -5.551554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 62,
+        "id_bangunan": "SDI-A42-042",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224923,
+          -5.544039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 63,
+        "id_bangunan": "SDI-C32-032",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234667,
+          -5.55145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 64,
+        "id_bangunan": "SDI-A43-043",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224602,
+          -5.544269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 65,
+        "id_bangunan": "Blok A (SDI-A01-044)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224676,
+          -5.543823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 66,
+        "id_bangunan": "Blok A (SDI-A01-045)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224735,
+          -5.543671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 67,
+        "id_bangunan": "Blok A (SDI-A01-046)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224694,
+          -5.543629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 68,
+        "id_bangunan": "Blok A (SDI-A01-047)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224543,
+          -5.544062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 69,
+        "id_bangunan": "Blok A (SDI-A01-048)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224478,
+          -5.543708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 70,
+        "id_bangunan": "Blok A (SDI-A01-049)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224451,
+          -5.543583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 71,
+        "id_bangunan": "Blok A (SDI-A01-050)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224359,
+          -5.543625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 72,
+        "id_bangunan": "Blok A (SDI-A01-051)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224331,
+          -5.543721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 73,
+        "id_bangunan": "Blok A (SDI-A01-052)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224253,
+          -5.543639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 74,
+        "id_bangunan": "Blok A (SDI-A01-053)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224212,
+          -5.543795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 75,
+        "id_bangunan": "Blok A (SDI-A01-054)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224134,
+          -5.543731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 76,
+        "id_bangunan": "Blok A (SDI-A01-055)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.223987,
+          -5.543758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 77,
+        "id_bangunan": "Blok A (SDI-A01-056)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.223877,
+          -5.543726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 78,
+        "id_bangunan": "Blok A (SDI-A01-057)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.223822,
+          -5.543616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 79,
+        "id_bangunan": "Blok A (SDI-A01-058)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.223817,
+          -5.543524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 80,
+        "id_bangunan": "Blok A (SDI-A01-059)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.223694,
+          -5.543556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 81,
+        "id_bangunan": "Blok A (SDI-A01-060)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224203,
+          -5.543855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 82,
+        "id_bangunan": "Blok A (SDI-A01-061)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224313,
+          -5.543846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 83,
+        "id_bangunan": "Blok A (SDI-A01-062)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224492,
+          -5.543836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 84,
+        "id_bangunan": "SDI-B01-001",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232928,
+          -5.550771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 85,
+        "id_bangunan": "SDI-B02-002",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230717,
+          -5.550645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 86,
+        "id_bangunan": "SDI-B03–003",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232818,
+          -5.550967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 87,
+        "id_bangunan": "SDI-B04-004",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232827,
+          -5.5507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 88,
+        "id_bangunan": "Blok A (SDI-A01-065)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.222161,
+          -5.543851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 89,
+        "id_bangunan": "SDI-B06-006",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232193,
+          -5.550268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 90,
+        "id_bangunan": "SDI-B07-007",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232308,
+          -5.550107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 91,
+        "id_bangunan": "Blok A (SDI-A01-066)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.222152,
+          -5.543649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 92,
+        "id_bangunan": "SDI-B08-008",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231946,
+          -5.55019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 93,
+        "id_bangunan": "SDI-B09-009",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231803,
+          -5.550052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 94,
+        "id_bangunan": "SDI-B10-010",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232069,
+          -5.549937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 95,
+        "id_bangunan": "SDI-B11-011",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232184,
+          -5.549873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 96,
+        "id_bangunan": "SDI-B12-012",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232028,
+          -5.549721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 97,
+        "id_bangunan": "SDI-B13-013",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232212,
+          -5.549804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 98,
+        "id_bangunan": "SDI-B14-014",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232244,
+          -5.549762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 99,
+        "id_bangunan": "SDI-B15-015",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231863,
+          -5.54973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 100,
+        "id_bangunan": "SDI-B16-016",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231675,
+          -5.549597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 101,
+        "id_bangunan": "SDI-17-017",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2315,
+          -5.599482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 102,
+        "id_bangunan": "SDI-B17-017",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2315,
+          -5.549482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 103,
+        "id_bangunan": "SDI-B18-018",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231152,
+          -5.549436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 104,
+        "id_bangunan": "SDI-B19-019",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231014,
+          -5.549284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 105,
+        "id_bangunan": "SDI-B20-020",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231023,
+          -5.548889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 106,
+        "id_bangunan": "SDI-B21-021",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230849,
+          -5.548801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 107,
+        "id_bangunan": "SDI-B22-022",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230619,
+          -5.548208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 108,
+        "id_bangunan": "SDI-B24-024",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230455,
+          -5.548349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 109,
+        "id_bangunan": "SDI-B25-025",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230142,
+          -5.548061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 110,
+        "id_bangunan": "SDI-B26-026",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230174,
+          -5.5479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 111,
+        "id_bangunan": "SDI-B27-027",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230619,
+          -5.547569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 112,
+        "id_bangunan": "SDI-B28-028",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230398,
+          -5.547334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 113,
+        "id_bangunan": "SDI-B29-029",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230408,
+          -5.54721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 114,
+        "id_bangunan": "SDI-B30-030",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230252,
+          -5.547468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 115,
+        "id_bangunan": "SDI-B31-031",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230192,
+          -5.547339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 116,
+        "id_bangunan": "SDI-B32-032",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22988,
+          -5.54756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 117,
+        "id_bangunan": "SDI-B33-033",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230151,
+          -5.547275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 118,
+        "id_bangunan": "SDI-B34-034",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229898,
+          -5.547261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 119,
+        "id_bangunan": "SDI-B38-038",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229749,
+          -5.547103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 120,
+        "id_bangunan": "SDI-B36-036",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229536,
+          -5.547335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 121,
+        "id_bangunan": "SDI-B39-039",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22938,
+          -5.547385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 123,
+        "id_bangunan": "SDI-B41-041",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229334,
+          -5.547427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 124,
+        "id_bangunan": "SDI-B43-043",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229164,
+          -5.547018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 125,
+        "id_bangunan": "SDI-B46-046",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228921,
+          -5.547202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 126,
+        "id_bangunan": "SDI-B47-047",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229219,
+          -5.547459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 127,
+        "id_bangunan": "SDI-B48-048",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229219,
+          -5.547583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 128,
+        "id_bangunan": "SDI-B49-049",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228956,
+          -5.54758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 129,
+        "id_bangunan": "SDI-B50-050",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229284,
+          -5.547588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 130,
+        "id_bangunan": "SDI-B51-051",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228996,
+          -5.547832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 131,
+        "id_bangunan": "SDI-B52-052",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229004,
+          -5.547896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 132,
+        "id_bangunan": "SDI-B53-053",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228903,
+          -5.548117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 133,
+        "id_bangunan": "SDI-B54-054",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229119,
+          -5.548098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 134,
+        "id_bangunan": "SDI-B55-055",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22938,
+          -5.547974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 135,
+        "id_bangunan": "SDI-B56-056",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229141,
+          -5.54819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 136,
+        "id_bangunan": "SDI-B57-057",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229435,
+          -5.548084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 137,
+        "id_bangunan": "SDI-B58-058",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22921,
+          -5.54825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 138,
+        "id_bangunan": "SDI-B59-059",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229174,
+          -5.548333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 139,
+        "id_bangunan": "SDI-B60-060",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229486,
+          -5.548204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 140,
+        "id_bangunan": "SDI-B61-061",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229252,
+          -5.548434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 141,
+        "id_bangunan": "SDI-B62-062",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229513,
+          -5.548319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 142,
+        "id_bangunan": "SDI-B63-063",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229302,
+          -5.548613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 143,
+        "id_bangunan": "SDI-B64-064",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229779,
+          -5.548696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 144,
+        "id_bangunan": "SDI-B65-065",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22944,
+          -5.548843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 145,
+        "id_bangunan": "SDI-B66-066",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229825,
+          -5.548816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 146,
+        "id_bangunan": "SDI-B67-067",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2295,
+          -5.549023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 147,
+        "id_bangunan": "SDI-B68-068",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22983,
+          -5.548871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 148,
+        "id_bangunan": "SDI-B69-069",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229568,
+          -5.549046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 149,
+        "id_bangunan": "SDI-B70-070",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229949,
+          -5.54917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 150,
+        "id_bangunan": "SDI-B71-071",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230027,
+          -5.549266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 151,
+        "id_bangunan": "SDI-B72-072",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230257,
+          -5.549473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 152,
+        "id_bangunan": "SDI-B73-073",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230216,
+          -5.549694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 153,
+        "id_bangunan": "SDI-B74-074",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230124,
+          -5.55003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 154,
+        "id_bangunan": "SDI-B75-075",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230372,
+          -5.549896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 155,
+        "id_bangunan": "SDI-B76-076",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230193,
+          -5.550168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 156,
+        "id_bangunan": "SDI-B77-077",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230156,
+          -5.550444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 157,
+        "id_bangunan": "SDI-B78-078",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230587,
+          -5.550103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 158,
+        "id_bangunan": "SDI-B79-079",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230638,
+          -5.550204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 159,
+        "id_bangunan": "SDI-B80-080",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230372,
+          -5.550338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 160,
+        "id_bangunan": "SDI-B81-081",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230542,
+          -5.550531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 161,
+        "id_bangunan": "SDI-B82-082",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230647,
+          -5.550586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 162,
+        "id_bangunan": "SDI-B83-083",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230895,
+          -5.550443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 163,
+        "id_bangunan": "SDI-B84-084",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23073,
+          -5.55088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 164,
+        "id_bangunan": "SDI-B85-085",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231088,
+          -5.550696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 165,
+        "id_bangunan": "SDI-B86-086",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230955,
+          -5.5506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 166,
+        "id_bangunan": "SDI-B87-087",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231152,
+          -5.55088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 167,
+        "id_bangunan": "SDI-B89-089",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231189,
+          -5.55105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 168,
+        "id_bangunan": "SDI-B90-090",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231001,
+          -5.551156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 169,
+        "id_bangunan": "SDI-B91-091",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230891,
+          -5.551073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 170,
+        "id_bangunan": "SDI-B92-092",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23106,
+          -5.551282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 171,
+        "id_bangunan": "SDI-B93-093",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231376,
+          -5.551174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 173,
+        "id_bangunan": "SDI-C34-034",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237164,
+          -5.553458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 174,
+        "id_bangunan": "SDI-C35-035",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237265,
+          -5.553348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 175,
+        "id_bangunan": "SDI-C36-036",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237494,
+          -5.553357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 176,
+        "id_bangunan": "SDI-C37-037",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237384,
+          -5.553196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 177,
+        "id_bangunan": "SDI-C39-039",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237233,
+          -5.553077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 178,
+        "id_bangunan": "SDI-C40-040",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237499,
+          -5.552929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 179,
+        "id_bangunan": "SDI-C41-041",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237549,
+          -5.553007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 180,
+        "id_bangunan": "SDI-C42-042",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237008,
+          -5.552902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 181,
+        "id_bangunan": "SDI-C44-044",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23737,
+          -5.552801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 182,
+        "id_bangunan": "SDI-C45-045",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237223,
+          -5.552621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 183,
+        "id_bangunan": "SDI-C46-046",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237012,
+          -5.552677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 184,
+        "id_bangunan": "SDI-C47-047",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237108,
+          -5.552428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 185,
+        "id_bangunan": "SDI-C48-048",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236874,
+          -5.552493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 186,
+        "id_bangunan": "SDI-C49-049",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237008,
+          -5.552345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 187,
+        "id_bangunan": "SDI-C50-050",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236966,
+          -5.552157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 188,
+        "id_bangunan": "SDI-C52-052",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236654,
+          -5.552074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 189,
+        "id_bangunan": "SDI-C53-053",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236856,
+          -5.552005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 190,
+        "id_bangunan": "SDI-C56-056",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236819,
+          -5.551803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 191,
+        "id_bangunan": "SDI-C57-057",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236521,
+          -5.551987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 192,
+        "id_bangunan": "SDI-C58-058",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236447,
+          -5.551647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 193,
+        "id_bangunan": "SDI-C59-059",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236448,
+          -5.551867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 194,
+        "id_bangunan": "Blok C (SDI-C63-063)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23455,
+          -5.551369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 195,
+        "id_bangunan": "Blok C (SDI-C64-064)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234301,
+          -5.551539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 196,
+        "id_bangunan": "Blok C (SDI-C65-065)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234275,
+          -5.551571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 197,
+        "id_bangunan": "Blok C (SDI-C66-066)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234102,
+          -5.551557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 198,
+        "id_bangunan": "Blok C (SDI-C67-067)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233956,
+          -5.551622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 199,
+        "id_bangunan": "Blok C (SDI-C68-068)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233746,
+          -5.551575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 200,
+        "id_bangunan": "Blok C (SDI-C69-069)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23359,
+          -5.55161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 201,
+        "id_bangunan": "Blok C (SDI-C70-070)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233558,
+          -5.551744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 202,
+        "id_bangunan": "Blok C (SDI-C71-071)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233389,
+          -5.551709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 203,
+        "id_bangunan": "Blok C (SDI-C72-072)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233387,
+          -5.551866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 204,
+        "id_bangunan": "Blok C (SDI-C73-073)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233483,
+          -5.551834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 205,
+        "id_bangunan": "Blok C (SDI-C74-074)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234223,
+          -5.551497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 206,
+        "id_bangunan": "Blok C (SDI-C75-075)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234318,
+          -5.551289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 207,
+        "id_bangunan": "Blok C (SDI-C76-076)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236242,
+          -5.553562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 208,
+        "id_bangunan": "Blok C (SDI-C78-078)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235948,
+          -5.55345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 209,
+        "id_bangunan": "Blok C (SDI-C79-079)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235904,
+          -5.553392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 210,
+        "id_bangunan": "Blok C (SDI-C80-080)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23584,
+          -5.553311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 211,
+        "id_bangunan": "Blok C (SDI-C81-081)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236129,
+          -5.553266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 212,
+        "id_bangunan": "Blok C (SDI-C83-083)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236008,
+          -5.553525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 215,
+        "id_bangunan": "Blok C (SDI-C86-086)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235629,
+          -5.552878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 216,
+        "id_bangunan": "Blok C (SDI-C89-089)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236429,
+          -5.553629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 217,
+        "id_bangunan": "Blok C (SDI-C90-090)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236497,
+          -5.553662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 218,
+        "id_bangunan": "Blok C (SDI-C91-091)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236918,
+          -5.553462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 219,
+        "id_bangunan": "Blok C (SDI-C92-092)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2368,
+          -5.553362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 220,
+        "id_bangunan": "Blok C (SDI-C93-093)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236795,
+          -5.523323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 221,
+        "id_bangunan": "Blok C (SDI-C94-094)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236691,
+          -5.553139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 222,
+        "id_bangunan": "Blok C (SDI-C95-095)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236606,
+          -5.553149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 223,
+        "id_bangunan": "Blok C (SDI-C96-096)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236458,
+          -5.553228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 224,
+        "id_bangunan": "Blok C (SDI-C97-097)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236673,
+          -5.22292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 225,
+        "id_bangunan": "Blok C (SDI-C98-098)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236721,
+          -5.552822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 226,
+        "id_bangunan": "Blok C (SDI-C99-099)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236425,
+          -5.552976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 227,
+        "id_bangunan": "Blok C (SDI-C100-100)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236524,
+          -5.552764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 228,
+        "id_bangunan": "Blok C (SDI-C101-101)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236353,
+          -5.55262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 229,
+        "id_bangunan": "SDI-C104-104",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235273,
+          -5.552383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 230,
+        "id_bangunan": "SDI-C105-105",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235544,
+          -5.552295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 231,
+        "id_bangunan": "SDI-C106-106",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235626,
+          -5.552396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 232,
+        "id_bangunan": "SDI-C107-107",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235489,
+          -5.552199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 233,
+        "id_bangunan": "SDI-C108-108",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235264,
+          -5.552806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 234,
+        "id_bangunan": "SDI-C109-109",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235085,
+          -5.552829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 235,
+        "id_bangunan": "SDI-C110-110",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235209,
+          -5.553123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 236,
+        "id_bangunan": "SDI-C111-111",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235048,
+          -5.55316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 237,
+        "id_bangunan": "SDI-C112-112",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234975,
+          -5.55322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 238,
+        "id_bangunan": "SDI-C113-113",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234892,
+          -5.552875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 239,
+        "id_bangunan": "SDI-C114-114",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234837,
+          -5.55333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 240,
+        "id_bangunan": "SDI-C116-116",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235081,
+          -5.553454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 241,
+        "id_bangunan": "SDI-C117-117",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23486,
+          -5.552719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 242,
+        "id_bangunan": "Blok D (SDI-D01-001)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24185,
+          -5.553013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 243,
+        "id_bangunan": "Blok D (SDI-D02-002)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241918,
+          -5.553114121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 244,
+        "id_bangunan": "Blok D (SDI-D03-003)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24195,
+          -5.553242885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 245,
+        "id_bangunan": "Blok D (SDI-D04-004)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242271,
+          -5.553242778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 246,
+        "id_bangunan": "Blok D (SDI-D05-005)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242354,
+          -5.55394181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 247,
+        "id_bangunan": "Blok D (SDI-D06-006)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242487,
+          -5.553840586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 248,
+        "id_bangunan": "Blok D (SDI-D07-007)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242803,
+          -5.55344496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 249,
+        "id_bangunan": "Blok D (SDI-D08-008)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242735,
+          -5.553789914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 250,
+        "id_bangunan": "Blok D (SDI-D09-009)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242547,
+          -5.554176299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 251,
+        "id_bangunan": "Blok D (SDI-D10-010)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.243074,
+          -5.554249708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 252,
+        "id_bangunan": "Blok D (SDI-D11-011)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.243524,
+          -5.55408859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 253,
+        "id_bangunan": "Blok D (SDI-D12-012)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.243735,
+          -5.55408392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 254,
+        "id_bangunan": "Blok D (SDI-D13-013)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244208,
+          -5.554631051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 255,
+        "id_bangunan": "Blok D (SDI-D14-014)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244134,
+          -5.554746053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 256,
+        "id_bangunan": "Blok D (SDI-D15-015)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.243988,
+          -5.554746102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 257,
+        "id_bangunan": "Blok D (SDI-D16-016)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244075,
+          -5.554488525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 258,
+        "id_bangunan": "Blok D (SDI-D17-017)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244166,
+          -5.554810429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 259,
+        "id_bangunan": "Blok D (SDI-D18-018)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244107,
+          -5.555109389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 260,
+        "id_bangunan": "Blok D (SDI-D19-019)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244153,
+          -5.555109374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 261,
+        "id_bangunan": "Blok D (SDI-D20-020)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244368,
+          -5.555072509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 262,
+        "id_bangunan": "Blok D (SDI-D22-022)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24424,
+          -5.555274911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 263,
+        "id_bangunan": "Blok D (SDI-D23-023)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24419,
+          -5.555339315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 264,
+        "id_bangunan": "Blok D (SDI-D24-024)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244483,
+          -5.555196645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 265,
+        "id_bangunan": "Blok D (SDI-D25-025)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244249,
+          -5.555371489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 266,
+        "id_bangunan": "Blok D (SDI-D26-026)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24452,
+          -5.555343803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 267,
+        "id_bangunan": "Blok D (SDI-D27-027)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244405,
+          -5.555569196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 268,
+        "id_bangunan": "Blok D (SDI-D28-028)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244653,
+          -5.555674892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 269,
+        "id_bangunan": "Blok D (SDI-D29-029)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244676,
+          -5.555720875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 270,
+        "id_bangunan": "Blok D (SDI-D30-030)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244424,
+          -5.555661172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 271,
+        "id_bangunan": "Blok D (SDI-D31-031)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244727,
+          -5.555937014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 272,
+        "id_bangunan": "Blok D (SDI-D32-032)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244658,
+          -5.555854254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 273,
+        "id_bangunan": "Blok D (SDI-D33-033)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24464,
+          -5.556171597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 274,
+        "id_bangunan": "Blok D (SDI-D35-035)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244681,
+          -5.556498117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 275,
+        "id_bangunan": "Blok D (SDI-D36-036)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244667,
+          -5.556622297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 276,
+        "id_bangunan": "SDI-D50-050",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24085,
+          -5.553495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 277,
+        "id_bangunan": "SDI-D52-052",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241016,
+          -5.553873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 278,
+        "id_bangunan": "SDI-D53-053",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241094,
+          -5.553808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 279,
+        "id_bangunan": "Blok D (SDI-D37-037)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244447,
+          -5.556797136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 280,
+        "id_bangunan": "SDI-D54-054",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241097,
+          -5.553741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 281,
+        "id_bangunan": "Blok D (SDI-D38-038)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244621,
+          -5.556824671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 282,
+        "id_bangunan": "Blok D (SDI-D39-039)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244901,
+          -5.557049932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 283,
+        "id_bangunan": "SDI-D55-055",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241315,
+          -5.5537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 284,
+        "id_bangunan": "Blok D (SDI-D40-040)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.245003,
+          -5.558066293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 285,
+        "id_bangunan": "Blok D (SDI-D41-041)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.245191,
+          -5.557445355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 286,
+        "id_bangunan": "Blok D (SDI-D42-042)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244851,
+          -5.557233912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 287,
+        "id_bangunan": "Blok D (SDI-D43-043)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244667,
+          -5.556787863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 288,
+        "id_bangunan": "Blok D (SDI-D44-044)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24239,
+          -5.553408305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 290,
+        "id_bangunan": "Blok D (SDI-D46-046)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242312,
+          -5.552534506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 291,
+        "id_bangunan": "Blok D (SDI-D47-047)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242629,
+          -5.552396429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 292,
+        "id_bangunan": "Blok D (SDI-D48-048)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242716,
+          -5.552327413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 294,
+        "id_bangunan": "SDI-D57-057",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240221,
+          -5.554381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 295,
+        "id_bangunan": "SDI-D59-059",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24054,
+          -5.553791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 296,
+        "id_bangunan": "SDI-D60-060",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241163,
+          -5.553904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 297,
+        "id_bangunan": "SDI-D61-061",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241164,
+          -5.553903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 298,
+        "id_bangunan": "SDI-D62-062",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2413,
+          -5.554023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 299,
+        "id_bangunan": "SDI-D63-063",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24129,
+          -5.554003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 300,
+        "id_bangunan": "SDI-D64-064",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241503,
+          -5.553833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 301,
+        "id_bangunan": "SDI-D65-065",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241318,
+          -5.554203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 302,
+        "id_bangunan": "SDI-D66-066",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24128,
+          -5.554075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 303,
+        "id_bangunan": "BLOK D (SDI-D67-067)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240078,
+          -5.554182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 304,
+        "id_bangunan": "BLOK D (SDI-D69-069)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24041,
+          -5.554683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 305,
+        "id_bangunan": "BLOK D (SDI-D70-070)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240846,
+          -5.554838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 306,
+        "id_bangunan": "BLOK D (SDI-D71-071)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240907,
+          -5.554811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 307,
+        "id_bangunan": "BLOK D (SDI-D72-072)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240587,
+          -5.554897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 308,
+        "id_bangunan": "BLOK D (SDI-D73-073)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240708,
+          -5.555048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 309,
+        "id_bangunan": "BLOK D (SDI-D74-074)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241056,
+          -5.554716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 310,
+        "id_bangunan": "BLOK D (SDI-D75-075)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241172,
+          -5.554612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 311,
+        "id_bangunan": "Blok D (SDI-D78-078)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241306,
+          -5.554491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 312,
+        "id_bangunan": "Blok D (SDI-D79-079)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241329,
+          -5.554482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 313,
+        "id_bangunan": "Blok D (SDI-D80-080)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241456,
+          -5.554378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 314,
+        "id_bangunan": "Blok D (SDI-D81-081)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24074,
+          -5.554988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 315,
+        "id_bangunan": "Blok D (SDI-D82-082)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240759,
+          -5.555002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 316,
+        "id_bangunan": "Blok D (SDI-D83-083)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240808,
+          -5.555157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 317,
+        "id_bangunan": "Blok D (SDI-D84-084)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240798,
+          -5.555124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 318,
+        "id_bangunan": "Blok D (SDI-D86-086)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240861,
+          -5.555215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 319,
+        "id_bangunan": "Blok D (SDI-D88-088)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24096,
+          -5.555378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 320,
+        "id_bangunan": "Blok D (SDI-D89-089)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240913,
+          -5.555304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 321,
+        "id_bangunan": "Blok D (SDI-D90-090)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241005,
+          -5.555425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 322,
+        "id_bangunan": "Blok D (SDI-D91-091)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240974,
+          -5.555392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 323,
+        "id_bangunan": "Blok D (SDI-D92-092)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241085,
+          -5.555602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 324,
+        "id_bangunan": "Blok D (SDI-D93-093)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241021,
+          -5.555493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 325,
+        "id_bangunan": "Blok D (SDI-D94-094)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241156,
+          -5.555734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 326,
+        "id_bangunan": "Blok D (SDI-D95-095)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241129,
+          -5.555688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 327,
+        "id_bangunan": "Blok D (SDI-D96-096)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241112,
+          -5.555564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 328,
+        "id_bangunan": "Blok D (SDI-D97-097)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241179,
+          -5.555777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 329,
+        "id_bangunan": "Blok D (SDI-D98-098)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241178,
+          -5.555777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 330,
+        "id_bangunan": "Blok D (SDI-D99-099)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241161,
+          -5.555738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 332,
+        "id_bangunan": "Blok D (SDI-D101-101)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241404,
+          -5.556075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 333,
+        "id_bangunan": "Blok D (SDI-D102-102)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241348,
+          -5.555945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 334,
+        "id_bangunan": "Blok D (SDI-D103-103)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241755,
+          -5.556578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 335,
+        "id_bangunan": "Blok D (SDI-D105-105)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241535,
+          -5.55629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 336,
+        "id_bangunan": "SDI-A68-068",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227883,
+          -5.545808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 337,
+        "id_bangunan": "SDI-A69-069",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228113,
+          -5.545427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 338,
+        "id_bangunan": "SDI-A70-070",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227796,
+          -5.54566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 339,
+        "id_bangunan": "SDI-A71-071",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227058,
+          -5.546319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 340,
+        "id_bangunan": "SDI-A72-072",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22709,
+          -5.546466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 341,
+        "id_bangunan": "SDI-A75-075",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.226934,
+          -5.546788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 342,
+        "id_bangunan": "SDI-A76-076",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227384,
+          -5.546636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 343,
+        "id_bangunan": "SDI-A77-077",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22676,
+          -5.546618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 344,
+        "id_bangunan": "SDI-A78-078",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.226682,
+          -5.546715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 345,
+        "id_bangunan": "SDI-A79-079",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.226631,
+          -5.546775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 346,
+        "id_bangunan": "SDI-A81-081",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.226636,
+          -5.546913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 347,
+        "id_bangunan": "SDI-A86-086",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2258,
+          -5.545096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 348,
+        "id_bangunan": "SDI-A87-087",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225649,
+          -5.544981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 349,
+        "id_bangunan": "SDI-A88-088",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22541,
+          -5.544692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 350,
+        "id_bangunan": "SDI-A90-090",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225662,
+          -5.544012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 351,
+        "id_bangunan": "SDI-A91-091",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225357,
+          -5.543771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 352,
+        "id_bangunan": "SDI-A92-092",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225348,
+          -5.543884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 353,
+        "id_bangunan": "SDI-A93-093",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224813,
+          -5.543979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 354,
+        "id_bangunan": "SDI-A94-094",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22522,
+          -5.543852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 355,
+        "id_bangunan": "SDI-A96-096",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227229,
+          -5.544666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 356,
+        "id_bangunan": "BLOK D (SDI-D106-106)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241897,
+          -5.556824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 357,
+        "id_bangunan": "Blok D (SDI-D107-107)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241859,
+          -5.55675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 358,
+        "id_bangunan": "Blok D (SDI-D108-108)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241776,
+          -5.556644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 359,
+        "id_bangunan": "Blok D (SDI-D109-109)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24219,
+          -5.557655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 360,
+        "id_bangunan": "Blok D (SDI-D111-111)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241953,
+          -5.556967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 361,
+        "id_bangunan": "Blok D (SDI-D112-112)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241942,
+          -5.556895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 362,
+        "id_bangunan": "Blok D (SDI-D113-113)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242256,
+          -5.558196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 363,
+        "id_bangunan": "Blok D (SDI-D114-114)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242243,
+          -5.558148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 364,
+        "id_bangunan": "Blok D (SDI-D115-115)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242238,
+          -5.558052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 365,
+        "id_bangunan": "Blok D (SDI-D117-117)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242273,
+          -5.55831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 366,
+        "id_bangunan": "Blok D (SDI-D118-118)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242269,
+          -5.558293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 367,
+        "id_bangunan": "Blok D (SDI-D119-119)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242285,
+          -5.5584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 368,
+        "id_bangunan": "Blok D (SDI-D120-120)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242277,
+          -5.55834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 369,
+        "id_bangunan": "Blok D (SDI-D121-121)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242273,
+          -5.558316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 370,
+        "id_bangunan": "Blok D (SDI-D122-122)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242293,
+          -5.558534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 371,
+        "id_bangunan": "Blok D (SDI-D123-123)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242282,
+          -5.55848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 372,
+        "id_bangunan": "Blok D (SDI-D124-124)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242282,
+          -5.558449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 373,
+        "id_bangunan": "Blok D (SDI-D125-125)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242286,
+          -5.558406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 374,
+        "id_bangunan": "Blok D (SDI-D126-126)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242416,
+          -5.558731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 375,
+        "id_bangunan": "Blok C (SDI-C118-118)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233382,
+          -5.551169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 376,
+        "id_bangunan": "Blok D (SDI-D127-127)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242406,
+          -5.558719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 377,
+        "id_bangunan": "Blok C (SDI-C119-119)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233492,
+          -5.550741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 378,
+        "id_bangunan": "Blok D (SDI-D128-128)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242363,
+          -5.558644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 379,
+        "id_bangunan": "Blok D (SDI-D129-129)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242292,
+          -5.558569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 380,
+        "id_bangunan": "Blok C (SDI-C120-120)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231432,
+          -5.551947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 381,
+        "id_bangunan": "Blok D (SDI-D130-130)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242163,
+          -5.558884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 382,
+        "id_bangunan": "Blok C (SDI-C121-121)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231726,
+          -5.551837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 383,
+        "id_bangunan": "Blok D (SDI-D131-131)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242214,
+          -5.558873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 384,
+        "id_bangunan": "Blok C (SDI-C122-122)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231854,
+          -5.55197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 385,
+        "id_bangunan": "Blok D (SDI-D132-132)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242265,
+          -5.558812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 386,
+        "id_bangunan": "Blok C (SDI-C123-123)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231607,
+          -5.552297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 387,
+        "id_bangunan": "Blok C (SDI-C124-124)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231708,
+          -5.552421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 388,
+        "id_bangunan": "Blok D (SDI-D134-134)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242172,
+          -5.559258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 389,
+        "id_bangunan": "Blok C (SDI-C125-125)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231754,
+          -5.552572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 390,
+        "id_bangunan": "Blok D (SDI-D135-135)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242098,
+          -5.559005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 391,
+        "id_bangunan": "Blok D (SDI-D136-136)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242107,
+          -5.55891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 392,
+        "id_bangunan": "Blok C (SDI-C126-126)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232203,
+          -5.552499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 393,
+        "id_bangunan": "Blok D (SDI-D137-137)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242124,
+          -5.558904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 394,
+        "id_bangunan": "Blok D (SDI-D139-139)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240688,
+          -5.554301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 395,
+        "id_bangunan": "Blok C (SDI-C128-128)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232387,
+          -5.552972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 396,
+        "id_bangunan": "Blok D (SDI-D140-140)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241971,
+          -5.554327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 397,
+        "id_bangunan": "Blok C (SDI-C129-129)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232181,
+          -5.553258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 399,
+        "id_bangunan": "Blok C (SDI-C130-130)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232401,
+          -5.553538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 400,
+        "id_bangunan": "Blok C (SDI-C131-131)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232741,
+          -5.553602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 401,
+        "id_bangunan": "Blok C (SDI-C133-133)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232882,
+          -5.552059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 402,
+        "id_bangunan": "Blok B (SDI-B96-096)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231703,
+          -5.550323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 403,
+        "id_bangunan": "Blok B (SDI-B97-097)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231298,
+          -5.551093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 404,
+        "id_bangunan": "Blok B (SDI-B98-098)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231588,
+          -5.551036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 406,
+        "id_bangunan": "Blok B (SDI-B100-100)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231437,
+          -5.551478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 407,
+        "id_bangunan": "Blok B (SDI-B101-101)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231129,
+          -5.551611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 408,
+        "id_bangunan": "Blok B (SDI-B102-102)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230891,
+          -5.551497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 409,
+        "id_bangunan": "Blok B (SDI-C103-103)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231106,
+          -5.551386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 410,
+        "id_bangunan": "Blok B (SDI-B104-104)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230817,
+          -5.551423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 411,
+        "id_bangunan": "Blok B (SDI-B105-105)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230689,
+          -5.551492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 412,
+        "id_bangunan": "Blok B (SDI-B106-106)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230996,
+          -5.551345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 413,
+        "id_bangunan": "Blok B (SDI-B107-107)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230615,
+          -5.551377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 414,
+        "id_bangunan": "Blok B (SDI-B109-109)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230647,
+          -5.551299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 415,
+        "id_bangunan": "Blok B (SDI-B110-110)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230482,
+          -5.551414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 416,
+        "id_bangunan": "Blok B (SDI-B111-111)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230514,
+          -5.551216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 417,
+        "id_bangunan": "Blok B (SDI-B112-112)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23079,
+          -5.551299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 418,
+        "id_bangunan": "Blok B (SDI-B113-113)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23068,
+          -5.551198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 419,
+        "id_bangunan": "Blok B (SDI-B114-114)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230895,
+          -5.551248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 420,
+        "id_bangunan": "Blok B (SDI-B115-115)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230836,
+          -5.551198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 421,
+        "id_bangunan": "Blok B (SDI-B116-116)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228843,
+          -5.546788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 422,
+        "id_bangunan": "Blok B (SDI-B117-117)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228976,
+          -5.546576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 423,
+        "id_bangunan": "Blok B (SDI-B118-118)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228953,
+          -5.546434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 424,
+        "id_bangunan": "Blok B (SDI-B119-119)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228934,
+          -5.546296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 425,
+        "id_bangunan": "Blok B (SDI-B120-120)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228838,
+          -5.546181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 426,
+        "id_bangunan": "Blok B (SDI-B121-121)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228489,
+          -5.545932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 427,
+        "id_bangunan": "Blok B (SDI-B123-123)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229168,
+          -5.546483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 428,
+        "id_bangunan": "Blok B (SDI-B124-124)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229256,
+          -5.546332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 429,
+        "id_bangunan": "Blok B (SDI-B125-125)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229265,
+          -5.546512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 430,
+        "id_bangunan": "Blok B (SDI-B126-126)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229326,
+          -5.546709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 431,
+        "id_bangunan": "Blok B (SDI-B127-127)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229398,
+          -5.546613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 432,
+        "id_bangunan": "Blok B (SDI-B128-128)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230178,
+          -5.546484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 433,
+        "id_bangunan": "Blok B (SDI-B129-129)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229967,
+          -5.545766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 434,
+        "id_bangunan": "Blok B (SDI-B130-130)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228476,
+          -5.546213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 435,
+        "id_bangunan": "Blok B (SDI-B131-131)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228411,
+          -5.546484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 436,
+        "id_bangunan": "Blok B (SDI-B132-132)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228393,
+          -5.546576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 437,
+        "id_bangunan": "Blok B (SDI-B133-133)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228232,
+          -5.546264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 438,
+        "id_bangunan": "Blok B (SDI-B133-133)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228223,
+          -5.546112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 439,
+        "id_bangunan": "Blok B (SDI-B134-134)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228154,
+          -5.54602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 440,
+        "id_bangunan": "Blok B (SDI-B135-135)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228026,
+          -5.545873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 441,
+        "id_bangunan": "Blok B (SDI-B136-136)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228017,
+          -5.545988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 442,
+        "id_bangunan": "Blok B (SDI-B137-137)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227998,
+          -5.54608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 443,
+        "id_bangunan": "Blok B (SDI-B138-138)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228154,
+          -5.54602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 444,
+        "id_bangunan": "Blok B (SDI-B139-139)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227888,
+          -5.546245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 445,
+        "id_bangunan": "Blok B (SDI-B139-139)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228044,
+          -5.546392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 446,
+        "id_bangunan": "Blok B (SDI-B140-140)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228118,
+          -5.546512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 447,
+        "id_bangunan": "Blok B (SDI-B141-141)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228145,
+          -5.546553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 448,
+        "id_bangunan": "Blok B (SDI-B142-142)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229881,
+          -5.550135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 449,
+        "id_bangunan": "Blok B (SDI-B143-143)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22945,
+          -5.550738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 450,
+        "id_bangunan": "Blok B (SDI-B144-144)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229633,
+          -5.550867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 451,
+        "id_bangunan": "Blok B (SDI-B145-145)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229785,
+          -5.550945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 452,
+        "id_bangunan": "Blok B (SDI-B146-146)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229555,
+          -5.551184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 453,
+        "id_bangunan": "Blok B (SDI-147-147)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229588,
+          -5.551318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 454,
+        "id_bangunan": "Blok B(SDI-B148-148)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229711,
+          -5.551359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 455,
+        "id_bangunan": "Blok B (SDI-B149-149)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229386,
+          -5.551318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 456,
+        "id_bangunan": "Blok B (SDI-B150-150)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229413,
+          -5.551584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 457,
+        "id_bangunan": "Blok B (SDI-B151-151)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229312,
+          -5.55152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 458,
+        "id_bangunan": "Blok B (SDI-B152-152)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229138,
+          -5.551488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 459,
+        "id_bangunan": "Blok B (SDI-B153-153)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228986,
+          -5.551382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 460,
+        "id_bangunan": "Blok B (SDI-B155-155)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229312,
+          -5.551851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 461,
+        "id_bangunan": "Blok B (SDI-B156-156)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229299,
+          -5.551704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 462,
+        "id_bangunan": "Blok B (SDI-B157-157)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229178,
+          -5.551671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 463,
+        "id_bangunan": "Blok B (SDI-B158-158)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229065,
+          -5.551635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 464,
+        "id_bangunan": "Blok B (SDI-B159-159)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228922,
+          -5.551617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 465,
+        "id_bangunan": "Blok B (SDI-B160-160)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228821,
+          -5.551529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 466,
+        "id_bangunan": "Blok B (SDI-B161-161)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228688,
+          -5.551589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 467,
+        "id_bangunan": "Blok B (SDI-B162-162)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228817,
+          -5.551654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 468,
+        "id_bangunan": "Blok B (SDI-B163-163)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228959,
+          -5.551745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 469,
+        "id_bangunan": "Blok B (SDI-B164-164)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229124,
+          -5.55187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 470,
+        "id_bangunan": "Blok B (SDI-B165-165)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229312,
+          -5.551851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 471,
+        "id_bangunan": "Blok B (SDI-B166-166)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228849,
+          -5.552003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 472,
+        "id_bangunan": "Blok B (SDI-B167-167)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228647,
+          -5.551976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 473,
+        "id_bangunan": "Blok B (SDI-B168-168)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228565,
+          -5.551999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 474,
+        "id_bangunan": "Blok B (SDI-B169-169)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22845,
+          -5.551948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 475,
+        "id_bangunan": "Blok B (SDI-B170-170)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228239,
+          -5.552845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 476,
+        "id_bangunan": "Blok B (SDI-B171-171)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227922,
+          -5.552942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 477,
+        "id_bangunan": "Blok B (SDI-B172-172)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228353,
+          -5.550258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 478,
+        "id_bangunan": "Blok C (SDI-C134-134)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236795,
+          -5.553233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 479,
+        "id_bangunan": "Blok C (SDI-C135-135)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236691,
+          -5.553139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 480,
+        "id_bangunan": "Blok C(SDI-C136-136)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236606,
+          -5.553149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 481,
+        "id_bangunan": "Blok C (SDI-B137-137)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236458,
+          -5.553228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 482,
+        "id_bangunan": "Blok C (SDI-C138-138)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236673,
+          -5.55292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 483,
+        "id_bangunan": "Blok C (SDI-C139-139)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236721,
+          -5.552822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 484,
+        "id_bangunan": "Blok C (SDI-C140-140)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236425,
+          -5.552976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 485,
+        "id_bangunan": "Blok C (SDI-C141-141)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236524,
+          -5.552764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 486,
+        "id_bangunan": "Blok C (SDI-C142-142)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236353,
+          -5.55262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 487,
+        "id_bangunan": "Blok C (SDI-C143-143)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236276,
+          -5.552405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 488,
+        "id_bangunan": "Blok C (SDI-C144-144)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236303,
+          -5.552235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 489,
+        "id_bangunan": "Blok C (SDI-C145-145)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236685,
+          -5.552215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 490,
+        "id_bangunan": "Blok C(SDI-C146-146)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23642,
+          -5.552394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 491,
+        "id_bangunan": "Blok C (SDI-C147-147)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235281,
+          -5.552406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 492,
+        "id_bangunan": "Blok C (SDI-C148-148)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233993,
+          -5.551202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 493,
+        "id_bangunan": "Blok B(SDI-B174-174)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233909,
+          -5.551222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 495,
+        "id_bangunan": "Blok B (SDI-B176-176)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233749,
+          -5.551346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 496,
+        "id_bangunan": "Blol B (SDI-B177-177)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233679,
+          -5.551095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 497,
+        "id_bangunan": "Blok B (SDI-B178-178)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233623,
+          -5.551067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 498,
+        "id_bangunan": "Blok B (SDI-B179-179)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233677,
+          -5.55096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 499,
+        "id_bangunan": "Blok B (SDI-B180-180)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233364,
+          -5.55102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 500,
+        "id_bangunan": "Blok B (SDI-B181-181)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233412,
+          -5.551046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 501,
+        "id_bangunan": "Blok B (SDI-B182-182)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233263,
+          -5.551161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 502,
+        "id_bangunan": "Blok B (SDI-B183-183)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233368,
+          -5.550887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 503,
+        "id_bangunan": "Blok B-(SDI-B184-184)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233524,
+          -5.550895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 504,
+        "id_bangunan": "Blok B (SDI-B186-186)",
+        "fungsi_bangunan": "Rumah Tinggal",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23347,
+          -5.550905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 506,
+        "id_bangunan": "SDI-C33-033",
+        "fungsi_bangunan": "Rumah Tinggal dan Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236494,
+          -5.554043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 508,
+        "id_bangunan": "SDI-C102-102",
+        "fungsi_bangunan": "Rumah Tinggal dan Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236494,
+          -5.554043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 509,
+        "id_bangunan": "SDI-C103-103",
+        "fungsi_bangunan": "Rumah Tinggal dan Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235333,
+          -5.552488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 510,
+        "id_bangunan": "SDI-C115-115",
+        "fungsi_bangunan": "Rumah Tinggal dan Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234741,
+          -5.553133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 511,
+        "id_bangunan": "SDI-A40-040",
+        "fungsi_bangunan": "Rumah tinggal dan Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225011,
+          -5.544025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 512,
+        "id_bangunan": "Blok D (SDI-D85-085)",
+        "fungsi_bangunan": "rumah tinggal dan warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2409,
+          -5.555287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 513,
+        "id_bangunan": "SDI-D10-010",
+        "fungsi_bangunan": "Komersial",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24,
+          -5.5543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 514,
+        "id_bangunan": "Blok D (SDI-D104-104)",
+        "fungsi_bangunan": "Komersial",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241564,
+          -5.556358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 515,
+        "id_bangunan": "SDI-B38-038",
+        "fungsi_bangunan": "Penginapan",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22949,
+          -5.547045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 516,
+        "id_bangunan": "SDI-A07-007",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227337,
+          -5.544995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 517,
+        "id_bangunan": "SDI-C25-025",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235019,
+          -5.551725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 518,
+        "id_bangunan": "SDI-B01-001",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228396,
+          -5.54595444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 519,
+        "id_bangunan": "SD1-B03-003",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229246,
+          -5.547013387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 521,
+        "id_bangunan": "SDI-D05-005",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2437,
+          -5.55138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 522,
+        "id_bangunan": "SDI-B04–004",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229407,
+          -5.548437055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 523,
+        "id_bangunan": "SDI-D06-006",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.243,
+          -5.55193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 524,
+        "id_bangunan": "SDI-B07-007",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229941,
+          -5.549170494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 525,
+        "id_bangunan": "SDI-D11-011",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2401,
+          -5.55403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 526,
+        "id_bangunan": "SDI-D12-012",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2411,
+          -5.55373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 527,
+        "id_bangunan": "SDI-B37-037",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229465,
+          -5.547233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 528,
+        "id_bangunan": "SDI-B44-044",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229325,
+          -5.546742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 529,
+        "id_bangunan": "SDI-C38-038",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237412,
+          -5.553008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 530,
+        "id_bangunan": "SDI-C54-054",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236787,
+          -5.551955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 531,
+        "id_bangunan": "SDI-C55-055",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236748,
+          -5.551891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 532,
+        "id_bangunan": "Blok C (SDI-C82-082)",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236064,
+          -5.553345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 533,
+        "id_bangunan": "Blok C (SDI-C88-088)",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236275,
+          -5.553713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 534,
+        "id_bangunan": "SDI-D49-049",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240482,
+          -5.553709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 535,
+        "id_bangunan": "Blok D (SDI-D34-034)",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244667,
+          -5.556327956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 536,
+        "id_bangunan": "SDI-D51-051",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240666,
+          -5.553436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 537,
+        "id_bangunan": "Blok D (SDI-D76-076)",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24121,
+          -5.554582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 538,
+        "id_bangunan": "SDI-D77-077",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241217,
+          -5.554578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 539,
+        "id_bangunan": "Blok D (SDI-D133-133)",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242296,
+          -5.558723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 540,
+        "id_bangunan": "Blok D (SDI-D138-138)",
+        "fungsi_bangunan": "Toko/Warung",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240685,
+          -5.5543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 541,
+        "id_bangunan": "SDI-D58-058",
+        "fungsi_bangunan": "TPQ",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240366,
+          -5.554567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 542,
+        "id_bangunan": "SDI-A17-017",
+        "fungsi_bangunan": "Tempat Ibadah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225658,
+          -5.544599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 543,
+        "id_bangunan": "SDI-D01-001",
+        "fungsi_bangunan": "Tempat Ibadah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2517,
+          -5.55774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 544,
+        "id_bangunan": "SDI-D02-002",
+        "fungsi_bangunan": "Tempat Ibadah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2423,
+          -5.55821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 545,
+        "id_bangunan": "SDI-D03-003",
+        "fungsi_bangunan": "Tempat Ibadah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2442,
+          -5.55511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 546,
+        "id_bangunan": "SDI-B06-006",
+        "fungsi_bangunan": "Tempat Ibadah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229715,
+          -5.549192553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 547,
+        "id_bangunan": "SDI-A36-036",
+        "fungsi_bangunan": "Tempat Ibadah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225222,
+          -5.544209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 548,
+        "id_bangunan": "SDI-C61-061",
+        "fungsi_bangunan": "Tempat Ibadah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236512,
+          -5.551476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 549,
+        "id_bangunan": "Blok D (SDI-D21-021)",
+        "fungsi_bangunan": "Tempat Ibadah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.244258,
+          -5.555021956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 550,
+        "id_bangunan": "Blok D (SDI-D116-116)",
+        "fungsi_bangunan": "Tempat Ibadah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.242235,
+          -5.558048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 551,
+        "id_bangunan": "Blok B (SDI-B122-122)",
+        "fungsi_bangunan": "Tempat Ibadah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229077,
+          -5.546346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 552,
+        "id_bangunan": "Blok B (SDI-B154-154)",
+        "fungsi_bangunan": "Tempat Ibadah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22878,
+          -5.551355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 553,
+        "id_bangunan": "SDI-D07-007",
+        "fungsi_bangunan": "Sekolah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2419,
+          -5.55268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 554,
+        "id_bangunan": "SDI-D09-009",
+        "fungsi_bangunan": "Sekolah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2402,
+          -5.55451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 555,
+        "id_bangunan": "SDI-C60-060",
+        "fungsi_bangunan": "Sekolah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236695,
+          -5.55143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 556,
+        "id_bangunan": "BLOK D (SDI-D68-068)",
+        "fungsi_bangunan": "Sekolah",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240306,
+          -5.554434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 557,
+        "id_bangunan": "SD1-B02-002",
+        "fungsi_bangunan": "Fasilitas Kesehatan",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229098,
+          -5.547055571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 558,
+        "id_bangunan": "SDI-B45-045",
+        "fungsi_bangunan": "Fasilitas Kesehatan",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228799,
+          -5.547214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 561,
+        "id_bangunan": "Blok C (SDI-C87-087)",
+        "fungsi_bangunan": "Pelayanan Umum",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23625,
+          -5.553774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 562,
+        "id_bangunan": "SDI-A02-002",
+        "fungsi_bangunan": "Gudang",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227677,
+          -5.545188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 564,
+        "id_bangunan": "SDI-A22-022",
+        "fungsi_bangunan": "Gudang",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225428,
+          -5.544457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 565,
+        "id_bangunan": "SDI-A34-034",
+        "fungsi_bangunan": "Gudang",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225135,
+          -5.544379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 566,
+        "id_bangunan": "SDI-C31-031",
+        "fungsi_bangunan": "Gudang",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234653,
+          -5.55156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 567,
+        "id_bangunan": "SDI-B05-005",
+        "fungsi_bangunan": "Gudang",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232324,
+          -5.550287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 568,
+        "id_bangunan": "SDI-C43-043",
+        "fungsi_bangunan": "Gudang",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237109,
+          -5.552819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 570,
+        "id_bangunan": "Blok B (SDI-B95-095)",
+        "fungsi_bangunan": "Gudang",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232405,
+          -5.550714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 571,
+        "id_bangunan": "SDI-A95-095",
+        "fungsi_bangunan": "Kandang Ayam",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225124,
+          -5.543884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 572,
+        "id_bangunan": "Blok A (SDI-A01-064)",
+        "fungsi_bangunan": "Kandang Kambing",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224276,
+          -5.544057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 573,
+        "id_bangunan": "SDI-A73-073",
+        "fungsi_bangunan": "Kandang Kambing",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227168,
+          -5.546416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 574,
+        "id_bangunan": "SDI-A74-074",
+        "fungsi_bangunan": "Kandang Kambing",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227039,
+          -5.546595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 575,
+        "id_bangunan": "SDI-A80-080",
+        "fungsi_bangunan": "Kandang Kambing",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22675,
+          -5.546816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 576,
+        "id_bangunan": "SDI-A89-089",
+        "fungsi_bangunan": "Kandang Kambing",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225452,
+          -5.544088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 577,
+        "id_bangunan": "Blok C (SDI-C127-127)",
+        "fungsi_bangunan": "Kandang Kambing",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232483,
+          -5.552738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 578,
+        "id_bangunan": "Blok C (SDI-C132-132)",
+        "fungsi_bangunan": "Kandang Kambing",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232675,
+          -5.552247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 579,
+        "id_bangunan": "SDI-C28-028",
+        "fungsi_bangunan": "Kandang Ternak",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235213,
+          -5.551462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 580,
+        "id_bangunan": "SDI-A38-038",
+        "fungsi_bangunan": "Kandang ternak",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224992,
+          -5.544269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 581,
+        "id_bangunan": "Blok C (SDI-C77-077)",
+        "fungsi_bangunan": "Peternakan",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236104,
+          -5.55376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 582,
+        "id_bangunan": "Blok B (SDI-B108-108)",
+        "fungsi_bangunan": "Pabrik",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230707,
+          -5.551989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 583,
+        "id_bangunan": "Blok A (SDI-A01-063)",
+        "fungsi_bangunan": "Tandon air beton",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224345,
+          -5.544264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 584,
+        "id_bangunan": "Blok A (SDI-A01-067)",
+        "fungsi_bangunan": "Gazebo",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224268,
+          -5.548091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 585,
+        "id_bangunan": "SDI-A83-083",
+        "fungsi_bangunan": "Gazebo",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.223855,
+          -5.548049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 586,
+        "id_bangunan": "SDI-A84-084",
+        "fungsi_bangunan": "Gazebo",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.223759,
+          -5.548238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 587,
+        "id_bangunan": "SDI-C62-062",
+        "fungsi_bangunan": "Parkiran motor",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236847,
+          -5.55155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 588,
+        "id_bangunan": "SDI-C51-051",
+        "fungsi_bangunan": "Rumah Kosong Hancur",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236773,
+          -5.552244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomor": 589,
+        "id_bangunan": "SDI-A82-082",
+        "fungsi_bangunan": "Gubuk",
+        "jumlah_lantai": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.225958,
+          -5.547191
+        ]
+      }
+    }
+  ]
+}
