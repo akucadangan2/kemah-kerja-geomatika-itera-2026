@@ -3,145 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Kelompok 7 Kemker Sidodadi</title>
 
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.css"
-  >
-
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.css">
   <script src="https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.js"></script>
 
   <style>
     :root {
       --paper: #faf7f0;
       --paper-soft: #f3eee3;
-      --paper-card: rgba(255, 253, 248, 0.94);
-
       --ink: #1e2a24;
       --muted: #6c746e;
       --line: #d8d0bc;
-
       --accent: #8a4b2e;
-      --green: #42634f;
-
       --blue: #2979ff;
       --yellow: #ffd600;
       --red: #b3261e;
-
       --header-height: 78px;
       --sidebar-width: 370px;
-
-      --shadow:
-        0 10px 35px rgba(30, 42, 36, 0.12);
+      --shadow: 0 10px 35px rgba(30, 42, 36, 0.12);
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
-    html,
-    body {
+    html, body {
       margin: 0;
       width: 100%;
       height: 100%;
       overflow: hidden;
-
-      font-family:
-        Inter,
-        Arial,
-        Helvetica,
-        sans-serif;
-
+      font-family: Inter, Arial, Helvetica, sans-serif;
       background: var(--paper);
       color: var(--ink);
     }
 
-    button,
-    input {
-      font: inherit;
-    }
+    button, input { font: inherit; }
 
-    /* =====================================================
-       HEADER
-    ===================================================== */
+    /* ================= HEADER ================= */
 
     .header {
       height: var(--header-height);
-
       display: flex;
       align-items: center;
       justify-content: space-between;
-
       padding: 0 26px;
-
       position: relative;
       z-index: 50;
-
-      background:
-        rgba(250, 247, 240, 0.97);
-
-      border-bottom:
-        1px solid var(--line);
-
-      box-shadow:
-        0 2px 14px rgba(30, 42, 36, 0.05);
+      background: rgba(250, 247, 240, 0.97);
+      border-bottom: 1px solid var(--line);
+      box-shadow: 0 2px 14px rgba(30, 42, 36, 0.05);
     }
 
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 13px;
-      min-width: 0;
-    }
+    .brand { display: flex; align-items: center; gap: 13px; min-width: 0; }
 
     .brand-mark {
       width: 44px;
       height: 44px;
-
       flex: 0 0 44px;
-
       display: flex;
       align-items: center;
       justify-content: center;
-
       background: var(--ink);
       color: var(--paper);
-
-      font-family:
-        Georgia,
-        "Times New Roman",
-        serif;
-
+      font-family: Georgia, "Times New Roman", serif;
       font-size: 16px;
-
       border-radius: 5px;
     }
 
     .brand-small {
       margin-bottom: 4px;
-
       color: var(--accent);
-
       font-size: 9px;
       font-weight: 700;
-
       letter-spacing: 1.8px;
       text-transform: uppercase;
     }
 
     .brand-title {
       margin: 0;
-
-      font-family:
-        Georgia,
-        "Times New Roman",
-        serif;
-
+      font-family: Georgia, "Times New Roman", serif;
       font-size: 23px;
       font-weight: normal;
-
       letter-spacing: -0.3px;
       white-space: nowrap;
     }
@@ -150,9 +91,7 @@
       display: flex;
       align-items: center;
       gap: 9px;
-
       color: #4b5a52;
-
       font-size: 11px;
       letter-spacing: 0.3px;
     }
@@ -160,1132 +99,567 @@
     .status-dot {
       width: 8px;
       height: 8px;
-
       border-radius: 50%;
-
       background: #4d8b62;
-
-      box-shadow:
-        0 0 0 4px rgba(77, 139, 98, 0.12);
+      box-shadow: 0 0 0 4px rgba(77, 139, 98, 0.12);
     }
 
-    /* =====================================================
-       MAIN LAYOUT
-    ===================================================== */
+    /* ================= LAYOUT ================= */
 
     .app {
-      height:
-        calc(
-          100vh - var(--header-height)
-        );
-
+      height: calc(100vh - var(--header-height));
       display: grid;
-
-      grid-template-columns:
-        minmax(0, 1fr)
-        var(--sidebar-width);
+      grid-template-columns: minmax(0, 1fr) var(--sidebar-width);
     }
 
-    .map-wrap {
-      position: relative;
-      min-width: 0;
-      overflow: hidden;
-    }
+    .map-wrap { position: relative; min-width: 0; overflow: hidden; }
 
-    #map {
-      position: absolute;
-      inset: 0;
-    }
+    #map { position: absolute; inset: 0; }
 
-    /* =====================================================
-       MAP TITLE
-    ===================================================== */
+    /* ================= MAP OVERLAYS ================= */
+
+    .panel {
+      background: rgba(250, 247, 240, 0.95);
+      border: 1px solid var(--line);
+      box-shadow: 0 8px 25px rgba(30, 42, 36, 0.10);
+      backdrop-filter: blur(8px);
+    }
 
     .map-title {
       position: absolute;
-
       top: 18px;
       left: 18px;
-
       z-index: 10;
-
       padding: 13px 16px;
-
-      background:
-        rgba(250, 247, 240, 0.94);
-
-      border:
-        1px solid var(--line);
-
-      box-shadow:
-        0 8px 25px rgba(30, 42, 36, 0.10);
-
-      backdrop-filter:
-        blur(8px);
-
       pointer-events: none;
     }
 
-    .map-title-main {
-      font-family:
-        Georgia,
-        "Times New Roman",
-        serif;
-
-      font-size: 17px;
-    }
+    .map-title-main { font-family: Georgia, "Times New Roman", serif; font-size: 17px; }
 
     .map-title-sub {
       margin-top: 5px;
-
       color: var(--muted);
-
       font-size: 8px;
       font-weight: 700;
-
       letter-spacing: 1.2px;
       text-transform: uppercase;
     }
 
-    /* =====================================================
-       BASEMAP
-    ===================================================== */
-
     .basemap-control {
       position: absolute;
-
       top: 18px;
       right: 18px;
-
       z-index: 20;
-
       width: 220px;
-
       padding: 8px;
-
-      background:
-        rgba(250, 247, 240, 0.95);
-
-      border:
-        1px solid var(--line);
-
       box-shadow: var(--shadow);
-
-      backdrop-filter:
-        blur(8px);
     }
 
     .control-label {
-      padding:
-        2px 4px 7px;
-
+      padding: 2px 4px 7px;
       color: var(--accent);
-
       font-size: 8px;
       font-weight: 700;
-
       letter-spacing: 1.5px;
       text-transform: uppercase;
     }
 
-    .basemap-options {
-      display: grid;
+    .basemap-options { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
 
-      grid-template-columns:
-        1fr 1fr;
-
-      gap: 5px;
-    }
-
-    .basemap-btn {
-      height: 37px;
-
-      border:
-        1px solid var(--line);
-
-      background:
-        var(--paper-soft);
-
-      color:
-        #4b5a52;
-
-      cursor: pointer;
-
-      transition:
-        background 0.18s ease,
-        color 0.18s ease,
-        border 0.18s ease;
-    }
-
-    .basemap-btn:hover {
-      background: #e8e1d3;
+    .basemap-btn, .mode-btn, .action-btn {
+      height: 36px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.4);
       color: var(--ink);
+      cursor: pointer;
+      font-size: 10px;
+      transition: background 0.18s ease, color 0.18s ease;
     }
 
-    .basemap-btn.active {
+    .basemap-btn { background: var(--paper-soft); color: #4b5a52; font-size: 12px; }
+
+    .basemap-btn:hover, .mode-btn:hover, .action-btn:hover { background: #e8e1d3; color: var(--ink); }
+
+    .basemap-btn.active, .mode-btn.active {
       background: var(--ink);
       border-color: var(--ink);
-      color: white;
+      color: #fff;
     }
-
-    /* =====================================================
-       LEGEND
-    ===================================================== */
 
     .map-legend {
       position: absolute;
-
       bottom: 28px;
       left: 18px;
-
       z-index: 10;
-
       min-width: 170px;
-
+      max-width: 280px;
       padding: 12px 14px;
-
-      background:
-        rgba(250, 247, 240, 0.95);
-
-      border:
-        1px solid var(--line);
-
-      box-shadow:
-        0 8px 25px rgba(30, 42, 36, 0.10);
-
-      backdrop-filter:
-        blur(8px);
-
       font-size: 11px;
     }
 
     .legend-title {
       margin-bottom: 8px;
-
       color: var(--accent);
-
       font-size: 8px;
       font-weight: 700;
-
       letter-spacing: 1.3px;
       text-transform: uppercase;
     }
 
-    .legend-item {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-
-      margin: 6px 0;
-    }
+    .legend-item { display: flex; align-items: center; gap: 8px; margin: 6px 0; line-height: 1.35; }
 
     .legend-box {
       width: 13px;
       height: 13px;
-
       flex: 0 0 13px;
-
-      border:
-        1px solid rgba(0, 0, 0, 0.16);
+      border: 1px solid rgba(0, 0, 0, 0.16);
     }
 
-    .legend-blue {
-      background: var(--blue);
-    }
+    .legend-circle { border-radius: 50%; }
+    .legend-blue { background: var(--blue); }
+    .legend-yellow { background: var(--yellow); }
+    .legend-aoi { background: rgba(138, 75, 46, 0.12); border: 2px solid var(--accent); }
+    .legend-quake { background: var(--red); border-radius: 50%; }
 
-    .legend-yellow {
-      background: var(--yellow);
-    }
-
-    .legend-aoi {
-      background:
-        rgba(138, 75, 46, 0.12);
-
-      border:
-        2px solid var(--accent);
-    }
-
-    .legend-quake {
-      background: var(--red);
-      border-radius: 50%;
-    }
-
-    /* =====================================================
-       SIDEBAR
-    ===================================================== */
+    /* ================= SIDEBAR ================= */
 
     .sidebar {
       overflow-y: auto;
-
-      padding:
-        24px 23px 40px;
-
-      background:
-        linear-gradient(
-          180deg,
-          #faf7f0 0%,
-          #f7f2e8 100%
-        );
-
-      border-left:
-        1px solid var(--line);
+      padding: 24px 23px 40px;
+      background: linear-gradient(180deg, #faf7f0 0%, #f7f2e8 100%);
+      border-left: 1px solid var(--line);
     }
 
     .section-label {
       margin-bottom: 9px;
-
       color: var(--accent);
-
       font-size: 9px;
       font-weight: 700;
-
       letter-spacing: 1.6px;
       text-transform: uppercase;
     }
 
     .section-title {
-      margin:
-        0 0 7px;
-
-      font-family:
-        Georgia,
-        "Times New Roman",
-        serif;
-
+      margin: 0 0 7px;
+      font-family: Georgia, "Times New Roman", serif;
       font-size: 21px;
       font-weight: normal;
     }
 
-    .muted {
-      color: var(--muted);
+    .muted { color: var(--muted); font-size: 11px; line-height: 1.65; }
 
-      font-size: 11px;
-      line-height: 1.65;
-    }
+    .divider { margin: 21px 0; border: 0; border-top: 1px solid var(--line); }
 
-    .divider {
-      margin: 21px 0;
-
-      border: 0;
-      border-top:
-        1px solid var(--line);
-    }
-
-    /* =====================================================
-       STATISTICS
-    ===================================================== */
-
-    .stats {
-      display: grid;
-
-      grid-template-columns:
-        1fr 1fr;
-
-      gap: 8px;
-
-      margin-top: 17px;
-    }
+    .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 17px; }
 
     .stat-card {
       min-height: 82px;
-
       padding: 13px;
-
-      background:
-        rgba(255, 255, 255, 0.42);
-
-      border:
-        1px solid #ded7c7;
-
-      transition:
-        transform 0.18s ease,
-        box-shadow 0.18s ease;
+      background: rgba(255, 255, 255, 0.42);
+      border: 1px solid #ded7c7;
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
     }
 
-    .stat-card:hover {
-      transform:
-        translateY(-2px);
-
-      box-shadow:
-        0 7px 18px
-        rgba(30, 42, 36, 0.07);
-    }
+    .stat-card:hover { transform: translateY(-2px); box-shadow: 0 7px 18px rgba(30, 42, 36, 0.07); }
 
     .stat-value {
       margin-bottom: 7px;
-
-      font-family:
-        Georgia,
-        "Times New Roman",
-        serif;
-
+      font-family: Georgia, "Times New Roman", serif;
       font-size: 28px;
       line-height: 1;
     }
 
     .stat-name {
       color: var(--muted);
-
       font-size: 8px;
       font-weight: 700;
-
       letter-spacing: 1px;
       text-transform: uppercase;
     }
 
-    /* =====================================================
-       LAYERS
-    ===================================================== */
-
-    .layer-list {
-      border-top:
-        1px solid #e5dfd2;
-    }
+    .layer-list { border-top: 1px solid #e5dfd2; }
 
     .layer-row {
       min-height: 43px;
-
       display: flex;
       align-items: center;
       justify-content: space-between;
-
-      border-bottom:
-        1px solid #e5dfd2;
-
+      border-bottom: 1px solid #e5dfd2;
       font-size: 12px;
     }
 
-    .layer-left {
-      display: flex;
-      align-items: center;
-      gap: 9px;
-    }
+    .layer-left { display: flex; align-items: center; gap: 9px; }
 
-    .switch {
-      position: relative;
-
-      width: 34px;
-      height: 19px;
-
-      flex: 0 0 34px;
-    }
-
-    .switch input {
-      width: 0;
-      height: 0;
-      opacity: 0;
-    }
+    .switch { position: relative; width: 34px; height: 19px; flex: 0 0 34px; }
+    .switch input { width: 0; height: 0; opacity: 0; }
 
     .slider {
       position: absolute;
       inset: 0;
-
       cursor: pointer;
-
       background: #c8c3b8;
-
       border-radius: 20px;
-
       transition: 0.2s;
     }
 
     .slider::before {
       content: "";
-
       position: absolute;
-
       width: 13px;
       height: 13px;
-
       left: 3px;
       top: 3px;
-
       background: white;
-
       border-radius: 50%;
-
       transition: 0.2s;
     }
 
-    .switch input:checked + .slider {
-      background: var(--ink);
-    }
+    .switch input:checked + .slider { background: var(--ink); }
+    .switch input:checked + .slider::before { transform: translateX(15px); }
 
-    .switch input:checked + .slider::before {
-      transform:
-        translateX(15px);
-    }
-
-    /* =====================================================
-       DETAILS
-    ===================================================== */
+    .button-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
 
     .empty-detail {
       padding: 15px;
-
       color: var(--muted);
-
-      border:
-        1px dashed #c9c1af;
-
-      background:
-        rgba(255, 255, 255, 0.28);
-
+      border: 1px dashed #c9c1af;
+      background: rgba(255, 255, 255, 0.28);
       font-size: 11px;
       line-height: 1.65;
     }
 
     .building-id {
       margin-bottom: 4px;
-
       overflow-wrap: anywhere;
-
-      font-family:
-        Georgia,
-        "Times New Roman",
-        serif;
-
+      font-family: Georgia, "Times New Roman", serif;
       font-size: 18px;
     }
 
-    .building-function {
-      margin-bottom: 14px;
+    .building-function { margin-bottom: 14px; color: var(--muted); font-size: 11px; }
 
-      color: var(--muted);
-
-      font-size: 11px;
-    }
-
-    .detail-table {
-      width: 100%;
-
-      border-collapse:
-        collapse;
-
-      font-size: 11px;
-    }
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 11px; }
 
     .detail-table td {
       padding: 8px 0;
-
-      border-bottom:
-        1px solid #e5dfd2;
-
+      border-bottom: 1px solid #e5dfd2;
       vertical-align: top;
     }
 
-    .detail-table td:first-child {
-      width: 48%;
-      color: var(--muted);
-    }
+    .detail-table td:first-child { width: 45%; color: var(--muted); padding-right: 8px; }
 
     .detail-table td:last-child {
       text-align: right;
       font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    .detail-group td {
+      padding-top: 14px;
+      color: var(--accent) !important;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      text-align: left !important;
+    }
+
+    .kelas-chip {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 2px;
+      color: #fff;
+      font-size: 10px;
     }
 
     .badge {
       display: inline-block;
-
       margin-top: 12px;
-
       padding: 5px 8px;
-
-      border:
-        1px solid var(--line);
-
+      border: 1px solid var(--line);
       font-size: 8px;
       font-weight: 700;
-
       letter-spacing: 0.8px;
       text-transform: uppercase;
     }
 
-    .badge-ok {
-      color: #315f3b;
-      background: #e5efe7;
-    }
+    .badge-ok { color: #315f3b; background: #e5efe7; }
+    .badge-check { color: #8a342a; background: #f5e5df; }
 
-    .badge-check {
-      color: #8a342a;
-      background: #f5e5df;
-    }
-
-    /* =====================================================
-       ACTION BUTTON
-    ===================================================== */
-
-    .action-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 7px;
-    }
-
-    .action-btn {
-      height: 36px;
-
-      border:
-        1px solid var(--line);
-
-      background:
-        rgba(255, 255, 255, 0.4);
-
-      color: var(--ink);
-
-      cursor: pointer;
-
-      font-size: 10px;
-
-      transition:
-        background 0.18s ease;
-    }
-
-    .action-btn:hover {
-      background:
-        var(--paper-soft);
-    }
-
-    /* =====================================================
-       POPUP
-    ===================================================== */
+    /* ================= POPUP & CONTROLS ================= */
 
     .maplibregl-popup-content {
-      min-width: 185px;
-
+      min-width: 190px;
+      max-width: 260px;
       padding: 13px;
-
       background: var(--paper);
-
       color: var(--ink);
-
-      border:
-        1px solid var(--line);
-
+      border: 1px solid var(--line);
       border-radius: 2px;
-
-      box-shadow:
-        0 8px 25px
-        rgba(0, 0, 0, 0.16);
-
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.16);
       font-size: 11px;
       line-height: 1.55;
     }
 
-    .maplibregl-popup-close-button {
-      padding:
-        3px 7px;
+    .maplibregl-popup-close-button { padding: 3px 7px; color: var(--muted); font-size: 17px; }
 
-      color: var(--muted);
-
-      font-size: 17px;
-    }
-
-    /* =====================================================
-       MAPLIBRE CONTROLS
-    ===================================================== */
-
-    .maplibregl-ctrl-top-left {
-      top: 93px;
-      left: 8px;
-    }
+    .maplibregl-ctrl-top-left { top: 93px; left: 8px; }
 
     .maplibregl-ctrl-group {
       overflow: hidden;
-
-      border-radius:
-        2px !important;
-
-      box-shadow:
-        0 5px 15px
-        rgba(0, 0, 0, 0.14)
-        !important;
+      border-radius: 2px !important;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.14) !important;
     }
 
-    /* =====================================================
-       MOBILE
-    ===================================================== */
+    /* ================= MOBILE ================= */
 
-    .mobile-sidebar-btn {
-      display: none;
-    }
+    .mobile-sidebar-btn { display: none; }
 
     @media (max-width: 900px) {
+      :root { --header-height: 68px; }
 
-      :root {
-        --header-height: 68px;
-      }
+      .header { padding: 0 14px; }
+      .brand-mark { width: 38px; height: 38px; flex-basis: 38px; }
+      .brand-title { font-size: 17px; }
+      .brand-small { font-size: 7px; }
+      .header-status { display: none; }
 
-      .header {
-        padding:
-          0 14px;
-      }
-
-      .brand-mark {
-        width: 38px;
-        height: 38px;
-        flex-basis: 38px;
-      }
-
-      .brand-title {
-        font-size: 17px;
-      }
-
-      .brand-small {
-        font-size: 7px;
-      }
-
-      .header-status {
-        display: none;
-      }
-
-      .app {
-        display: block;
-      }
-
-      .map-wrap {
-        width: 100%;
-        height: 100%;
-      }
+      .app { display: block; }
+      .map-wrap { width: 100%; height: 100%; }
 
       .sidebar {
         position: absolute;
-
         top: var(--header-height);
         right: 0;
         bottom: 0;
-
         z-index: 60;
-
-        width:
-          min(90vw, 370px);
-
-        transform:
-          translateX(100%);
-
-        transition:
-          transform 0.25s ease;
-
-        box-shadow:
-          -10px 0 30px
-          rgba(30, 42, 36, 0.15);
+        width: min(90vw, 370px);
+        transform: translateX(100%);
+        transition: transform 0.25s ease;
+        box-shadow: -10px 0 30px rgba(30, 42, 36, 0.15);
       }
 
-      .sidebar.open {
-        transform:
-          translateX(0);
-      }
+      .sidebar.open { transform: translateX(0); }
 
       .mobile-sidebar-btn {
         display: block;
-
         position: absolute;
-
         right: 16px;
         bottom: 25px;
-
         z-index: 40;
-
-        padding:
-          11px 14px;
-
+        padding: 11px 14px;
         border: 0;
-
         background: var(--ink);
         color: white;
-
         box-shadow: var(--shadow);
-
         cursor: pointer;
       }
 
-      .basemap-control {
-        width: 190px;
-      }
-
-      .map-title {
-        max-width:
-          calc(100% - 230px);
-      }
+      .basemap-control { width: 190px; }
+      .map-title { max-width: calc(100% - 230px); }
     }
 
     @media (max-width: 560px) {
-
-      .map-title {
-        display: none;
-      }
-
-      .basemap-control {
-        top: 12px;
-        right: 12px;
-
-        width: 180px;
-      }
-
-      .map-legend {
-        left: 12px;
-        bottom: 18px;
-      }
-
-      .maplibregl-ctrl-top-left {
-        top: 10px;
-      }
+      .map-title { display: none; }
+      .basemap-control { top: 12px; right: 12px; width: 180px; }
+      .map-legend { left: 12px; bottom: 18px; max-width: 220px; }
+      .maplibregl-ctrl-top-left { top: 10px; }
     }
-
   </style>
 </head>
 
 <body>
 
-  <!-- ===================================================
-       HEADER
-  ==================================================== -->
+  <!-- ================= HEADER ================= -->
 
   <header class="header">
-
     <div class="brand">
-
-      <div class="brand-mark">
-        K7
-      </div>
-
+      <div class="brand-mark">K7</div>
       <div>
-
-        <div class="brand-small">
-          Kemker · Sistem Informasi Geospasial 3D
-        </div>
-
-        <h1 class="brand-title">
-          Kelompok 7 Kemker Sidodadi
-        </h1>
-
+        <div class="brand-small">Kemker · Sistem Informasi Geospasial 3D</div>
+        <h1 class="brand-title">Kelompok 7 Kemker Sidodadi</h1>
       </div>
-
     </div>
-
 
     <div class="header-status">
-
       <span class="status-dot"></span>
-
-      LOD1 Building Model · WebGIS
-
+      LOD1 Building Model · Risiko Gempa &amp; Tsunami
     </div>
-
   </header>
 
 
-  <!-- ===================================================
-       APP
-  ==================================================== -->
-
   <div class="app">
 
-
-    <!-- =================================================
-         MAP
-    ================================================== -->
+    <!-- ================= MAP ================= -->
 
     <main class="map-wrap">
-
       <div id="map"></div>
 
-
-      <!-- MAP TITLE -->
-
-      <div class="map-title">
-
-        <div class="map-title-main">
-          Visualisasi Bangunan 3D
-        </div>
-
-        <div class="map-title-sub">
-          Sidodadi · LOD1 · Kelompok 7
-        </div>
-
+      <div class="map-title panel">
+        <div class="map-title-main">Visualisasi Bangunan 3D</div>
+        <div class="map-title-sub">Sidodadi · LOD1 · Bahaya &amp; Eksposur</div>
       </div>
 
-
-      <!-- BASEMAP -->
-
-      <div class="basemap-control">
-
-        <div class="control-label">
-          Basemap
-        </div>
-
+      <div class="basemap-control panel">
+        <div class="control-label">Basemap</div>
         <div class="basemap-options">
-
-          <button
-            class="basemap-btn active"
-            data-basemap="street"
-          >
-            Street
-          </button>
-
-          <button
-            class="basemap-btn"
-            data-basemap="satellite"
-          >
-            Satellite
-          </button>
-
+          <button class="basemap-btn active" data-basemap="street">Street</button>
+          <button class="basemap-btn" data-basemap="satellite">Satellite</button>
         </div>
-
       </div>
 
-
-      <!-- LEGEND -->
-
-      <div class="map-legend">
-
-        <div class="legend-title">
-          Legenda LOD1
-        </div>
-
-        <div class="legend-item">
-
-          <span
-            class="legend-box legend-blue"
-          ></span>
-
-          Lantai 1 · 0–4 m
-
-        </div>
-
-        <div class="legend-item">
-
-          <span
-            class="legend-box legend-yellow"
-          ></span>
-
-          Lantai 2 · 4–8 m
-
-        </div>
-
+      <div class="map-legend panel">
+        <div class="legend-title" id="legend-title">Legenda LOD1</div>
+        <div id="legend-body"></div>
       </div>
 
-
-      <button
-        class="mobile-sidebar-btn"
-        id="mobile-sidebar-btn"
-      >
-        Informasi
-      </button>
-
+      <button class="mobile-sidebar-btn" id="mobile-sidebar-btn">Informasi</button>
     </main>
 
 
-    <!-- =================================================
-         SIDEBAR
-    ================================================== -->
+    <!-- ================= SIDEBAR ================= -->
 
-    <aside
-      class="sidebar"
-      id="sidebar"
-    >
+    <aside class="sidebar" id="sidebar">
 
-      <div class="section-label">
-        Dataset Overview
-      </div>
-
-      <h2 class="section-title">
-        Bangunan Sidodadi
-      </h2>
-
+      <div class="section-label">Dataset Overview</div>
+      <h2 class="section-title">Bangunan Sidodadi</h2>
       <div class="muted">
-        Visualisasi tiga dimensi footprint bangunan
-        berdasarkan integrasi data survei lapangan dan
-        geometri bangunan dalam model Level of Detail 1.
+        Visualisasi tiga dimensi footprint bangunan (LOD1) yang diintegrasikan
+        dengan data survei taksonomi, zona bahaya gempa, inundasi tsunami,
+        dan nilai eksposur bangunan.
       </div>
-
-
-      <!-- STATISTICS -->
 
       <div class="stats">
-
         <div class="stat-card">
-
-          <div
-            class="stat-value"
-            id="total-building"
-          >
-            —
-          </div>
-
-          <div class="stat-name">
-            Total Bangunan
-          </div>
-
+          <div class="stat-value" id="total-building">—</div>
+          <div class="stat-name">Total Bangunan</div>
         </div>
-
-
         <div class="stat-card">
-
-          <div
-            class="stat-value"
-            id="total-floor1"
-          >
-            —
-          </div>
-
-          <div class="stat-name">
-            1 Lantai
-          </div>
-
+          <div class="stat-value" id="total-floor1">—</div>
+          <div class="stat-name">1 Lantai</div>
         </div>
-
-
         <div class="stat-card">
-
-          <div
-            class="stat-value"
-            id="total-floor2"
-          >
-            —
-          </div>
-
-          <div class="stat-name">
-            2 Lantai
-          </div>
-
+          <div class="stat-value" id="total-floor2">—</div>
+          <div class="stat-name">2 Lantai</div>
         </div>
-
-
         <div class="stat-card">
-
-          <div
-            class="stat-value"
-            id="total-ok"
-          >
-            —
-          </div>
-
-          <div class="stat-name">
-            Match ≤ 15 m
-          </div>
-
+          <div class="stat-value" id="total-ok">—</div>
+          <div class="stat-name">Match ≤ 15 m</div>
         </div>
-
+        <div class="stat-card">
+          <div class="stat-value" id="total-gempa-tinggi">—</div>
+          <div class="stat-name">Kelas Gempa Tinggi</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="total-tsunami-tinggi">—</div>
+          <div class="stat-name">Kelas Tsunami Tinggi</div>
+        </div>
       </div>
 
 
       <hr class="divider">
 
 
-      <!-- MAP LAYERS -->
-
-      <div class="section-label">
-        Map Layers
+      <div class="section-label">Mode Warna Bangunan</div>
+      <div class="button-grid">
+        <button class="mode-btn active" data-mode="lantai">Lantai</button>
+        <button class="mode-btn" data-mode="gempa">Kelas Gempa</button>
+        <button class="mode-btn" data-mode="tsunami">Kelas Tsunami</button>
+        <button class="mode-btn" data-mode="exposure">Nilai Exposure</button>
       </div>
 
+
+      <hr class="divider">
+
+
+      <div class="section-label">Map Layers</div>
       <div class="layer-list">
 
-
         <div class="layer-row">
-
           <div class="layer-left">
-
-            <span
-              class="legend-box legend-blue"
-            ></span>
-
-            Lantai 1
-
+            <span class="legend-box legend-blue"></span>
+            Bangunan Lantai 1
           </div>
-
           <label class="switch">
-
-            <input
-              id="toggle-floor1"
-              type="checkbox"
-              checked
-            >
-
+            <input id="toggle-floor1" type="checkbox" checked>
             <span class="slider"></span>
-
           </label>
-
         </div>
 
-
         <div class="layer-row">
-
           <div class="layer-left">
-
-            <span
-              class="legend-box legend-yellow"
-            ></span>
-
-            Lantai 2
-
+            <span class="legend-box legend-yellow"></span>
+            Bangunan Lantai 2
           </div>
-
           <label class="switch">
-
-            <input
-              id="toggle-floor2"
-              type="checkbox"
-              checked
-            >
-
+            <input id="toggle-floor2" type="checkbox" checked>
             <span class="slider"></span>
-
           </label>
-
         </div>
 
+        <div class="layer-row">
+          <div class="layer-left">
+            <span class="legend-box" style="background:linear-gradient(90deg,#43A047,#FB8C00,#C62828)"></span>
+            Zona Bahaya Gempa
+          </div>
+          <label class="switch">
+            <input id="toggle-zona-gempa" type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
 
         <div class="layer-row">
-
           <div class="layer-left">
+            <span class="legend-box" style="background:linear-gradient(90deg,#90CAF9,#0D47A1)"></span>
+            Inundasi Tsunami
+          </div>
+          <label class="switch">
+            <input id="toggle-inundasi" type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
 
-            <span
-              class="legend-box legend-aoi"
-            ></span>
+        <div class="layer-row">
+          <div class="layer-left">
+            <span class="legend-box legend-circle" style="background:#C62828;border:2px solid #fff"></span>
+            Titik Eksposur Gempa
+          </div>
+          <label class="switch">
+            <input id="toggle-titik-gempa" type="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div>
 
+        <div class="layer-row">
+          <div class="layer-left">
+            <span class="legend-box legend-circle" style="background:#C62828;border:2px solid #0D47A1"></span>
+            Titik Eksposur Tsunami
+          </div>
+          <label class="switch">
+            <input id="toggle-titik-tsunami" type="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="layer-row">
+          <div class="layer-left">
+            <span class="legend-box legend-aoi"></span>
             Batas AOI
-
           </div>
-
           <label class="switch">
-
-            <input
-              id="toggle-aoi"
-              type="checkbox"
-              checked
-            >
-
+            <input id="toggle-aoi" type="checkbox" checked>
             <span class="slider"></span>
-
           </label>
-
         </div>
-
 
         <div class="layer-row">
-
           <div class="layer-left">
-
-            <span
-              class="legend-box legend-quake"
-            ></span>
-
+            <span class="legend-box legend-quake"></span>
             Parameter Gempa
-
           </div>
-
           <label class="switch">
-
-            <input
-              id="toggle-quake"
-              type="checkbox"
-              checked
-            >
-
+            <input id="toggle-quake" type="checkbox" checked>
             <span class="slider"></span>
-
           </label>
-
         </div>
 
       </div>
@@ -1294,53 +668,26 @@
       <hr class="divider">
 
 
-      <!-- MAP ACTION -->
-
-      <div class="section-label">
-        Map Navigation
-      </div>
-
-      <div class="action-grid">
-
-        <button
-          class="action-btn"
-          id="reset-view"
-        >
-          Reset View
-        </button>
-
-        <button
-          class="action-btn"
-          id="toggle-3d"
-        >
-          Tampilan 2D
-        </button>
-
+      <div class="section-label">Map Navigation</div>
+      <div class="button-grid">
+        <button class="action-btn" id="reset-view">Reset View</button>
+        <button class="action-btn" id="toggle-3d">Tampilan 2D</button>
       </div>
 
 
       <hr class="divider">
 
 
-      <!-- BUILDING INFORMATION -->
-
-      <div class="section-label">
-        Building Information
-      </div>
-
+      <div class="section-label">Building Information</div>
       <div id="building-detail">
-
         <div class="empty-detail">
-          Klik salah satu bangunan pada peta untuk melihat
-          ID bangunan, fungsi, jumlah lantai, tinggi model,
-          luas footprint, dan informasi hasil pencocokan
-          spasial.
+          Klik salah satu bangunan pada peta untuk melihat ID, fungsi,
+          jumlah lantai, taksonomi bangunan, kelas bahaya gempa dan tsunami,
+          nilai eksposur, serta hasil pencocokan spasial.
         </div>
-
       </div>
 
     </aside>
-
   </div>
 
 
@@ -1351,1137 +698,650 @@
     ===================================================== */
 
     const INITIAL_VIEW = {
-      center: [
-        105.23854,
-        -5.55228
-      ],
-
+      center: [105.23854, -5.55228],
       zoom: 15.2,
-
       pitch: 58,
-
       bearing: -18
     };
+
+    const FILES = {
+      bangunan: "./bangunan_lod1_risiko.geojson",
+      aoi: "./aoi_sidodadi.geojson",
+      quake: "./gempa.geojson",
+      zonaGempa: "./bahaya_gempa.geojson",
+      inundasiMeta: "./inundasi_tsunami.json",
+      titikGempa: "./titik_expo_gempa.geojson",
+      titikTsunami: "./titik_expo_tsunami.geojson"
+    };
+
+    const WARNA = {
+      Rendah: "#43A047",
+      Sedang: "#FB8C00",
+      Tinggi: "#C62828",
+      lain: "#9E9E9E"
+    };
+
+    const WARNA_EXPOSURE = ["#FEE5D9", "#FCAE91", "#FB6A4A", "#CB181D"];
+
+    const kelasColor = prop => [
+      "match", ["get", prop],
+      "Rendah", WARNA.Rendah,
+      "Sedang", WARNA.Sedang,
+      "Tinggi", WARNA.Tinggi,
+      WARNA.lain
+    ];
+
+    const exposureColor = [
+      "match", ["to-number", ["get", "exposure_rank"], 0],
+      1, WARNA_EXPOSURE[0],
+      2, WARNA_EXPOSURE[1],
+      3, WARNA_EXPOSURE[2],
+      4, WARNA_EXPOSURE[3],
+      WARNA.lain
+    ];
+
+    const LEGEND_KELAS = [
+      [WARNA.Rendah, "Rendah"],
+      [WARNA.Sedang, "Sedang"],
+      [WARNA.Tinggi, "Tinggi"],
+      [WARNA.lain, "Tanpa data / tidak terdampak"]
+    ];
+
+    const COLOR_MODES = {
+      lantai: {
+        title: "Legenda LOD1",
+        floor1: "#2979FF",
+        floor2: "#FFD600",
+        legend: [
+          ["#2979FF", "Lantai 1 · 0–4 m"],
+          ["#FFD600", "Lantai 2 · 4–8 m"]
+        ]
+      },
+      gempa: {
+        title: "Kelas Bahaya Gempa",
+        floor1: kelasColor("kelas_gempa"),
+        floor2: kelasColor("kelas_gempa"),
+        legend: LEGEND_KELAS
+      },
+      tsunami: {
+        title: "Kelas Bahaya Tsunami",
+        floor1: kelasColor("kelas_tsunami"),
+        floor2: kelasColor("kelas_tsunami"),
+        legend: LEGEND_KELAS
+      },
+      exposure: {
+        title: "Nilai Exposure Bangunan",
+        floor1: exposureColor,
+        floor2: exposureColor,
+        legend: [[WARNA.lain, "Memuat data..."]]
+      }
+    };
+
+    let currentMode = "lantai";
+
+
+    /* =====================================================
+       HELPERS
+    ===================================================== */
+
+    const esc = value =>
+      String(value ?? "-").replace(/[&<>"']/g, c => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[c]));
+
+    function toNum(value) {
+      if (value === null || value === undefined || value === "") return NaN;
+      return Number(value);
+    }
+
+    function rupiah(value) {
+      const n = toNum(value);
+      if (!Number.isFinite(n)) return "-";
+      return new Intl.NumberFormat("id-ID", {
+        style: "currency",
+        currency: "IDR",
+        maximumFractionDigits: 0
+      }).format(n);
+    }
+
+    function kelasChip(kelas) {
+      const color = WARNA[kelas] || WARNA.lain;
+      return `<span class="kelas-chip" style="background:${color}">${esc(kelas)}</span>`;
+    }
+
+    async function fetchJSON(url) {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`${url} (${response.status})`);
+      return response.json();
+    }
+
+    function setText(id, value) {
+      const el = document.getElementById(id);
+      if (el) el.textContent = value;
+    }
 
 
     /* =====================================================
        MAP
     ===================================================== */
 
-    const map =
-      new maplibregl.Map({
-
-        container: "map",
-
-        style: {
-
-          version: 8,
-
-          sources: {
-
-            /* -----------------------------------------
-               OPENSTREETMAP
-            ----------------------------------------- */
-
-            osm: {
-
-              type: "raster",
-
-              tiles: [
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-              ],
-
-              tileSize: 256,
-
-              attribution:
-                "© OpenStreetMap contributors"
-
-            },
-
-
-            /* -----------------------------------------
-               ESRI WORLD IMAGERY
-            ----------------------------------------- */
-
-            satellite: {
-
-              type: "raster",
-
-              tiles: [
-                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-              ],
-
-              tileSize: 256,
-
-              attribution:
-                "Tiles © Esri"
-
-            }
-
+    const map = new maplibregl.Map({
+      container: "map",
+      style: {
+        version: 8,
+        sources: {
+          osm: {
+            type: "raster",
+            tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
+            tileSize: 256,
+            attribution: "© OpenStreetMap contributors"
           },
-
-
-          layers: [
-
-            {
-              id: "osm",
-
-              type: "raster",
-
-              source: "osm",
-
-              layout: {
-                visibility: "visible"
-              }
-            },
-
-
-            {
-              id: "satellite",
-
-              type: "raster",
-
-              source: "satellite",
-
-              layout: {
-                visibility: "none"
-              }
-            }
-
-          ]
-
+          satellite: {
+            type: "raster",
+            tiles: [
+              "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+            ],
+            tileSize: 256,
+            attribution: "Tiles © Esri"
+          }
         },
+        layers: [
+          { id: "osm", type: "raster", source: "osm", layout: { visibility: "visible" } },
+          { id: "satellite", type: "raster", source: "satellite", layout: { visibility: "none" } }
+        ]
+      },
+      center: INITIAL_VIEW.center,
+      zoom: INITIAL_VIEW.zoom,
+      pitch: INITIAL_VIEW.pitch,
+      bearing: INITIAL_VIEW.bearing,
+      antialias: true
+    });
+
+    map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), "top-left");
+    map.addControl(new maplibregl.ScaleControl({ maxWidth: 120, unit: "metric" }), "bottom-right");
 
 
-        center:
-          INITIAL_VIEW.center,
+    /* =====================================================
+       LOAD DATA (urutan = urutan gambar, bawah ke atas)
+    ===================================================== */
 
-        zoom:
-          INITIAL_VIEW.zoom,
+    map.on("load", async () => {
 
-        pitch:
-          INITIAL_VIEW.pitch,
+      /* ---------- 1. Zona bahaya gempa ---------- */
 
-        bearing:
-          INITIAL_VIEW.bearing,
+      map.addSource("zona-gempa", { type: "geojson", data: FILES.zonaGempa });
 
-        antialias: true
+      map.addLayer({
+        id: "zona-gempa-fill",
+        type: "fill",
+        source: "zona-gempa",
+        paint: {
+          "fill-color": kelasColor("kelas"),
+          "fill-opacity": 0.28
+        }
+      });
 
+      map.addLayer({
+        id: "zona-gempa-line",
+        type: "line",
+        source: "zona-gempa",
+        paint: {
+          "line-color": kelasColor("kelas"),
+          "line-width": 0.8,
+          "line-opacity": 0.6
+        }
       });
 
 
-    /* =====================================================
-       MAP CONTROLS
-    ===================================================== */
+      /* ---------- 2. Inundasi tsunami (PNG overlay) ---------- */
 
-    map.addControl(
+      try {
+        const meta = await fetchJSON(FILES.inundasiMeta);
 
-      new maplibregl.NavigationControl({
-        visualizePitch: true
-      }),
-
-      "top-left"
-
-    );
-
-
-    map.addControl(
-
-      new maplibregl.ScaleControl({
-        maxWidth: 120,
-        unit: "metric"
-      }),
-
-      "bottom-right"
-
-    );
-
-
-    /* =====================================================
-       LOAD DATA
-    ===================================================== */
-
-    map.on(
-      "load",
-
-      async () => {
-
-
-        /* ===============================================
-           BUILDING SOURCE
-        =============================================== */
-
-        map.addSource(
-          "buildings",
-          {
-
-            type: "geojson",
-
-            data:
-              "./bangunan_lod1_optimal.geojson"
-
-          }
-        );
-
-
-        /* ===============================================
-           FLOOR 1
-
-           Semua bangunan:
-           base 0 m
-           height 4 m
-        =============================================== */
-
-        map.addLayer({
-
-          id:
-            "floor-1",
-
-          type:
-            "fill-extrusion",
-
-          source:
-            "buildings",
-
-          paint: {
-
-            "fill-extrusion-color":
-              "#2979FF",
-
-            "fill-extrusion-base":
-              0,
-
-            "fill-extrusion-height":
-              4,
-
-            "fill-extrusion-opacity":
-              0.86
-
-          }
-
+        map.addSource("inundasi", {
+          type: "image",
+          url: meta.image,
+          coordinates: meta.coordinates
         });
 
-
-        /* ===============================================
-           FLOOR 2
-
-           Hanya bangunan >= 2 lantai:
-           base 4 m
-           height 8 m
-        =============================================== */
-
         map.addLayer({
-
-          id:
-            "floor-2",
-
-          type:
-            "fill-extrusion",
-
-          source:
-            "buildings",
-
-          filter: [
-
-            ">=",
-
-            [
-              "to-number",
-              [
-                "get",
-                "jumlah_lantai"
-              ]
-            ],
-
-            2
-
-          ],
-
+          id: "inundasi-raster",
+          type: "raster",
+          source: "inundasi",
           paint: {
-
-            "fill-extrusion-color":
-              "#FFD600",
-
-            "fill-extrusion-base":
-              4,
-
-            "fill-extrusion-height":
-              8,
-
-            "fill-extrusion-opacity":
-              0.94
-
+            "raster-opacity": 0.75,
+            "raster-resampling": "nearest"
           }
-
         });
-
-
-        /* ===============================================
-           AOI SOURCE
-        =============================================== */
-
-        map.addSource(
-          "aoi",
-          {
-
-            type:
-              "geojson",
-
-            data:
-              "./aoi_sidodadi.geojson"
-
-          }
-        );
-
-
-        map.addLayer({
-
-          id:
-            "aoi-fill",
-
-          type:
-            "fill",
-
-          source:
-            "aoi",
-
-          paint: {
-
-            "fill-color":
-              "#8A4B2E",
-
-            "fill-opacity":
-              0.035
-
-          }
-
-        });
-
-
-        map.addLayer({
-
-          id:
-            "aoi-line",
-
-          type:
-            "line",
-
-          source:
-            "aoi",
-
-          paint: {
-
-            "line-color":
-              "#8A4B2E",
-
-            "line-width":
-              2.2,
-
-            "line-opacity":
-              0.9
-
-          }
-
-        });
-
-
-        /* ===============================================
-           EARTHQUAKE PARAMETER
-        =============================================== */
-
-        map.addSource(
-          "quake",
-          {
-
-            type:
-              "geojson",
-
-            data:
-              "./gempa.geojson"
-
-          }
-        );
-
-
-        map.addLayer({
-
-          id:
-            "quake-halo",
-
-          type:
-            "circle",
-
-          source:
-            "quake",
-
-          paint: {
-
-            "circle-radius":
-              17,
-
-            "circle-color":
-              "#B3261E",
-
-            "circle-opacity":
-              0.14
-
-          }
-
-        });
-
-
-        map.addLayer({
-
-          id:
-            "quake-circle",
-
-          type:
-            "circle",
-
-          source:
-            "quake",
-
-          paint: {
-
-            "circle-radius":
-              7,
-
-            "circle-color":
-              "#B3261E",
-
-            "circle-stroke-color":
-              "#FAF7F0",
-
-            "circle-stroke-width":
-              2.5
-
-          }
-
-        });
-
-
-        /* ===============================================
-           LOAD STATISTICS
-        =============================================== */
-
-        try {
-
-          const response =
-            await fetch(
-              "./bangunan_lod1_optimal.geojson"
-            );
-
-
-          if (!response.ok) {
-
-            throw new Error(
-              "GeoJSON tidak dapat dimuat."
-            );
-
-          }
-
-
-          const data =
-            await response.json();
-
-
-          const features =
-            data.features || [];
-
-
-          const floor1 =
-            features.filter(
-              feature =>
-                Number(
-                  feature.properties
-                    .jumlah_lantai
-                ) === 1
-            ).length;
-
-
-          const floor2 =
-            features.filter(
-              feature =>
-                Number(
-                  feature.properties
-                    .jumlah_lantai
-                ) >= 2
-            ).length;
-
-
-          const goodMatch =
-            features.filter(
-              feature =>
-                Number(
-                  feature.properties
-                    .jarak_match_m
-                ) <= 15
-            ).length;
-
-
-          document
-            .getElementById(
-              "total-building"
-            )
-            .textContent =
-              features.length;
-
-
-          document
-            .getElementById(
-              "total-floor1"
-            )
-            .textContent =
-              floor1;
-
-
-          document
-            .getElementById(
-              "total-floor2"
-            )
-            .textContent =
-              floor2;
-
-
-          document
-            .getElementById(
-              "total-ok"
-            )
-            .textContent =
-              goodMatch;
-
-        }
-
-        catch (error) {
-
-          console.error(
-            "Gagal membaca statistik:",
-            error
-          );
-
-        }
-
+      } catch (error) {
+        console.error("Gagal memuat inundasi:", error);
       }
-    );
+
+
+      /* ---------- 3. AOI ---------- */
+
+      map.addSource("aoi", { type: "geojson", data: FILES.aoi });
+
+      map.addLayer({
+        id: "aoi-fill",
+        type: "fill",
+        source: "aoi",
+        paint: { "fill-color": "#8A4B2E", "fill-opacity": 0.035 }
+      });
+
+      map.addLayer({
+        id: "aoi-line",
+        type: "line",
+        source: "aoi",
+        paint: { "line-color": "#8A4B2E", "line-width": 2.2, "line-opacity": 0.9 }
+      });
+
+
+      /* ---------- 4. Bangunan LOD1 ---------- */
+
+      let buildingData = { type: "FeatureCollection", features: [] };
+
+      try {
+        buildingData = await fetchJSON(FILES.bangunan);
+      } catch (error) {
+        console.error("Gagal memuat bangunan:", error);
+      }
+
+      map.addSource("buildings", { type: "geojson", data: buildingData });
+
+      map.addLayer({
+        id: "floor-1",
+        type: "fill-extrusion",
+        source: "buildings",
+        paint: {
+          "fill-extrusion-color": "#2979FF",
+          "fill-extrusion-base": 0,
+          "fill-extrusion-height": 4,
+          "fill-extrusion-opacity": 0.86
+        }
+      });
+
+      map.addLayer({
+        id: "floor-2",
+        type: "fill-extrusion",
+        source: "buildings",
+        filter: [">=", ["to-number", ["get", "jumlah_lantai"], 1], 2],
+        paint: {
+          "fill-extrusion-color": "#FFD600",
+          "fill-extrusion-base": 4,
+          "fill-extrusion-height": 8,
+          "fill-extrusion-opacity": 0.94
+        }
+      });
+
+
+      /* ---------- 5. Titik eksposur ---------- */
+
+      addTitikLayer("titik-gempa", FILES.titikGempa, "#FFFFFF");
+      addTitikLayer("titik-tsunami", FILES.titikTsunami, "#0D47A1");
+
+
+      /* ---------- 6. Parameter gempa ---------- */
+
+      map.addSource("quake", { type: "geojson", data: FILES.quake });
+
+      map.addLayer({
+        id: "quake-halo",
+        type: "circle",
+        source: "quake",
+        paint: { "circle-radius": 17, "circle-color": "#B3261E", "circle-opacity": 0.14 }
+      });
+
+      map.addLayer({
+        id: "quake-circle",
+        type: "circle",
+        source: "quake",
+        paint: {
+          "circle-radius": 7,
+          "circle-color": "#B3261E",
+          "circle-stroke-color": "#FAF7F0",
+          "circle-stroke-width": 2.5
+        }
+      });
+
+
+      /* ---------- Finalisasi ---------- */
+
+      const features = buildingData.features || [];
+      updateStats(features);
+      buildExposureLegend(features);
+      syncToggles();
+      applyColorMode(currentMode);
+    });
+
+
+    function addTitikLayer(id, url, strokeColor) {
+      map.addSource(id, { type: "geojson", data: url });
+
+      map.addLayer({
+        id,
+        type: "circle",
+        source: id,
+        layout: { visibility: "none" },
+        paint: {
+          "circle-radius": ["interpolate", ["linear"], ["zoom"], 14, 2.5, 18, 6],
+          "circle-color": kelasColor("KELAS"),
+          "circle-stroke-color": strokeColor,
+          "circle-stroke-width": 1
+        }
+      });
+    }
+
+
+    /* =====================================================
+       STATISTICS
+    ===================================================== */
+
+    function updateStats(features) {
+      const props = features.map(f => f.properties || {});
+      const count = fn => props.filter(fn).length;
+
+      setText("total-building", props.length);
+      setText("total-floor1", count(p => Number(p.jumlah_lantai) === 1));
+      setText("total-floor2", count(p => Number(p.jumlah_lantai) >= 2));
+      setText("total-ok", count(p => {
+        const d = toNum(p.jarak_match_m);
+        return Number.isFinite(d) && d <= 15;
+      }));
+      setText("total-gempa-tinggi", count(p => p.kelas_gempa === "Tinggi"));
+      setText("total-tsunami-tinggi", count(p => p.kelas_tsunami === "Tinggi"));
+    }
+
+
+    /* =====================================================
+       COLOR MODE & LEGEND
+    ===================================================== */
+
+    function buildExposureLegend(features) {
+      const labels = {};
+
+      features.forEach(f => {
+        const p = f.properties || {};
+        const rank = Number(p.exposure_rank);
+        if (rank >= 1 && rank <= 4 && p.kelas_exposure) labels[rank] = p.kelas_exposure;
+      });
+
+      COLOR_MODES.exposure.legend = [1, 2, 3, 4]
+        .filter(rank => labels[rank])
+        .map(rank => [WARNA_EXPOSURE[rank - 1], labels[rank]])
+        .concat([[WARNA.lain, "Tanpa data"]]);
+    }
+
+    function applyColorMode(mode) {
+      currentMode = mode;
+      const cfg = COLOR_MODES[mode];
+
+      if (map.getLayer("floor-1")) map.setPaintProperty("floor-1", "fill-extrusion-color", cfg.floor1);
+      if (map.getLayer("floor-2")) map.setPaintProperty("floor-2", "fill-extrusion-color", cfg.floor2);
+
+      setText("legend-title", cfg.title);
+
+      document.getElementById("legend-body").innerHTML = cfg.legend
+        .map(([color, label]) => `
+          <div class="legend-item">
+            <span class="legend-box" style="background:${color}"></span>
+            ${esc(label)}
+          </div>
+        `)
+        .join("");
+
+      document.querySelectorAll(".mode-btn").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.mode === mode);
+      });
+    }
+
+    document.querySelectorAll(".mode-btn").forEach(btn => {
+      btn.addEventListener("click", () => applyColorMode(btn.dataset.mode));
+    });
+
+    applyColorMode(currentMode);
 
 
     /* =====================================================
        BASEMAP SWITCHER
     ===================================================== */
 
-    const basemapButtons =
-      document.querySelectorAll(
-        ".basemap-btn"
-      );
+    const basemapButtons = document.querySelectorAll(".basemap-btn");
 
+    basemapButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        const selected = button.dataset.basemap;
 
-    basemapButtons.forEach(
-      button => {
+        basemapButtons.forEach(item => item.classList.remove("active"));
+        button.classList.add("active");
 
-        button.addEventListener(
-          "click",
+        if (!map.getLayer("osm") || !map.getLayer("satellite")) return;
 
-          () => {
-
-            const selected =
-              button.dataset.basemap;
-
-
-            basemapButtons.forEach(
-              item => {
-
-                item.classList.remove(
-                  "active"
-                );
-
-              }
-            );
-
-
-            button.classList.add(
-              "active"
-            );
-
-
-            if (
-              !map.getLayer("osm") ||
-              !map.getLayer("satellite")
-            ) {
-
-              return;
-
-            }
-
-
-            if (
-              selected === "street"
-            ) {
-
-              map.setLayoutProperty(
-                "osm",
-                "visibility",
-                "visible"
-              );
-
-
-              map.setLayoutProperty(
-                "satellite",
-                "visibility",
-                "none"
-              );
-
-            }
-
-
-            if (
-              selected === "satellite"
-            ) {
-
-              map.setLayoutProperty(
-                "osm",
-                "visibility",
-                "none"
-              );
-
-
-              map.setLayoutProperty(
-                "satellite",
-                "visibility",
-                "visible"
-              );
-
-            }
-
-          }
-        );
-
-      }
-    );
+        map.setLayoutProperty("osm", "visibility", selected === "street" ? "visible" : "none");
+        map.setLayoutProperty("satellite", "visibility", selected === "satellite" ? "visible" : "none");
+      });
+    });
 
 
     /* =====================================================
-       BUILDING CLICK
+       CLICK HANDLER (satu handler, tanpa popup ganda)
     ===================================================== */
 
-    function buildingClick(event) {
+    const CLICKABLE = ["titik-gempa", "titik-tsunami", "quake-circle", "floor-2", "floor-1"];
+    const activeClickable = () => CLICKABLE.filter(id => map.getLayer(id));
 
-      if (
-        !event.features ||
-        !event.features.length
-      ) {
+    map.on("click", event => {
+      const hits = map.queryRenderedFeatures(event.point, { layers: activeClickable() });
+      if (!hits.length) return;
 
-        return;
+      const feature = hits[0];
+      const layerId = feature.layer.id;
+      const p = feature.properties || {};
 
+      if (layerId === "floor-1" || layerId === "floor-2") {
+        showBuilding(p, event.lngLat);
+      } else if (layerId === "quake-circle") {
+        showQuake(p, event.lngLat);
+      } else {
+        showTitik(p, event.lngLat, layerId === "titik-gempa" ? "Eksposur Gempa" : "Eksposur Tsunami");
       }
+    });
+
+    map.on("mousemove", event => {
+      const hits = map.queryRenderedFeatures(event.point, { layers: activeClickable() });
+      map.getCanvas().style.cursor = hits.length ? "pointer" : "";
+    });
 
 
-      const properties =
-        event.features[0].properties;
+    function showBuilding(p, lngLat) {
+      const floors = Number(p.jumlah_lantai) || 1;
+      const distance = toNum(p.jarak_match_m);
+      const goodMatch = Number.isFinite(distance) && distance <= 15;
+      const luas = toNum(p.luas_m2);
 
+      const groups = [
+        ["Geometri LOD1", [
+          ["Jumlah lantai", esc(floors)],
+          ["Tinggi model", esc(`${p.tinggi_total ?? floors * 4} m`)],
+          ["Luas footprint", Number.isFinite(luas) ? `${luas.toFixed(1)} m²` : "-"]
+        ]],
+        ["Taksonomi Bangunan", [
+          ["Blok", esc(p.blok)],
+          ["Klasifikasi fungsi", esc(p.klas_fungsi)],
+          ["Material dominan", esc(p.material)],
+          ["Sistem struktur", esc(p.struktur)],
+          ["Tipe atap", esc(p.tipe_atap)],
+          ["Penutup atap", esc(p.penutup_atap)],
+          ["Dinding luar", esc(p.dinding)],
+          ["Kondisi visual", esc(p.kondisi)],
+          ["Tingkat keyakinan", esc(p.keyakinan)],
+          ["Taksonomi", esc(p.taksonomi)]
+        ]],
+        ["Bahaya & Eksposur", [
+          ["Kelas bahaya gempa", kelasChip(p.kelas_gempa)],
+          ["Kelas bahaya tsunami", kelasChip(p.kelas_tsunami)],
+          ["Koefisien", esc(p.koefisien)],
+          ["Nilai exposure", rupiah(p.nilai_exposure)],
+          ["Rentang exposure", esc(p.kelas_exposure)]
+        ]],
+        ["Pencocokan Spasial", [
+          ["Footprint ID", esc(p.footprint_id)],
+          ["Metode match", esc(p.metode_match)],
+          ["Jarak match", Number.isFinite(distance) ? `${distance.toFixed(2)} m` : "-"]
+        ]]
+      ];
 
-      const distance =
-        Number(
-          properties.jarak_match_m || 0
-        );
+      document.getElementById("building-detail").innerHTML = `
+        <div class="building-id">${esc(p.id_bangunan)}</div>
+        <div class="building-function">${esc(p.fungsi_bangunan)}</div>
 
+        <table class="detail-table">
+          ${groups.map(([title, rows]) => `
+            <tr class="detail-group"><td colspan="2">${title}</td></tr>
+            ${rows.map(([label, value]) => `
+              <tr>
+                <td>${label}</td>
+                <td>${value}</td>
+              </tr>
+            `).join("")}
+          `).join("")}
+        </table>
 
-      const status =
-        distance <= 15
-          ? "Match Baik"
-          : "Perlu Pemeriksaan";
+        <span class="badge ${goodMatch ? "badge-ok" : "badge-check"}">
+          ${goodMatch ? "Match Baik" : "Perlu Pemeriksaan"}
+        </span>
+      `;
 
-
-      const badgeClass =
-        distance <= 15
-          ? "badge-ok"
-          : "badge-check";
-
-
-      const floors =
-        Number(
-          properties.jumlah_lantai || 1
-        );
-
-
-      document
-        .getElementById(
-          "building-detail"
-        )
-        .innerHTML = `
-
-          <div class="building-id">
-            ${properties.id_bangunan || "-"}
-          </div>
-
-          <div class="building-function">
-            ${properties.fungsi_bangunan || "-"}
-          </div>
-
-          <table class="detail-table">
-
-            <tr>
-              <td>Jumlah lantai</td>
-              <td>${floors}</td>
-            </tr>
-
-            <tr>
-              <td>Tinggi model</td>
-              <td>
-                ${properties.tinggi_total || floors * 4} m
-              </td>
-            </tr>
-
-            <tr>
-              <td>Luas footprint</td>
-              <td>
-                ${properties.luas_m2 || "-"} m²
-              </td>
-            </tr>
-
-            <tr>
-              <td>Footprint ID</td>
-              <td>
-                ${properties.footprint_id || "-"}
-              </td>
-            </tr>
-
-            <tr>
-              <td>Metode match</td>
-              <td>
-                ${properties.metode_match || "-"}
-              </td>
-            </tr>
-
-            <tr>
-              <td>Jarak match</td>
-              <td>
-                ${distance.toFixed(2)} m
-              </td>
-            </tr>
-
-          </table>
-
-          <span class="badge ${badgeClass}">
-            ${status}
-          </span>
-
-        `;
-
-
-      new maplibregl.Popup({
-        closeButton: true,
-        offset: 12
-      })
-
-        .setLngLat(
-          event.lngLat
-        )
-
+      new maplibregl.Popup({ closeButton: true, offset: 12 })
+        .setLngLat(lngLat)
         .setHTML(`
-
-          <strong>
-            ${properties.id_bangunan || "Bangunan"}
-          </strong>
-
-          <br>
-
-          ${properties.fungsi_bangunan || "-"}
-
-          <br>
-
-          ${floors} lantai
-
+          <strong>${esc(p.id_bangunan)}</strong><br>
+          ${esc(p.fungsi_bangunan)} · ${floors} lantai<br>
+          Gempa: <strong>${esc(p.kelas_gempa)}</strong><br>
+          Tsunami: <strong>${esc(p.kelas_tsunami)}</strong><br>
+          Exposure: <strong>${rupiah(p.nilai_exposure)}</strong>
         `)
-
         .addTo(map);
 
+      if (window.innerWidth <= 900) {
+        sidebar.classList.add("open");
+        mobileSidebarButton.textContent = "Tutup";
+      }
     }
 
 
-    map.on(
-      "click",
-      "floor-1",
-      buildingClick
-    );
+    function showTitik(p, lngLat, judul) {
+      new maplibregl.Popup({ offset: 10 })
+        .setLngLat(lngLat)
+        .setHTML(`
+          <strong>${judul}</strong><br><br>
+          ID: <strong>${esc(p.ID_BGN)}</strong><br>
+          Kelas: ${kelasChip(p.KELAS)}<br>
+          Fungsi: ${esc(p.FUNGSI)}<br>
+          Kategori: ${esc(p.KLS_6)}<br>
+          Taksonomi: ${esc(p.TAXONOMI)}<br>
+          Nilai exposure: <strong>${rupiah(p.N_EXP)}</strong>
+        `)
+        .addTo(map);
+    }
 
 
-    map.on(
-      "click",
-      "floor-2",
-      buildingClick
-    );
-
-
-    /* =====================================================
-       BUILDING CURSOR
-    ===================================================== */
-
-    [
-      "floor-1",
-      "floor-2"
-    ].forEach(
-      layer => {
-
-        map.on(
-          "mouseenter",
-          layer,
-
-          () => {
-
-            map
-              .getCanvas()
-              .style
-              .cursor =
-                "pointer";
-
-          }
-        );
-
-
-        map.on(
-          "mouseleave",
-          layer,
-
-          () => {
-
-            map
-              .getCanvas()
-              .style
-              .cursor =
-                "";
-
-          }
-        );
-
-      }
-    );
-
-
-    /* =====================================================
-       EARTHQUAKE CLICK
-    ===================================================== */
-
-    map.on(
-      "click",
-      "quake-circle",
-
-      event => {
-
-        if (
-          !event.features ||
-          !event.features.length
-        ) {
-
-          return;
-
-        }
-
-
-        const p =
-          event.features[0]
-            .properties;
-
-
-        new maplibregl.Popup({
-          offset: 10
-        })
-
-          .setLngLat(
-            event.lngLat
-          )
-
-          .setHTML(`
-
-            <strong>
-              Parameter Bahaya Gempa
-            </strong>
-
-            <br><br>
-
-            PGA:
-            <strong>
-              ${p.pga ?? "-"}
-            </strong>
-
-            <br>
-
-            Ss:
-            <strong>
-              ${p.ss ?? "-"}
-            </strong>
-
-            <br>
-
-            S1:
-            <strong>
-              ${p.s1 ?? "-"}
-            </strong>
-
-            <br>
-
-            TL:
-            <strong>
-              ${p.tl ?? "-"}
-            </strong>
-
-          `)
-
-          .addTo(map);
-
-      }
-    );
+    function showQuake(p, lngLat) {
+      new maplibregl.Popup({ offset: 10 })
+        .setLngLat(lngLat)
+        .setHTML(`
+          <strong>Parameter Bahaya Gempa</strong><br><br>
+          PGA: <strong>${esc(p.pga)}</strong><br>
+          Ss: <strong>${esc(p.ss)}</strong><br>
+          S1: <strong>${esc(p.s1)}</strong><br>
+          TL: <strong>${esc(p.tl)}</strong>
+        `)
+        .addTo(map);
+    }
 
 
     /* =====================================================
        LAYER VISIBILITY
     ===================================================== */
 
-    function bindLayerToggle(
-      checkboxId,
-      layerIds
-    ) {
+    const TOGGLES = {
+      "toggle-floor1": ["floor-1"],
+      "toggle-floor2": ["floor-2"],
+      "toggle-zona-gempa": ["zona-gempa-fill", "zona-gempa-line"],
+      "toggle-inundasi": ["inundasi-raster"],
+      "toggle-titik-gempa": ["titik-gempa"],
+      "toggle-titik-tsunami": ["titik-tsunami"],
+      "toggle-aoi": ["aoi-fill", "aoi-line"],
+      "toggle-quake": ["quake-halo", "quake-circle"]
+    };
 
-      const checkbox =
-        document.getElementById(
-          checkboxId
-        );
+    function applyToggle(checkboxId) {
+      const checkbox = document.getElementById(checkboxId);
+      if (!checkbox) return;
 
+      const visibility = checkbox.checked ? "visible" : "none";
 
-      checkbox.addEventListener(
-        "change",
-
-        function () {
-
-          const visibility =
-            this.checked
-              ? "visible"
-              : "none";
-
-
-          layerIds.forEach(
-            layerId => {
-
-              if (
-                map.getLayer(
-                  layerId
-                )
-              ) {
-
-                map.setLayoutProperty(
-                  layerId,
-                  "visibility",
-                  visibility
-                );
-
-              }
-
-            }
-          );
-
-        }
-      );
-
+      TOGGLES[checkboxId].forEach(layerId => {
+        if (map.getLayer(layerId)) map.setLayoutProperty(layerId, "visibility", visibility);
+      });
     }
 
+    function syncToggles() {
+      Object.keys(TOGGLES).forEach(applyToggle);
+    }
 
-    bindLayerToggle(
-      "toggle-floor1",
-      [
-        "floor-1"
-      ]
-    );
-
-
-    bindLayerToggle(
-      "toggle-floor2",
-      [
-        "floor-2"
-      ]
-    );
-
-
-    bindLayerToggle(
-      "toggle-aoi",
-      [
-        "aoi-fill",
-        "aoi-line"
-      ]
-    );
-
-
-    bindLayerToggle(
-      "toggle-quake",
-      [
-        "quake-halo",
-        "quake-circle"
-      ]
-    );
+    Object.keys(TOGGLES).forEach(id => {
+      const checkbox = document.getElementById(id);
+      if (checkbox) checkbox.addEventListener("change", () => applyToggle(id));
+    });
 
 
     /* =====================================================
-       RESET VIEW
-    ===================================================== */
-
-    document
-      .getElementById(
-        "reset-view"
-      )
-      .addEventListener(
-        "click",
-
-        () => {
-
-          map.flyTo({
-
-            center:
-              INITIAL_VIEW.center,
-
-            zoom:
-              INITIAL_VIEW.zoom,
-
-            pitch:
-              INITIAL_VIEW.pitch,
-
-            bearing:
-              INITIAL_VIEW.bearing,
-
-            duration:
-              1200
-
-          });
-
-        }
-      );
-
-
-    /* =====================================================
-       2D / 3D VIEW
+       RESET VIEW & 2D / 3D
     ===================================================== */
 
     let is3D = true;
+    const toggle3DButton = document.getElementById("toggle-3d");
 
+    document.getElementById("reset-view").addEventListener("click", () => {
+      map.flyTo({ ...INITIAL_VIEW, duration: 1200 });
+      is3D = true;
+      toggle3DButton.textContent = "Tampilan 2D";
+    });
 
-    const toggle3DButton =
-      document.getElementById(
-        "toggle-3d"
-      );
+    toggle3DButton.addEventListener("click", () => {
+      is3D = !is3D;
 
+      map.easeTo({
+        pitch: is3D ? INITIAL_VIEW.pitch : 0,
+        bearing: is3D ? INITIAL_VIEW.bearing : 0,
+        duration: 800
+      });
 
-    toggle3DButton.addEventListener(
-      "click",
-
-      () => {
-
-        is3D = !is3D;
-
-
-        if (is3D) {
-
-          map.easeTo({
-
-            pitch: 58,
-
-            bearing: -18,
-
-            duration: 800
-
-          });
-
-
-          toggle3DButton.textContent =
-            "Tampilan 2D";
-
-        }
-
-        else {
-
-          map.easeTo({
-
-            pitch: 0,
-
-            bearing: 0,
-
-            duration: 800
-
-          });
-
-
-          toggle3DButton.textContent =
-            "Tampilan 3D";
-
-        }
-
-      }
-    );
+      toggle3DButton.textContent = is3D ? "Tampilan 2D" : "Tampilan 3D";
+    });
 
 
     /* =====================================================
        MOBILE SIDEBAR
     ===================================================== */
 
-    const sidebar =
-      document.getElementById(
-        "sidebar"
-      );
+    const sidebar = document.getElementById("sidebar");
+    const mobileSidebarButton = document.getElementById("mobile-sidebar-btn");
 
-
-    const mobileSidebarButton =
-      document.getElementById(
-        "mobile-sidebar-btn"
-      );
-
-
-    mobileSidebarButton
-      .addEventListener(
-        "click",
-
-        () => {
-
-          sidebar.classList.toggle(
-            "open"
-          );
-
-
-          if (
-            sidebar.classList.contains(
-              "open"
-            )
-          ) {
-
-            mobileSidebarButton
-              .textContent =
-                "Tutup";
-
-          }
-
-          else {
-
-            mobileSidebarButton
-              .textContent =
-                "Informasi";
-
-          }
-
-        }
-      );
+    mobileSidebarButton.addEventListener("click", () => {
+      sidebar.classList.toggle("open");
+      mobileSidebarButton.textContent = sidebar.classList.contains("open") ? "Tutup" : "Informasi";
+    });
 
 
     /* =====================================================
        ERROR LOGGING
     ===================================================== */
 
-    map.on(
-      "error",
-
-      event => {
-
-        console.error(
-          "MapLibre error:",
-          event.error
-        );
-
-      }
-    );
+    map.on("error", event => {
+      console.error("MapLibre error:", event.error);
+    });
 
   </script>
 

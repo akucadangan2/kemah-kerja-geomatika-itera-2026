@@ -1,0 +1,368 @@
+﻿
+================================================================================
+SHAPEFILE: titikexpo_gempa.shp
+================================================================================
+CRS            : EPSG:4326
+Jumlah fitur   : 588
+Tipe geometri  : {'Point': 588}
+Bounds (asli)  : [105.222152, -5.599482, 105.2517, 5.552295]
+Bounds (4326)  : [105.222152, -5.599482, 105.2517, 5.552295]
+Geometri kosong: 0
+
+Kolom & tipe:
+OID_            int64
+Name           object
+FolderPath     object
+SymbolID        int64
+AltMode         int32
+Base          float64
+Snippet        object
+PopupInfo      object
+HasLabel        int32
+LabelID         int64
+KELAS_BAHA     object
+KELAS          object
+ID_BGN         object
+X             float64
+Y             float64
+NOMOR           int64
+NO              int64
+BLOK           object
+LAT_Y         float64
+LON_X          object
+FUNGSI         object
+JML_LNT1        int64
+MAT_DOM        object
+STR_TAMP       object
+TIP_ATAP       object
+MAT_ATAP       object
+DINDING        object
+KONDISI        object
+KOD_MAT1       object
+KOD_STR1       object
+KEYAKINAN      object
+KOD_FUN        object
+KLS_FUN1       object
+KOD_MAT2       object
+KOD_STR2       object
+KOD_ATAP       object
+KOD_MATP       object
+KOD_DIND       object
+KOD_KOND       object
+JML_LNT2       object
+TAXONOMI       object
+KOD_SKT        object
+LUAS_M2       float64
+KOEF           object
+N_EXP         float64
+KLS_6          object
+OBJECTID        int32
+VALUE          object
+ZONE_CODE       int64
+COUNT           int64
+AREA          float64
+MAJORITY        int64
+
+5 baris pertama:
+   OID_         Name                                                   FolderPath  SymbolID  AltMode  Base Snippet PopupInfo  HasLabel  LabelID KELAS_BAHA   KELAS       ID_BGN           X         Y  NOMOR   NO BLOK     LAT_Y       LON_X         FUNGSI  JML_LNT1          MAT_DOM                STR_TAMP           TIP_ATAP          MAT_ATAP       DINDING          KONDISI                   KOD_MAT1 KOD_STR1 KEYAKINAN KOD_FUN KLS_FUN1 KOD_MAT2 KOD_STR2 KOD_ATAP   KOD_MATP KOD_DIND KOD_KOND JML_LNT2                                TAXONOMI           KOD_SKT     LUAS_M2  KOEF         N_EXP   KLS_6  OBJECTID        VALUE  ZONE_CODE  COUNT   AREA  MAJORITY
+0     0  SDI-A85-085  data_taksonomi_ArcMap_READY.kmz/data_taksonomi_ArcMap_READY         0       -1   0.0    None      None        -1        0       None  Rendah  SDI-A85-085  105.223883 -5.548431      1  419    A -5.548431  105.223883         Pondok         1      Pasang Bata  Rangka Beton Bertulang   Miring Satu Arah             Asbes      Campuran             Baik  MCF (batu bata bertulang)    LFINF    Tinggi     F01   Hunian      MCF    LFINF     RSH5       RMT6      EWO      CV1    HEX:1       MCF/LFINF/RSH5/RMT6/EWO/CV1/HEX:1  MCF \LFINF\HEX:1   51.456948     1  2.583139e+08  Hunian         1  SDI-A85-085          1      1  400.0         1
+1     0  SDI-A01-001  data_taksonomi_ArcMap_READY.kmz/data_taksonomi_ArcMap_READY         0       -1   0.0    None      None        -1        0       None  Rendah  SDI-A01-001  105.227502 -5.545384      2    1    A -5.545384  105.227502  Rumah Tinggal         1      Pasang Bata  Rangka Beton Bertulang  Datar (Dak Beton)             Beton  Bata Plaster             Baik                        MCF      LFM    Sedang     F01   Hunian      MCF      LFM     RSH1       RMT1     EWMA      CV1    HEX:1        MCF/LFM/RSH1/RMT1/EWMA/CV1/HEX:1    MCF \LFM\HEX:1   94.951641     1  4.766572e+08  Hunian         2  SDI-A01-001          2      1  400.0         1
+2     0  SDI-C01-001  data_taksonomi_ArcMap_READY.kmz/data_taksonomi_ArcMap_READY         0       -1   0.0    None      None        -1        0       None  Tinggi  SDI-C01-001  105.235376 -5.552167      3    3    C -5.552167  105.235376  Rumah Tinggal         2  Beton Bertulang  Rangka Beton Bertulang            Limasan  Genteng dan Seng  Bata Plaster             Baik                        MCF     LWAL    Tinggi     F01   Hunian      MCF     LWAL     RSH3  RMT1+RMT6     EWMA      CV1    HEX:2  MCF/LWAL/RSH3/RMT1+RMT6/EWMA/CV1/HEX:2   MCF \LWAL\HEX:2  306.942512  1.09  1.679528e+09  Hunian         3  SDI-C01-001          3      1  400.0         1
+3     0  SDI-A03-003  data_taksonomi_ArcMap_READY.kmz/data_taksonomi_ArcMap_READY         0       -1   0.0    None      None        -1        0       None  Tinggi  SDI-A03-003  105.227328 -5.545261      4    4    A -5.545261  105.227328  Rumah Tinggal         1      Pasang Bata  Rangka Beton Bertulang          Kombinasi           Genteng  Bata Plaster           Sedang                        MCF    LFINF    Tinggi     F01   Hunian      MCF    LFINF     RSH8       RMT1     EWMA      CV2    HEX:1      MCF/LFINF/RSH8/RMT1/EWMA/CV2/HEX:1  MCF \LFINF\HEX:1  214.758322     1  1.078087e+09  Hunian         4  SDI-A03-003          4      1  400.0         2
+4     0  SDI-A04-004  data_taksonomi_ArcMap_READY.kmz/data_taksonomi_ArcMap_READY         0       -1   0.0    None      None        -1        0       None  Sedang  SDI-A04-004  105.227668 -5.544866      5    5    A -5.544866  105.227668  Rumah Tinggal         1      Pasang Bata  Rangka Beton Bertulang  Datar (Dak Beton)             Beton  Bata Plaster  Sedang Dibangun                        MCF    LFINF    Tinggi     F01   Hunian      MCF    LFINF     RSH1       RMT1     EWMA      CV5    HEX:1      MCF/LFINF/RSH1/RMT1/EWMA/CV5/HEX:1  MCF \LFINF\HEX:1  117.045542     1  5.875686e+08  Hunian         5  SDI-A04-004          5      1  400.0         1
+
+Nilai unik kolom teks (maks 20):
+  Name (580 unik): ['SDI-A85-085', 'SDI-A01-001', 'SDI-C01-001', 'SDI-A03-003', 'SDI-A04-004', 'SDI-C02-002', 'SDI-C03-003', 'SDI-C05-005', 'SDI-C06-006', 'SDI-A05-005', 'SDI-C08-008', 'SDI-C10-010', 'SDI-C11-011', 'SDI-C12-012', 'SDI-C14-014', 'SDI-C15-015', 'SDI-A08-008', 'SDI-A09-009', 'SDI-A11-011', 'SDI-A12-012']
+  FolderPath (1 unik): ['data_taksonomi_ArcMap_READY.kmz/data_taksonomi_ArcMap_READY']
+  Snippet (0 unik): []
+  PopupInfo (0 unik): []
+  KELAS_BAHA (0 unik): []
+  KELAS (4 unik): ['Rendah', 'Tinggi', 'Sedang', '0']
+  ID_BGN (580 unik): ['SDI-A85-085', 'SDI-A01-001', 'SDI-C01-001', 'SDI-A03-003', 'SDI-A04-004', 'SDI-C02-002', 'SDI-C03-003', 'SDI-C05-005', 'SDI-C06-006', 'SDI-A05-005', 'SDI-C08-008', 'SDI-C10-010', 'SDI-C11-011', 'SDI-C12-012', 'SDI-C14-014', 'SDI-C15-015', 'SDI-A08-008', 'SDI-A09-009', 'SDI-A11-011', 'SDI-A12-012']
+  BLOK (4 unik): ['A', 'C', 'B', 'D']
+  LON_X (550 unik): ['105.223883', '105.227502', '105.235376', '105.227328', '105.227668', '105.235241', '105.235181', '105.234778', '105.234644', '105.22742', '105.233965', '105.234007', '105.233947', '105.234039', '105.233805', '105.23364', '105.227278', '105.224369', '105.22652', '105.226126']
+  FUNGSI (26 unik): ['Pondok', 'Rumah Tinggal', 'Rumah Tinggal dan Warung', 'Rumah tinggal dan Warung', 'Komersial', 'Toko/Warung', 'Tempat Ibadah', 'Sekolah', 'Fasilitas Kesehatan', 'Gudang', 'Kandang Kambing', 'Kandang Ternak', 'Kandang ternak', 'Peternakan', 'Pabrik', 'Tandon air beton', 'Gazebo', 'Parkiran motor', 'Gubuk', 'rumah tinggal dan warung']
+  MAT_DOM (6 unik): ['Pasang Bata', 'Beton Bertulang', 'Kayu', 'Campuran', 'Bambu', 'Baja']
+  STR_TAMP (6 unik): ['Rangka Beton Bertulang', 'Rangka Kayu', 'Dinding Pemikul', 'Campuran', 'Tidak Diketahui', 'Rangka Baja']
+  TIP_ATAP (6 unik): ['Miring Satu Arah', 'Datar (Dak Beton)', 'Limasan', 'Kombinasi', 'Pelana', 'Tidak Terlihat']
+  MAT_ATAP (20 unik): ['Asbes', 'Beton', 'Genteng dan Seng', 'Genteng', 'Seng', 'Genteng dan Multiroof', 'Genteng dan Asbes', 'Spandek', 'Genteng dan Beton', 'Spandek + Genteng', 'Susah tidak ada', 'Seeng dan Genteng', 'Seng dan genteng', 'genteng dan seng', 'Genteng + Spandek', 'Genteng + Spandek Bata Plaster/Bata Ekspos Baik MCF LFINF Sedang', 'Tidak ada Genteng', 'genteng, asbes', 'Genteng, dan Asbes', 'Tidak ada']
+  DINDING (7 unik): ['Campuran', 'Bata Plaster', 'Bata Ekspos', 'Kayu', 'Seng/Papan', 'Beton', 'Tidak Terlihat']
+  KONDISI (5 unik): ['Baik', 'Sedang', 'Sedang Dibangun', 'Rusak Ringan', 'Rusak Berat']
+  KOD_MAT1 (10 unik): ['MCF (batu bata bertulang)', 'MCF', 'W', 'MUR', 'MIX', 'CR', 'MUR (batu bata tanpa tulang)', 'W (kayu)', 'CR (balok baja yang di cor beton)', 'S (baja)']
+  KOD_STR1 (4 unik): ['LFINF', 'LFM', 'LWAL', 'LPB']
+  KEYAKINAN (2 unik): ['Tinggi', 'Sedang']
+  KOD_FUN (13 unik): ['F01', 'F02', 'F03', 'F04', 'F05', 'F07', 'F08', 'F09', 'F10', 'F11', 'F13', 'F06', 'F12']
+  KLS_FUN1 (13 unik): ['Hunian', 'Perdagangan dan Jasa', 'Keagamaan', 'Pendidikan', 'Kesehatan', 'Pergudangan', 'Peternakan', 'Industri', 'Utilitas', 'Fasilitas Penunjang', 'Bangunan Sederhana', 'Perkantoran dan Pelayanan Umum', 'Bangunan Kosong/Rusak']
+  KOD_MAT2 (6 unik): ['MCF', 'W', 'MUR', 'MIX', 'CR', 'S']
+  KOD_STR2 (4 unik): ['LFINF', 'LFM', 'LWAL', 'LPB']
+  KOD_ATAP (6 unik): ['RSH5', 'RSH1', 'RSH3', 'RSH8', 'RSH2', 'RSH99']
+  KOD_MATP (5 unik): ['RMT6', 'RMT1', 'RMT1+RMT6', 'RMT2', 'RMT99']
+  KOD_DIND (5 unik): ['EWO', 'EWMA', 'EWW', 'EWC', 'EW99']
+  KOD_KOND (4 unik): ['CV1', 'CV2', 'CV5', 'CV4']
+  JML_LNT2 (2 unik): ['HEX:1', 'HEX:2']
+  TAXONOMI (148 unik): ['MCF/LFINF/RSH5/RMT6/EWO/CV1/HEX:1', 'MCF/LFM/RSH1/RMT1/EWMA/CV1/HEX:1', 'MCF/LWAL/RSH3/RMT1+RMT6/EWMA/CV1/HEX:2', 'MCF/LFINF/RSH8/RMT1/EWMA/CV2/HEX:1', 'MCF/LFINF/RSH1/RMT1/EWMA/CV5/HEX:1', 'MCF/LFINF/RSH2/RMT1/EWMA/CV1/HEX:1', 'MCF/LFINF/RSH2/RMT2/EWMA/CV1/HEX:1', 'MCF/LFINF/RSH8/RMT1/EWMA/CV1/HEX:1', 'MCF/LFINF/RSH3/RMT1/EWMA/CV1/HEX:1', 'W/LPB/RSH2/RMT1/EWW/CV1/HEX:1', 'MUR/LWAL/RSH2/RMT1/EWMA/CV1/HEX:1', 'MUR/LWAL/RSH2/RMT1/EWO/CV1/HEX:1', 'MIX/LFM/RSH2/RMT1/EWO/CV2/HEX:1', 'MCF/LFINF/RSH3/RMT1/EWMA/CV2/HEX:1', 'W/LPB/RSH2/RMT1/EWW/CV2/HEX:2', 'MIX/LFINF/RSH8/RMT1/EWMA/CV2/HEX:1', 'MCF/LFINF/RSH2/RMT1/EWMA/CV5/HEX:1', 'MCF/LFINF/RSH2/RMT1/EWMA/CV2/HEX:1', 'MCF/LFINF/RSH8/RMT1/EWO/CV2/HEX:1', 'MCF/LFINF/RSH2/RMT1/EWO/CV5/HEX:1']
+  KOD_SKT (24 unik): ['MCF \\LFINF\\HEX:1', 'MCF \\LFM\\HEX:1', 'MCF \\LWAL\\HEX:2', 'W \\LPB\\HEX:1', 'MUR \\LWAL\\HEX:1', 'MIX \\LFM\\HEX:1', 'W \\LPB\\HEX:2', 'MIX \\LFINF\\HEX:1', 'CR \\LFM\\HEX:1', 'W \\LFM\\HEX:1', 'MCF \\LWAL\\HEX:1', 'MCF \\LFINF\\HEX:2', 'MUR \\LFINF\\HEX:1', 'MUR \\LFM\\HEX:1', 'CR \\LWAL\\HEX:1', 'MIX \\LPB\\HEX:1', 'MUR \\LWAL\\HEX:2', 'W \\LWAL\\HEX:1', 'MIX \\LFM\\HEX:2', 'MIX \\LWAL\\HEX:1']
+  KOEF (2 unik): ['1', '1.09']
+  KLS_6 (6 unik): ['Hunian', 'Perdagangan dan Jasa', 'Keagamaan', 'Pendidikan', 'Kesehatan', 'Bangunan Lainnya']
+  VALUE (426 unik): ['SDI-A85-085', 'SDI-A01-001', 'SDI-C01-001', 'SDI-A03-003', 'SDI-A04-004', 'SDI-C02-002', 'SDI-C03-003', 'SDI-C05-005', 'SDI-C06-006', 'SDI-A05-005', 'SDI-C08-008', 'SDI-C10-010', 'SDI-C11-011', 'SDI-C12-012', 'SDI-C14-014', 'SDI-C15-015', 'SDI-A08-008', 'SDI-A09-009', 'SDI-A11-011', 'SDI-A12-012']
+
+================================================================================
+SHAPEFILE: titikexpo_tsunami.shp
+================================================================================
+CRS            : EPSG:4326
+Jumlah fitur   : 588
+Tipe geometri  : {'Point': 588}
+Bounds (asli)  : [105.222152, -5.599482, 105.2517, 5.552295]
+Bounds (4326)  : [105.222152, -5.599482, 105.2517, 5.552295]
+Geometri kosong: 0
+
+Kolom & tipe:
+OID_            int64
+Name           object
+FolderPath     object
+SymbolID        int64
+AltMode         int32
+Base          float64
+Snippet        object
+PopupInfo      object
+HasLabel        int32
+LabelID         int64
+KELAS_BAHA     object
+KELAS          object
+ID_BGN         object
+X             float64
+Y             float64
+NOMOR           int64
+NO              int64
+BLOK           object
+LAT_Y         float64
+LON_X          object
+FUNGSI         object
+JML_LNT1        int64
+MAT_DOM        object
+STR_TAMP       object
+TIP_ATAP       object
+MAT_ATAP       object
+DINDING        object
+KONDISI        object
+KOD_MAT1       object
+KOD_STR1       object
+KEYAKINAN      object
+KOD_FUN        object
+KLS_FUN1       object
+KOD_MAT2       object
+KOD_STR2       object
+KOD_ATAP       object
+KOD_MATP       object
+KOD_DIND       object
+KOD_KOND       object
+JML_LNT2       object
+TAXONOMI       object
+KOD_SKT        object
+LUAS_M2       float64
+KOEF           object
+N_EXP         float64
+KLS_6          object
+OBJECTID        int32
+VALUE          object
+ZONE_CODE       int64
+COUNT           int64
+AREA          float64
+MAJORITY        int64
+
+5 baris pertama:
+   OID_         Name                                                   FolderPath  SymbolID  AltMode  Base Snippet PopupInfo  HasLabel  LabelID KELAS_BAHA   KELAS       ID_BGN           X         Y  NOMOR   NO BLOK     LAT_Y       LON_X         FUNGSI  JML_LNT1          MAT_DOM                STR_TAMP           TIP_ATAP          MAT_ATAP       DINDING          KONDISI                   KOD_MAT1 KOD_STR1 KEYAKINAN KOD_FUN KLS_FUN1 KOD_MAT2 KOD_STR2 KOD_ATAP   KOD_MATP KOD_DIND KOD_KOND JML_LNT2                                TAXONOMI           KOD_SKT     LUAS_M2  KOEF         N_EXP   KLS_6  OBJECTID        VALUE  ZONE_CODE  COUNT   AREA  MAJORITY
+0     0  SDI-A85-085  data_taksonomi_ArcMap_READY.kmz/data_taksonomi_ArcMap_READY         0       -1   0.0    None      None        -1        0       None  Rendah  SDI-A85-085  105.223883 -5.548431      1  419    A -5.548431  105.223883         Pondok         1      Pasang Bata  Rangka Beton Bertulang   Miring Satu Arah             Asbes      Campuran             Baik  MCF (batu bata bertulang)    LFINF    Tinggi     F01   Hunian      MCF    LFINF     RSH5       RMT6      EWO      CV1    HEX:1       MCF/LFINF/RSH5/RMT6/EWO/CV1/HEX:1  MCF \LFINF\HEX:1   51.456948     1  2.583139e+08  Hunian         1  SDI-A85-085          1      1  400.0         1
+1     0  SDI-A01-001  data_taksonomi_ArcMap_READY.kmz/data_taksonomi_ArcMap_READY         0       -1   0.0    None      None        -1        0       None  Rendah  SDI-A01-001  105.227502 -5.545384      2    1    A -5.545384  105.227502  Rumah Tinggal         1      Pasang Bata  Rangka Beton Bertulang  Datar (Dak Beton)             Beton  Bata Plaster             Baik                        MCF      LFM    Sedang     F01   Hunian      MCF      LFM     RSH1       RMT1     EWMA      CV1    HEX:1        MCF/LFM/RSH1/RMT1/EWMA/CV1/HEX:1    MCF \LFM\HEX:1   94.951641     1  4.766572e+08  Hunian         2  SDI-A01-001          2      1  400.0         1
+2     0  SDI-C01-001  data_taksonomi_ArcMap_READY.kmz/data_taksonomi_ArcMap_READY         0       -1   0.0    None      None        -1        0       None  Tinggi  SDI-C01-001  105.235376 -5.552167      3    3    C -5.552167  105.235376  Rumah Tinggal         2  Beton Bertulang  Rangka Beton Bertulang            Limasan  Genteng dan Seng  Bata Plaster             Baik                        MCF     LWAL    Tinggi     F01   Hunian      MCF     LWAL     RSH3  RMT1+RMT6     EWMA      CV1    HEX:2  MCF/LWAL/RSH3/RMT1+RMT6/EWMA/CV1/HEX:2   MCF \LWAL\HEX:2  306.942512  1.09  1.679528e+09  Hunian         3  SDI-C01-001          3      1  400.0         1
+3     0  SDI-A03-003  data_taksonomi_ArcMap_READY.kmz/data_taksonomi_ArcMap_READY         0       -1   0.0    None      None        -1        0       None  Tinggi  SDI-A03-003  105.227328 -5.545261      4    4    A -5.545261  105.227328  Rumah Tinggal         1      Pasang Bata  Rangka Beton Bertulang          Kombinasi           Genteng  Bata Plaster           Sedang                        MCF    LFINF    Tinggi     F01   Hunian      MCF    LFINF     RSH8       RMT1     EWMA      CV2    HEX:1      MCF/LFINF/RSH8/RMT1/EWMA/CV2/HEX:1  MCF \LFINF\HEX:1  214.758322     1  1.078087e+09  Hunian         4  SDI-A03-003          4      1  400.0         2
+4     0  SDI-A04-004  data_taksonomi_ArcMap_READY.kmz/data_taksonomi_ArcMap_READY         0       -1   0.0    None      None        -1        0       None  Sedang  SDI-A04-004  105.227668 -5.544866      5    5    A -5.544866  105.227668  Rumah Tinggal         1      Pasang Bata  Rangka Beton Bertulang  Datar (Dak Beton)             Beton  Bata Plaster  Sedang Dibangun                        MCF    LFINF    Tinggi     F01   Hunian      MCF    LFINF     RSH1       RMT1     EWMA      CV5    HEX:1      MCF/LFINF/RSH1/RMT1/EWMA/CV5/HEX:1  MCF \LFINF\HEX:1  117.045542     1  5.875686e+08  Hunian         5  SDI-A04-004          5      1  400.0         1
+
+Nilai unik kolom teks (maks 20):
+  Name (580 unik): ['SDI-A85-085', 'SDI-A01-001', 'SDI-C01-001', 'SDI-A03-003', 'SDI-A04-004', 'SDI-C02-002', 'SDI-C03-003', 'SDI-C05-005', 'SDI-C06-006', 'SDI-A05-005', 'SDI-C08-008', 'SDI-C10-010', 'SDI-C11-011', 'SDI-C12-012', 'SDI-C14-014', 'SDI-C15-015', 'SDI-A08-008', 'SDI-A09-009', 'SDI-A11-011', 'SDI-A12-012']
+  FolderPath (1 unik): ['data_taksonomi_ArcMap_READY.kmz/data_taksonomi_ArcMap_READY']
+  Snippet (0 unik): []
+  PopupInfo (0 unik): []
+  KELAS_BAHA (0 unik): []
+  KELAS (4 unik): ['Rendah', 'Tinggi', 'Sedang', '0']
+  ID_BGN (580 unik): ['SDI-A85-085', 'SDI-A01-001', 'SDI-C01-001', 'SDI-A03-003', 'SDI-A04-004', 'SDI-C02-002', 'SDI-C03-003', 'SDI-C05-005', 'SDI-C06-006', 'SDI-A05-005', 'SDI-C08-008', 'SDI-C10-010', 'SDI-C11-011', 'SDI-C12-012', 'SDI-C14-014', 'SDI-C15-015', 'SDI-A08-008', 'SDI-A09-009', 'SDI-A11-011', 'SDI-A12-012']
+  BLOK (4 unik): ['A', 'C', 'B', 'D']
+  LON_X (550 unik): ['105.223883', '105.227502', '105.235376', '105.227328', '105.227668', '105.235241', '105.235181', '105.234778', '105.234644', '105.22742', '105.233965', '105.234007', '105.233947', '105.234039', '105.233805', '105.23364', '105.227278', '105.224369', '105.22652', '105.226126']
+  FUNGSI (26 unik): ['Pondok', 'Rumah Tinggal', 'Rumah Tinggal dan Warung', 'Rumah tinggal dan Warung', 'Komersial', 'Toko/Warung', 'Tempat Ibadah', 'Sekolah', 'Fasilitas Kesehatan', 'Gudang', 'Kandang Kambing', 'Kandang Ternak', 'Kandang ternak', 'Peternakan', 'Pabrik', 'Tandon air beton', 'Gazebo', 'Parkiran motor', 'Gubuk', 'rumah tinggal dan warung']
+  MAT_DOM (6 unik): ['Pasang Bata', 'Beton Bertulang', 'Kayu', 'Campuran', 'Bambu', 'Baja']
+  STR_TAMP (6 unik): ['Rangka Beton Bertulang', 'Rangka Kayu', 'Dinding Pemikul', 'Campuran', 'Tidak Diketahui', 'Rangka Baja']
+  TIP_ATAP (6 unik): ['Miring Satu Arah', 'Datar (Dak Beton)', 'Limasan', 'Kombinasi', 'Pelana', 'Tidak Terlihat']
+  MAT_ATAP (20 unik): ['Asbes', 'Beton', 'Genteng dan Seng', 'Genteng', 'Seng', 'Genteng dan Multiroof', 'Genteng dan Asbes', 'Spandek', 'Genteng dan Beton', 'Spandek + Genteng', 'Susah tidak ada', 'Seeng dan Genteng', 'Seng dan genteng', 'genteng dan seng', 'Genteng + Spandek', 'Genteng + Spandek Bata Plaster/Bata Ekspos Baik MCF LFINF Sedang', 'Tidak ada Genteng', 'genteng, asbes', 'Genteng, dan Asbes', 'Tidak ada']
+  DINDING (7 unik): ['Campuran', 'Bata Plaster', 'Bata Ekspos', 'Kayu', 'Seng/Papan', 'Beton', 'Tidak Terlihat']
+  KONDISI (5 unik): ['Baik', 'Sedang', 'Sedang Dibangun', 'Rusak Ringan', 'Rusak Berat']
+  KOD_MAT1 (10 unik): ['MCF (batu bata bertulang)', 'MCF', 'W', 'MUR', 'MIX', 'CR', 'MUR (batu bata tanpa tulang)', 'W (kayu)', 'CR (balok baja yang di cor beton)', 'S (baja)']
+  KOD_STR1 (4 unik): ['LFINF', 'LFM', 'LWAL', 'LPB']
+  KEYAKINAN (2 unik): ['Tinggi', 'Sedang']
+  KOD_FUN (13 unik): ['F01', 'F02', 'F03', 'F04', 'F05', 'F07', 'F08', 'F09', 'F10', 'F11', 'F13', 'F06', 'F12']
+  KLS_FUN1 (13 unik): ['Hunian', 'Perdagangan dan Jasa', 'Keagamaan', 'Pendidikan', 'Kesehatan', 'Pergudangan', 'Peternakan', 'Industri', 'Utilitas', 'Fasilitas Penunjang', 'Bangunan Sederhana', 'Perkantoran dan Pelayanan Umum', 'Bangunan Kosong/Rusak']
+  KOD_MAT2 (6 unik): ['MCF', 'W', 'MUR', 'MIX', 'CR', 'S']
+  KOD_STR2 (4 unik): ['LFINF', 'LFM', 'LWAL', 'LPB']
+  KOD_ATAP (6 unik): ['RSH5', 'RSH1', 'RSH3', 'RSH8', 'RSH2', 'RSH99']
+  KOD_MATP (5 unik): ['RMT6', 'RMT1', 'RMT1+RMT6', 'RMT2', 'RMT99']
+  KOD_DIND (5 unik): ['EWO', 'EWMA', 'EWW', 'EWC', 'EW99']
+  KOD_KOND (4 unik): ['CV1', 'CV2', 'CV5', 'CV4']
+  JML_LNT2 (2 unik): ['HEX:1', 'HEX:2']
+  TAXONOMI (148 unik): ['MCF/LFINF/RSH5/RMT6/EWO/CV1/HEX:1', 'MCF/LFM/RSH1/RMT1/EWMA/CV1/HEX:1', 'MCF/LWAL/RSH3/RMT1+RMT6/EWMA/CV1/HEX:2', 'MCF/LFINF/RSH8/RMT1/EWMA/CV2/HEX:1', 'MCF/LFINF/RSH1/RMT1/EWMA/CV5/HEX:1', 'MCF/LFINF/RSH2/RMT1/EWMA/CV1/HEX:1', 'MCF/LFINF/RSH2/RMT2/EWMA/CV1/HEX:1', 'MCF/LFINF/RSH8/RMT1/EWMA/CV1/HEX:1', 'MCF/LFINF/RSH3/RMT1/EWMA/CV1/HEX:1', 'W/LPB/RSH2/RMT1/EWW/CV1/HEX:1', 'MUR/LWAL/RSH2/RMT1/EWMA/CV1/HEX:1', 'MUR/LWAL/RSH2/RMT1/EWO/CV1/HEX:1', 'MIX/LFM/RSH2/RMT1/EWO/CV2/HEX:1', 'MCF/LFINF/RSH3/RMT1/EWMA/CV2/HEX:1', 'W/LPB/RSH2/RMT1/EWW/CV2/HEX:2', 'MIX/LFINF/RSH8/RMT1/EWMA/CV2/HEX:1', 'MCF/LFINF/RSH2/RMT1/EWMA/CV5/HEX:1', 'MCF/LFINF/RSH2/RMT1/EWMA/CV2/HEX:1', 'MCF/LFINF/RSH8/RMT1/EWO/CV2/HEX:1', 'MCF/LFINF/RSH2/RMT1/EWO/CV5/HEX:1']
+  KOD_SKT (24 unik): ['MCF \\LFINF\\HEX:1', 'MCF \\LFM\\HEX:1', 'MCF \\LWAL\\HEX:2', 'W \\LPB\\HEX:1', 'MUR \\LWAL\\HEX:1', 'MIX \\LFM\\HEX:1', 'W \\LPB\\HEX:2', 'MIX \\LFINF\\HEX:1', 'CR \\LFM\\HEX:1', 'W \\LFM\\HEX:1', 'MCF \\LWAL\\HEX:1', 'MCF \\LFINF\\HEX:2', 'MUR \\LFINF\\HEX:1', 'MUR \\LFM\\HEX:1', 'CR \\LWAL\\HEX:1', 'MIX \\LPB\\HEX:1', 'MUR \\LWAL\\HEX:2', 'W \\LWAL\\HEX:1', 'MIX \\LFM\\HEX:2', 'MIX \\LWAL\\HEX:1']
+  KOEF (2 unik): ['1', '1.09']
+  KLS_6 (6 unik): ['Hunian', 'Perdagangan dan Jasa', 'Keagamaan', 'Pendidikan', 'Kesehatan', 'Bangunan Lainnya']
+  VALUE (426 unik): ['SDI-A85-085', 'SDI-A01-001', 'SDI-C01-001', 'SDI-A03-003', 'SDI-A04-004', 'SDI-C02-002', 'SDI-C03-003', 'SDI-C05-005', 'SDI-C06-006', 'SDI-A05-005', 'SDI-C08-008', 'SDI-C10-010', 'SDI-C11-011', 'SDI-C12-012', 'SDI-C14-014', 'SDI-C15-015', 'SDI-A08-008', 'SDI-A09-009', 'SDI-A11-011', 'SDI-A12-012']
+
+================================================================================
+RASTER: inunsidodadi1.tif
+================================================================================
+CRS        : EPSG:32748
+Ukuran     : 1116 x 1140 piksel
+Resolusi   : (2.0336489204791337, 2.0336489204791164)
+Jumlah band: 4
+Tipe data  : ('uint32', 'uint32', 'uint32', 'uint32')
+NoData     : 65536.0
+Bounds     : [526718.9607, 9384933.867651, 528988.512895, 9387252.227421]
+Bounds 4326: [105.241237, -5.564472, 105.261737, -5.54349]
+Piksel valid: 101720
+Min / Max  : 0.0 / 255.0
+Kontinu, jumlah nilai unik: 245
+Persentil 5/25/50/75/95: [119.0, 237.0, 248.0, 252.0, 255.0]
+
+================================================================================
+RASTER: Kelas_Bahaya_Gempa1.tif
+================================================================================
+CRS        : EPSG:32748
+Ukuran     : 257 x 143 piksel
+Resolusi   : (20.0, 20.0)
+Jumlah band: 1
+Tipe data  : ('uint8',)
+NoData     : 255.0
+Bounds     : [523854.105843, 9384849.349478, 528994.105843, 9387709.349478]
+Bounds 4326: [105.215369, -5.565246, 105.261788, -5.539355]
+Piksel valid: 15565
+Min / Max  : 1.0 / 3.0
+Nilai unik (kategori):
+  1: 6790 piksel
+  2: 4999 piksel
+  3: 3776 piksel
+
+Tabel atribut raster (VAT):
+   Value   Count
+0      1  6790.0
+1      2  4999.0
+2      3  3776.0
+
+================================================================================
+CSV: TAKSONOMI20KELOMPOK20FIX.csv
+================================================================================
+Encoding    : utf-8-sig
+Baris x kolom: (563, 34)
+
+Kolom & tipe:
+Nomor                             int64
+NO                                int64
+ID Bangunan                      object
+Blok                             object
+Koordinat Latitude (Y)          float64
+Koordinat Longitude (X)          object
+Fungsi Bangunan                  object
+Klasifikasi                      object
+Jumlah Lantai                     int64
+Material Dominan                 object
+Sistem Stuktur Tampak            object
+Tipe Atap                        object
+Material Penutup Atap            object
+Dinding Luar                     object
+Kondisi Visual                   object
+Kode Material                    object
+Kode Sistem Struktur             object
+Tingkat Keyakinan                object
+Dokumetasi                      float64
+Kode Fungsi                      object
+Klasifikasi Fungsi               object
+KODE MATERIAL                    object
+KODE SISTEM STRUKTUR             object
+KODE TIPE ATAP                   object
+KODE MATERIAL PENUTUP ATAP       object
+KODE DINDING LUAR                object
+KODE KONDISI VISUAL              object
+JUMLAH LANTAI                    object
+TAKSONOMI                        object
+KODE SIGKAT                      object
+LUAS_M2                         float64
+Koefisien                       float64
+Nilai Exposure                  float64
+Klasifikasi Rentang Exposure     object
+
+5 baris pertama:
+   Nomor  NO  ID Bangunan Blok  Koordinat Latitude (Y) Koordinat Longitude (X) Fungsi Bangunan Klasifikasi  Jumlah Lantai Material Dominan   Sistem Stuktur Tampak          Tipe Atap Material Penutup Atap  Dinding Luar   Kondisi Visual              Kode Material Kode Sistem Struktur Tingkat Keyakinan  Dokumetasi Kode Fungsi Klasifikasi Fungsi KODE MATERIAL KODE SISTEM STRUKTUR KODE TIPE ATAP KODE MATERIAL PENUTUP ATAP KODE DINDING LUAR KODE KONDISI VISUAL  JUMLAH LANTAI                               TAKSONOMI       KODE SIGKAT     LUAS_M2  Koefisien  Nilai Exposure               Klasifikasi Rentang Exposure
+0      1   1  SDI-A85-085    A               -5.548431              105.223883          Pondok      Hunian              1      Pasang Bata  Rangka Beton Bertulang   Miring Satu Arah                 Asbes      Campuran             Baik  MCF (batu bata bertulang)                LFINF            Tinggi         NaN         F01             Hunian           MCF                LFINF           RSH5                       RMT6               EWO                  CV1         HEX:1       MCF/LFINF/RSH5/RMT6/EWO/CV1/HEX:1  MCF \LFINF\HEX:1   51.456948       1.00    2.583139e+08         Rp14.611.983,05 - Rp638.909.581,39
+1      2   2  SDI-A01-001    A               -5.545384              105.227502   Rumah Tinggal      Hunian              1      Pasang Bata  Rangka Beton Bertulang  Datar (Dak Beton)                 Beton  Bata Plaster             Baik                       MCF                   LFM            Sedang         NaN         F01             Hunian          MCF                   LFM           RSH1                       RMT1              EWMA                  CV1         HEX:1        MCF/LFM/RSH1/RMT1/EWMA/CV1/HEX:1    MCF \LFM\HEX:1   94.951641       1.00    4.766572e+08         Rp14.611.983,05 - Rp638.909.581,39
+2      3   3  SDI-C01-001    C               -5.552167              105.235376   Rumah Tinggal      Hunian              2  Beton Bertulang  Rangka Beton Bertulang            Limasan      Genteng dan Seng  Bata Plaster             Baik                        MCF                 LWAL            Tinggi         NaN         F01             Hunian           MCF                 LWAL           RSH3                  RMT1+RMT6              EWMA                  CV1         HEX:2  MCF/LWAL/RSH3/RMT1+RMT6/EWMA/CV1/HEX:2   MCF \LWAL\HEX:2  306.942512       1.09    1.679528e+09  > Rp1.136.724.268,30 - Rp1.856.590.180,23
+3      4   4  SDI-A03-003    A               -5.545261              105.227328   Rumah Tinggal      Hunian              1      Pasang Bata  Rangka Beton Bertulang          Kombinasi               Genteng  Bata Plaster           Sedang                       MCF                 LFINF            Tinggi         NaN         F01             Hunian          MCF                 LFINF           RSH8                       RMT1              EWMA                  CV2         HEX:1      MCF/LFINF/RSH8/RMT1/EWMA/CV2/HEX:1  MCF \LFINF\HEX:1  214.758322       1.00    1.078087e+09    > Rp638.909.581,39 - Rp1.136.724.268,30
+4      5   5  SDI-A04-004    A               -5.544866              105.227668   Rumah Tinggal      Hunian              1      Pasang Bata  Rangka Beton Bertulang  Datar (Dak Beton)                 Beton  Bata Plaster  Sedang Dibangun                        MCF                LFINF            Tinggi         NaN         F01             Hunian           MCF                LFINF           RSH1                       RMT1              EWMA                  CV5         HEX:1      MCF/LFINF/RSH1/RMT1/EWMA/CV5/HEX:1  MCF \LFINF\HEX:1  117.045542       1.00    5.875686e+08         Rp14.611.983,05 - Rp638.909.581,39
+
+Kolom kosong per kolom:
+Nomor                             0
+NO                                0
+ID Bangunan                       0
+Blok                              0
+Koordinat Latitude (Y)            0
+Koordinat Longitude (X)           0
+Fungsi Bangunan                   0
+Klasifikasi                       0
+Jumlah Lantai                     0
+Material Dominan                  0
+Sistem Stuktur Tampak             0
+Tipe Atap                         0
+Material Penutup Atap             0
+Dinding Luar                      0
+Kondisi Visual                    0
+Kode Material                     0
+Kode Sistem Struktur              0
+Tingkat Keyakinan                 0
+Dokumetasi                      563
+Kode Fungsi                       0
+Klasifikasi Fungsi                0
+KODE MATERIAL                     0
+KODE SISTEM STRUKTUR              0
+KODE TIPE ATAP                    0
+KODE MATERIAL PENUTUP ATAP        1
+KODE DINDING LUAR                 0
+KODE KONDISI VISUAL               0
+JUMLAH LANTAI                     0
+TAKSONOMI                         0
+KODE SIGKAT                       0
+LUAS_M2                           0
+Koefisien                         0
+Nilai Exposure                    0
+Klasifikasi Rentang Exposure      0
+
+Kandidat kolom koordinat/ID: ['ID Bangunan', 'Koordinat Latitude (Y)', 'Koordinat Longitude (X)', 'Fungsi Bangunan', 'Kode Material', 'Kode Sistem Struktur', 'Tingkat Keyakinan', 'Kode Fungsi', 'KODE MATERIAL', 'KODE SISTEM STRUKTUR', 'KODE TIPE ATAP', 'KODE MATERIAL PENUTUP ATAP', 'KODE DINDING LUAR', 'KODE KONDISI VISUAL ', 'KODE SIGKAT', 'Nilai Exposure', 'Klasifikasi Rentang Exposure']
+  ID Bangunan: 555 unik, contoh ['SDI-A85-085', 'SDI-A01-001', 'SDI-C01-001']
+  Koordinat Latitude (Y): 540 unik, contoh [-5.548431, -5.545384, -5.552167]
+  Koordinat Longitude (X): 535 unik, contoh ['105.223883', '105.227502', '105.235376']
+  Fungsi Bangunan: 25 unik, contoh ['Pondok', 'Rumah Tinggal', 'Rumah Tinggal']
+  Kode Material: 13 unik, contoh ['MCF (batu bata bertulang)', 'MCF ', 'MCF']
+  Kode Sistem Struktur: 4 unik, contoh ['LFINF', 'LFM', 'LWAL']
+  Tingkat Keyakinan: 2 unik, contoh ['Tinggi', 'Sedang', 'Tinggi']
+  Kode Fungsi: 12 unik, contoh ['F01', 'F01', 'F01']
+  KODE MATERIAL: 8 unik, contoh ['MCF', 'MCF ', 'MCF']
+  KODE SISTEM STRUKTUR: 4 unik, contoh ['LFINF', 'LFM', 'LWAL']
+  KODE TIPE ATAP: 6 unik, contoh ['RSH5', 'RSH1', 'RSH3']
+  KODE MATERIAL PENUTUP ATAP: 5 unik, contoh ['RMT6', 'RMT1', 'RMT1+RMT6']
+  KODE DINDING LUAR: 5 unik, contoh ['EWO', 'EWMA', 'EWMA']
+  KODE KONDISI VISUAL : 4 unik, contoh ['CV1', 'CV1', 'CV1']
+  KODE SIGKAT: 24 unik, contoh ['MCF \\LFINF\\HEX:1', 'MCF \\LFM\\HEX:1', 'MCF \\LWAL\\HEX:2']
+  Nilai Exposure: 446 unik, contoh [258313877.36615, 476657239.764748, 1679528036.2095068]
+  Klasifikasi Rentang Exposure: 4 unik, contoh ['Rp14.611.983,05 - Rp638.909.581,39', 'Rp14.611.983,05 - Rp638.909.581,39', '> Rp1.136.724.268,30 - Rp1.856.590.180,23']
+
+================================================================================
+GEOJSON BANGUNAN: C:\3D_KADASTER\bangunan_lod1_optimal.geojson
+================================================================================
+CRS   : EPSG:4326 | fitur: 589
+Kolom : ['point_id', 'footprint_id', 'id_bangunan', 'fungsi_bangunan', 'jumlah_lantai', 'tinggi_lantai', 'tinggi_total', 'luas_m2', 'jarak_match_m', 'metode_match', 'status_match', 'geometry']
+Contoh id_bangunan: ['SDI-A85-085', 'SDI-A01-001', 'SDI-C01-001', 'SDI-A03-003', 'SDI-A04-004']
+
+SELESAI
